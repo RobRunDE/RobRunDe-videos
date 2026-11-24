@@ -38,14 +38,38 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 6. **Bauen & prüfen:** erst `python3 pipeline/build.py <spec> --preview <zeiten>` und die Stills ansehen (Hook, dichteste Momente, CTA),
    dann `python3 pipeline/build.py <spec>`. QC laut Briefing §30: 1080×1920, Lautheit ≈ −14 LUFS (`ffmpeg -af ebur128`), Untertitel lesbar,
    Clips passen zum Gesagten, keine falschen Fakten. Selbstkritik §31: jede Kategorie ≥ 8/10, sonst überarbeiten.
-7. **Veröffentlichen planen:**
+7. **Veröffentlichen planen** (im Freigabe-Modus: siehe „Freigabe & Telegram“ – nur Entwurf + Telegram, nicht direkt einplanen):
    - `git add videos/<datei>.mp4 plan/ knowledge/ index/ && git commit && git -c push.negotiate=true push origin main`
    - Link prüfen: `curl -sSIL -o /dev/null -w "%{http_code}" <raw_url_base><videos/datei.mp4>` muss 200 sein.
    - Buffer `create_post`: channelId aus `pipeline/config.json`, `schedulingType: automatic`, `mode: customScheduled`,
      `dueAt` = jeweiliger Tag 18:00 mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
      `metadata.tiktok.title` = Titel, `metadata.tiktok.isAiGenerated: true` (die Stimme ist KI), `text` = Caption + Hashtags.
    - Eintrag in `plan/posted.json` (Datum, Slug, Post-ID, Format, Hook, Theme) und `used_in` in `index/clips.json`. Committen & pushen.
-8. **Bericht:** Kurze Zusammenfassung an den Betreiber (SendUserMessage): Wochenplan, was eingeplant ist, Quellen der Fakten, Probleme.
+8. **Bericht:** Kurze Zusammenfassung an den Betreiber per Telegram (`telegram.py send`) und SendUserMessage: Wochenplan, was eingeplant ist, Quellen der Fakten, Probleme.
+
+## Freigabe & Telegram (Testphase)
+Kommunikation mit dem Betreiber läuft über Telegram: `pipeline/telegram.py` (Token/Chat-ID nur aus `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID`, nie ausgeben oder speichern).
+- **Freigabe-Modus** steht in `pipeline/config.json` → `approval`. Solange `required: true`:
+  1. Fertige Videos in Buffer **nur als Entwurf** anlegen (`saveToDraft: true`), geplanten Termin in `plan/approvals.json` notieren:
+     `{"<SLUG>": {"status": "pending", "post_id": "...", "due_at": "...", "video": "videos/...mp4", "title": "...", "feedback": []}}`.
+  2. Jedes Video per `python3 pipeline/telegram.py video <mp4> "<b>Tag, Datum 18:00</b>\n<Titel>\n<Caption>" <SLUG>` mit Buttons schicken.
+  3. Erst nach **✅ Freigeben** (Inbox-Lauf) den Entwurf mit `edit_post` (`saveToDraft: false`, `mode: customScheduled`, `dueAt`) einplanen.
+     Liegt der Termin schon in der Vergangenheit, den nächsten freien 18:00-Slot nehmen.
+  - Beim ersten Versand `approval.trial_started` auf das Datum setzen. Nach `trial_days` per Telegram fragen:
+    „Testphase vorbei – darf ich ab jetzt selbstständig posten? Antworte mit JA oder VERLÄNGERN.“ Gab es viele Änderungswünsche, die Verlängerung empfehlen.
+    Erst nach „JA“ `approval.required` auf `false` setzen (dann gilt Schritt 7 normal, plus Info-Nachricht mit Video an Telegram).
+- **Inbox-Lauf** (eigene geplante Aufgabe, mehrmals täglich): `python3 pipeline/telegram.py inbox` und für jeden Eintrag:
+  - `approve` → einplanen (s. o.), `ack` „✅ Eingeplant für …“, Status `approved`.
+  - `reject` → Entwurf in Buffer lassen, Status `rejected`, `ack` + kurz fragen, was nicht gepasst hat.
+  - `feedback` → `ack`, dann per `send` fragen: „Was soll ich an <Titel> ändern?“ und Status `waiting_feedback`.
+  - Freitext-Nachrichten: Ist ein Video im Status `waiting_feedback` (oder antwortet die Nachricht auf ein Video), gilt der Text als Änderungswunsch:
+    Spec anpassen, neu bauen (`version` +1), Buffer-Entwurf mit neuem Asset aktualisieren, Video erneut zur Freigabe schicken.
+    Allgemeine Hinweise („weniger Menüs“, „Stimme schneller“, neue Themenideen) dauerhaft in `plan/feedback.md` (Datum + Wunsch) eintragen
+    und – wenn sie die Regeln betreffen – diese `CLAUDE.md` bzw. `pipeline/config.json` anpassen. Kurz per Telegram bestätigen, was übernommen wurde.
+  - „JA“/„VERLÄNGERN“ auf die Testphasen-Frage entsprechend umsetzen. „STATUS“ → kurze Übersicht der Queue.
+  - Alles committen & pushen.
+- **Statistik-Updates** (Mi/Sa) gehen zusätzlich per Telegram raus (`send`).
+- `plan/feedback.md` vor jeder Wochenplanung lesen – Betreiber-Feedback hat Vorrang vor eigenen Ideen.
 
 ## Hooks (erste 1–1,5 s – entscheidet über alles)
 - Sofort Bewegung/Action im Bild + großer Hook-Titel (`hook.lines`), gesprochen ab Frame 1. Kein Intro, kein „Hey Leute“.

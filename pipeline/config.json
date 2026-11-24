@@ -30,5 +30,11 @@
     "timezone": "Europe/Berlin",
     "max_scheduled": 10
   },
-  "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/"
+  "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/",
+  "approval": {
+    "required": true,
+    "trial_days": 7,
+    "trial_started": null,
+    "note": "Testphase: Videos erst nach ✅ in Telegram einplanen. Nach Ablauf fragt der Autopilot per Telegram, ob er selbststaendig posten darf oder die Testphase verlaengert wird."
+  }
 }
