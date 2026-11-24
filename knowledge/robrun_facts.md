@@ -75,6 +75,21 @@ Texte von robrun.info nie wörtlich übernehmen, nur Fakten in eigenen Worten.
 - ⚠️ Update 17. Nov. 2026: Haftlimit 40 Jahre/24 h und 1.200 Jahre gesamt; Tausch „Räumungsrecht“ vorübergehend deaktiviert. — RRI; (Räumungsrecht-Deaktivierung auch gamingpromax: Rauchgranaten-Kauf deaktiviert – anderes Thema)
 - **Vor jeder Wochenplanung**: Steam-News (store.steampowered.com/news/app/4262460) auf neue Patches prüfen und hier ergänzen.
 
+
+### Nachtrag Recherche 2026-11-24
+- ✅ Patch 17.11.2026: Fortschritt und Battle-Pass-Punkte bleiben beim Regionswechsel erhalten. — exitlag.com/blog/rob-run-update-november-17-2026; igamemag.com/rob-run-patch-notes-november-17; timesaver.gg/blog/rob-run-wipe-schedule (zitiert Kefir-Patchnotes)
+- ✅ Patch 17.11.: Tages- und Gesamtlimit für Jail Time eingeführt; Kefir nennt keine Zahlen (Zahlen nur aus Datenauswertung, ⚠️ nicht verwenden). — robrun-wiki.com/en/patches; igamemag; senseos.gg
+- ✅ Patch 17.11.: Voice-Chat im Gefängnis und in Lenny's Motel nur mit Grundstück (Plot) und angesammelter Jail Time. — robrun.lol/guides/patch-notes; robrun-wiki.com; robrun.app/updates
+- ✅ Patch 17.11.: Eviction Rights vorübergehend aus dem Tausch (Barter) entfernt. — igamemag; robrun-wiki.com; u4gm.com
+- ✅ Patch 17.11.: Shipments lassen sich über Lennys Menü öffnen. — robrun.lol; robrun-wiki.com
+- ✅ Täglich mind. ein frischer Server pro Region; EU öffnet 17:00 UTC (= 18:00 Uhr deutscher Winterzeit). — timesaver.gg/blog/rob-run-beginner-guide (Kefir „First Changes & Server Schedule“); patchbeat.net
+- ✅ Auf frischen Servern haben Streifen-Cops nur Pistolen; bessere Polizei-Ausrüstung kommt mit dem Server-Alter; Pistolen-Phase auf 30 Min. verkürzt. — patchbeat.net; robrun.info/en/updates; robrun.app/updates
+- ✅ Keine Gratis-Pistole nach dem Tod; stattdessen Basis-Pistole billiger und mehr Waffen-Spawns in der Stadt. — robrungame.app/guides/rob-run-roadmap; showgamer.com; timesaver.gg/blog/rob-run-weapons-guide
+- ✅ Einnahmen aus Basis-Geschäften (Farmen, Labore, Schmuggel …) massiv erhöht. — robrun.info/en/updates; timesaver.gg; patchbeat.net
+- ✅ Federal Raid (Wipe nach 7 Tagen) nimmt Grundstücke, Basen, Waffen und alles Geld – auch Bankgeld – und wandelt Besitz in Jail Time um; Name, Kosmetik, Einstellungen, Tutorial-Fortschritt und Jail Time bleiben. Je reicher beim Wipe, desto längere Strafe. — senseos.gg/guides/rob-run/wipe-and-fresh-servers; timesaver.gg/blog/rob-run-wipe-schedule (Kefir-FAQ 02.10.); igamemag.com/rob-run-jail-time-guide
+- ✅ Jail Time bleibt über den Wipe und schaltet Dinge frei (Items/Tattoos/Forschung). — igamemag.com/rob-run-jail-time-guide; robrungame.com (Forschung braucht Jail Time)
+- ⚠️ Kefir-FAQ 13.11.: Gruppen max. 3 Spieler, Ausrüstung nutzt sich bei jedem Tod ab, Reparatur noch nicht im Spiel. — nur robrun-wiki.com → vor Nutzung zweite Quelle suchen
+
 ## Videoideen aus dieser Recherche (nur ✅-Fakten verwenden)
 - „Aufgeben oder kämpfen? Was du als Krimineller verlierst“ (Tod vs. Aufgeben vs. Bestechung vs. Flucht)
 - „Most Wanted: Darum solltest du keine Zivilisten töten“
