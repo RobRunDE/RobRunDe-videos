@@ -5,6 +5,8 @@
 {
 "id": "gemstone_1",
 "name": "Бриллиант в кейсе",
+"name_is_russian": true,
+"img": "/shared/items/gemstone_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -13,6 +15,8 @@
 {
 "id": "vest5_m1",
 "name": "Бронежилет \"Бастион\"",
+"name_is_russian": true,
+"img": "/shared/items/vest5_m1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 6,
@@ -21,6 +25,8 @@
 {
 "id": "alcohol_15",
 "name": "Бутылка King’s Reserve",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_15.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -29,6 +35,8 @@
 {
 "id": "auto_flipper_1",
 "name": "Джеммер",
+"name_is_russian": true,
+"img": "/shared/items/auto_flipper_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -37,6 +45,8 @@
 {
 "id": "cargo_safe_legendary",
 "name": "Дорогой сейф",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_safe_legendary.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 6,
@@ -45,6 +55,8 @@
 {
 "id": "vinyl_2",
 "name": "Золотой диск",
+"name_is_russian": true,
+"img": "/shared/items/vinyl_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -53,6 +65,8 @@
 {
 "id": "baseball_card_6",
 "name": "Карточка с Харли Вангером",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -61,6 +75,8 @@
 {
 "id": "yacht_key_1",
 "name": "Ключи от яхты",
+"name_is_russian": true,
+"img": "/shared/items/yacht_key_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -69,6 +85,8 @@
 {
 "id": "blade_6",
 "name": "Коллекционный нож Shade",
+"name_is_russian": true,
+"img": "/shared/items/blade_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -77,6 +95,8 @@
 {
 "id": "ring_7",
 "name": "Кольцо WISH",
+"name_is_russian": true,
+"img": "/shared/items/ring_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -85,6 +105,8 @@
 {
 "id": "lottery_ticket_jackpot_1",
 "name": "Лотерейный билет",
+"name_is_russian": true,
+"img": "/shared/items/lottery_ticket_jackpot_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -93,6 +115,8 @@
 {
 "id": "pharma_tools_2",
 "name": "Микроскоп",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -101,6 +125,8 @@
 {
 "id": "laptop_5",
 "name": "Ноутбук MSR PRO",
+"name_is_russian": true,
+"img": "/shared/items/laptop_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -109,6 +135,8 @@
 {
 "id": "equipment_12",
 "name": "Переносной РЭБ",
+"name_is_russian": true,
+"img": "/shared/items/equipment_12.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -117,6 +145,8 @@
 {
 "id": "car_trinket_6",
 "name": "Плюшевая игрушка на стекло",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -125,6 +155,8 @@
 {
 "id": "evict_plot_1",
 "name": "Право на выселение",
+"name_is_russian": true,
+"img": "/shared/items/evict_plot_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 6,
@@ -133,6 +165,8 @@
 {
 "id": "roulette_chip_100",
 "name": "Фишки",
+"name_is_russian": true,
+"img": "/shared/items/roulette_chip_100.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -141,6 +175,8 @@
 {
 "id": "egg_faberge_1",
 "name": "BIG EGG #53",
+"name_is_russian": false,
+"img": "/shared/items/egg_faberge_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 6,
@@ -149,6 +185,8 @@
 {
 "id": "buletti_soltempra",
 "name": "Buletti Soltempra",
+"name_is_russian": false,
+"img": "/shared/items/buletti_soltempra.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 6,
@@ -157,6 +195,8 @@
 {
 "id": "vip_key_4",
 "name": "ID-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_4.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 6,
@@ -165,6 +205,8 @@
 {
 "id": "vip_key_5",
 "name": "ID-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_5.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 6,
@@ -173,6 +215,8 @@
 {
 "id": "lmg_m2",
 "name": "LM 249 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/lmg_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 6,
@@ -181,6 +225,8 @@
 {
 "id": "longhorn_wild",
 "name": "Longhorn Wild",
+"name_is_russian": false,
+"img": "/shared/items/longhorn_wild.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -189,6 +235,8 @@
 {
 "id": "gemstone_5",
 "name": "Аметист в кейсе",
+"name_is_russian": true,
+"img": "/shared/items/gemstone_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -197,6 +245,8 @@
 {
 "id": "bank_cash_bag",
 "name": "Банковская сумка с деньгами",
+"name_is_russian": true,
+"img": "/assets/cargo/bank_cash_bag.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -205,6 +255,8 @@
 {
 "id": "wall_4",
 "name": "Бетонный забор",
+"name_is_russian": true,
+"img": "/shared/items/wall_4.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -213,6 +265,8 @@
 {
 "id": "pharma_tools_5",
 "name": "Бинокуляры",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -221,6 +275,8 @@
 {
 "id": "car_trinket_5",
 "name": "Бобблхед \"Питбуль\"",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -229,6 +285,8 @@
 {
 "id": "super_bolt_cutter",
 "name": "Болторез",
+"name_is_russian": true,
+"img": "/shared/items/super_bolt_cutter.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -237,6 +295,8 @@
 {
 "id": "storage_3",
 "name": "Большой сейф",
+"name_is_russian": true,
+"img": "/shared/items/storage_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -245,6 +305,8 @@
 {
 "id": "shelving_6",
 "name": "Большой стеллаж-клетка",
+"name_is_russian": true,
+"img": "/shared/items/shelving_6.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -253,6 +315,8 @@
 {
 "id": "equipment_6",
 "name": "Бронежилет для собаки",
+"name_is_russian": true,
+"img": "/shared/items/equipment_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -261,6 +325,8 @@
 {
 "id": "drill_1",
 "name": "Бур",
+"name_is_russian": true,
+"img": "/shared/items/drill_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -269,6 +335,8 @@
 {
 "id": "alcohol_13",
 "name": "Бутылка Amber Shift",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_13.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -277,6 +345,8 @@
 {
 "id": "alcohol_5",
 "name": "Бутылка Golden Jaguar",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -285,6 +355,8 @@
 {
 "id": "alcohol_12",
 "name": "Бутылка Krystal Authority",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_12.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -293,6 +365,8 @@
 {
 "id": "alcohol_14",
 "name": "Бутылка Velvet Dynasty",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_14.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -301,6 +375,8 @@
 {
 "id": "helicopter_garage_1",
 "name": "Вертолетная площадка",
+"name_is_russian": true,
+"img": "/shared/items/helicopter_garage_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -309,6 +385,8 @@
 {
 "id": "royal_j",
 "name": "Royal J",
+"name_is_russian": false,
+"img": "/shared/items/royal_j.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -317,6 +395,8 @@
 {
 "id": "longhorn_titan",
 "name": "Longhorn Titan",
+"name_is_russian": false,
+"img": "/shared/items/longhorn_titan.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -325,6 +405,8 @@
 {
 "id": "burner_3",
 "name": "Высокоточная горелка",
+"name_is_russian": true,
+"img": "/shared/items/burner_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -333,6 +415,8 @@
 {
 "id": "gas_grenade_1",
 "name": "Газовая граната",
+"name_is_russian": true,
+"img": "/shared/items/gas_grenade_1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -341,6 +425,8 @@
 {
 "id": "cargo_manifest_3_cumulative",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_3_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -349,6 +435,8 @@
 {
 "id": "cargo_manifest_3_full",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_3_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -357,6 +445,8 @@
 {
 "id": "decoder_3",
 "name": "Декодер",
+"name_is_russian": true,
+"img": "/shared/items/decoder_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -365,6 +455,8 @@
 {
 "id": "settlement_sale_3",
 "name": "Документ на поселение",
+"name_is_russian": true,
+"img": "/shared/items/settlement_sale_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -373,6 +465,8 @@
 {
 "id": "plot_sale_3",
 "name": "Документ на участок",
+"name_is_russian": true,
+"img": "/shared/items/plot_sale_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -381,6 +475,8 @@
 {
 "id": "police_badge_3",
 "name": "Жетон капитана",
+"name_is_russian": true,
+"img": "/shared/items/police_badge_3.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -389,6 +485,8 @@
 {
 "id": "journal_5",
 "name": "Журнал OPALINE",
+"name_is_russian": true,
+"img": "/shared/items/journal_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -397,6 +495,8 @@
 {
 "id": "lighter_5",
 "name": "Зажигалка SkyDragon",
+"name_is_russian": true,
+"img": "/shared/items/lighter_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -405,6 +505,8 @@
 {
 "id": "car_parts_1",
 "name": "Значок Royal Motors",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -413,6 +515,8 @@
 {
 "id": "cargo_statue_1",
 "name": "Золотая статуя",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_statue_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -421,6 +525,8 @@
 {
 "id": "gold_bar_1",
 "name": "Золотой слиток",
+"name_is_russian": true,
+"img": "/shared/items/gold_bar_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -429,6 +535,8 @@
 {
 "id": "gemstone_4",
 "name": "Изумруд в кейсе",
+"name_is_russian": true,
+"img": "/shared/items/gemstone_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -437,6 +545,8 @@
 {
 "id": "injector_2",
 "name": "Инъектор",
+"name_is_russian": true,
+"img": "/shared/items/injector_2.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 5,
@@ -445,6 +555,8 @@
 {
 "id": "antique_4",
 "name": "Каменная статуя девы",
+"name_is_russian": true,
+"img": "/shared/items/antique_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -453,6 +565,8 @@
 {
 "id": "picture_tube_3",
 "name": "Картина",
+"name_is_russian": true,
+"img": "/shared/items/picture_tube_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -461,6 +575,8 @@
 {
 "id": "baseball_card_1",
 "name": "Карточка с Эйсоном Маккинли",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -469,6 +585,8 @@
 {
 "id": "cargo_charge_workbench_upgrade_refrigerant_1",
 "name": "Качественный хладагент",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_upgrade_refrigerant_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -477,6 +595,8 @@
 {
 "id": "room_key_6",
 "name": "Ключ от комнаты · правая, на заправке района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_6.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -485,6 +605,8 @@
 {
 "id": "room_key_13",
 "name": "Ключ от комнаты · VIP, в стрип-клубе",
+"name_is_russian": true,
+"img": "/shared/items/room_key_13.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -493,6 +615,8 @@
 {
 "id": "vip_key_1",
 "name": "Ключ-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -501,6 +625,8 @@
 {
 "id": "vip_key_2",
 "name": "Ключ-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_2.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -509,6 +635,8 @@
 {
 "id": "vip_key_3",
 "name": "Ключ-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_3.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -517,6 +645,8 @@
 {
 "id": "vip_key_6",
 "name": "Ключ-карта",
+"name_is_russian": true,
+"img": "/shared/items/vip_key_6.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -525,6 +655,8 @@
 {
 "id": "deposit_box_1_cumulative",
 "name": "Ключи от банковских ячеек",
+"name_is_russian": true,
+"img": "/shared/items/deposit_box_1_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -533,6 +665,8 @@
 {
 "id": "deposit_box_1_full",
 "name": "Ключи от банковских ячеек",
+"name_is_russian": true,
+"img": "/shared/items/deposit_box_1_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -541,6 +675,8 @@
 {
 "id": "equipment_11",
 "name": "Коллекционный мультитул",
+"name_is_russian": true,
+"img": "/shared/items/equipment_11.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -549,6 +685,8 @@
 {
 "id": "blade_5",
 "name": "Коллекционный нож Nightfall",
+"name_is_russian": true,
+"img": "/shared/items/blade_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -557,6 +695,8 @@
 {
 "id": "poker_cards_5",
 "name": "Колода карт Joker's Choice",
+"name_is_russian": true,
+"img": "/shared/items/poker_cards_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -565,6 +705,8 @@
 {
 "id": "ring_6",
 "name": "Кольцо PRIDE",
+"name_is_russian": true,
+"img": "/shared/items/ring_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -573,6 +715,8 @@
 {
 "id": "comics_5",
 "name": "Комикс MASK",
+"name_is_russian": true,
+"img": "/shared/items/comics_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -581,6 +725,8 @@
 {
 "id": "console_5",
 "name": "Консоль X-STATION VR",
+"name_is_russian": true,
+"img": "/shared/items/console_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -589,6 +735,8 @@
 {
 "id": "vial_5",
 "name": "Косметическая ампула",
+"name_is_russian": true,
+"img": "/shared/items/vial_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -597,6 +745,8 @@
 {
 "id": "soft_crystal_3",
 "name": "Кристаллический концентрат",
+"name_is_russian": true,
+"img": "/assets/cargo/soft_crystal_3.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -605,6 +755,8 @@
 {
 "id": "lab_crystal_3",
 "name": "Кристаллический порошок",
+"name_is_russian": true,
+"img": "/shared/items/lab_crystal_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -613,6 +765,8 @@
 {
 "id": "drugs_6",
 "name": "Леденцы",
+"name_is_russian": true,
+"img": "/shared/items/drugs_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -621,6 +775,8 @@
 {
 "id": "lottery_ticket_high_1",
 "name": "Лотерейный билет",
+"name_is_russian": true,
+"img": "/shared/items/lottery_ticket_high_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -629,6 +785,8 @@
 {
 "id": "cargo_safe",
 "name": "Маленький сейф",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_safe.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -637,6 +795,8 @@
 {
 "id": "headphones_5",
 "name": "Наушники Beat Head",
+"name_is_russian": true,
+"img": "/shared/items/headphones_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -645,6 +805,8 @@
 {
 "id": "laptop_4",
 "name": "Ноутбук PD STATION",
+"name_is_russian": true,
+"img": "/shared/items/laptop_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -653,6 +815,8 @@
 {
 "id": "necklace_6",
 "name": "Ожерелье PENARAI",
+"name_is_russian": true,
+"img": "/shared/items/necklace_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -661,6 +825,8 @@
 {
 "id": "frag_grenade_1",
 "name": "Осколочная граната",
+"name_is_russian": true,
+"img": "/shared/items/frag_grenade_1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -669,6 +835,8 @@
 {
 "id": "gunpowder_3",
 "name": "Очищенный пороховой набор",
+"name_is_russian": true,
+"img": "/shared/items/gunpowder_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -677,6 +845,8 @@
 {
 "id": "bush_drugs_3",
 "name": "Пакет с урожаем",
+"name_is_russian": true,
+"img": "/shared/items/bush_drugs_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -685,6 +855,8 @@
 {
 "id": "perfume_5",
 "name": "Парфюм DUCHEE",
+"name_is_russian": true,
+"img": "/shared/items/perfume_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -693,6 +865,8 @@
 {
 "id": "cargo_exchange_workbench_speedup_upgrade_2",
 "name": "Печатная машинка",
+"name_is_russian": true,
+"img": "/shared/items/cargo_exchange_workbench_speedup_upgrade_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -701,6 +875,8 @@
 {
 "id": "cargo_workbench_plasma_cutter_1",
 "name": "Плазменный резак для вскрытия грузов",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_plasma_cutter_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -709,6 +885,8 @@
 {
 "id": "vinyl_1",
 "name": "Платиновый диск",
+"name_is_russian": true,
+"img": "/shared/items/vinyl_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -717,6 +895,8 @@
 {
 "id": "royal_e",
 "name": "Royal E",
+"name_is_russian": false,
+"img": "/shared/items/royal_e.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -725,6 +905,8 @@
 {
 "id": "condoms_5",
 "name": "Презервативы Playgirl",
+"name_is_russian": true,
+"img": "/shared/items/condoms_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -733,6 +915,8 @@
 {
 "id": "car_device_6",
 "name": "Премиальная магнитола",
+"name_is_russian": true,
+"img": "/shared/items/car_device_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -741,6 +925,8 @@
 {
 "id": "car_parts_8",
 "name": "Премиальный автомобильный компрессор",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_8.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -749,6 +935,8 @@
 {
 "id": "car_device_5",
 "name": "Премиальный видеорегистратор",
+"name_is_russian": true,
+"img": "/shared/items/car_device_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -757,6 +945,8 @@
 {
 "id": "cargo_charge_workbench_lab_freezer_3",
 "name": "Промышленный фризер",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_lab_freezer_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -765,6 +955,8 @@
 {
 "id": "weapon_trinket_3",
 "name": "Пульт управления дроном",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -773,6 +965,8 @@
 {
 "id": "cargo_alcohol_grade_3",
 "name": "Раритетный груз",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_alcohol_grade_3.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -781,6 +975,8 @@
 {
 "id": "bush_growing_3",
 "name": "Растущий куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_growing_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -789,6 +985,8 @@
 {
 "id": "gemstone_3",
 "name": "Рубин в кейсе",
+"name_is_russian": true,
+"img": "/shared/items/gemstone_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -797,6 +995,8 @@
 {
 "id": "earrings_2",
 "name": "Серьги AMINA",
+"name_is_russian": true,
+"img": "/shared/items/earrings_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -805,6 +1005,8 @@
 {
 "id": "gun_grease_3",
 "name": "Синтетическая оружейная смазка",
+"name_is_russian": true,
+"img": "/shared/items/gun_grease_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -813,6 +1015,8 @@
 {
 "id": "clan_alarm_1",
 "name": "Система охраны",
+"name_is_russian": true,
+"img": "/shared/items/clan_alarm_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -821,6 +1025,8 @@
 {
 "id": "grenade_launcher_shell_1",
 "name": "Снаряд для гранатомета",
+"name_is_russian": true,
+"img": "/shared/items/grenade_launcher_shell_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -829,6 +1035,8 @@
 {
 "id": "equipment_7",
 "name": "Современный тактический бинокль",
+"name_is_russian": true,
+"img": "/shared/items/equipment_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -837,6 +1045,8 @@
 {
 "id": "bush_mature_3",
 "name": "Созревший куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_mature_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -845,6 +1055,8 @@
 {
 "id": "backpack_4",
 "name": "Спортивная сумка",
+"name_is_russian": true,
+"img": "/shared/items/backpack_4.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 5,
@@ -853,6 +1065,8 @@
 {
 "id": "armor_plate_2",
 "name": "Стальная пластина",
+"name_is_russian": true,
+"img": "/shared/items/armor_plate_2.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 5,
@@ -861,6 +1075,8 @@
 {
 "id": "cargo_workbench_slot_1",
 "name": "Стационарные тиски",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_slot_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -869,6 +1085,8 @@
 {
 "id": "glass_cutter_1",
 "name": "Стеклорез",
+"name_is_russian": true,
+"img": "/shared/items/glass_cutter_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -877,6 +1095,8 @@
 {
 "id": "drugs_bag_2",
 "name": "Сумка с идеальной пудрой",
+"name_is_russian": true,
+"img": "/assets/cargo/drugs_bag_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -885,6 +1105,8 @@
 {
 "id": "money_workbench_speedup_3",
 "name": "Счетчик банкнот",
+"name_is_russian": true,
+"img": "/shared/items/money_workbench_speedup_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -893,6 +1115,8 @@
 {
 "id": "equip_carbine_4",
 "name": "Тактический карабин",
+"name_is_russian": true,
+"img": "/shared/items/equip_carbine_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -901,6 +1125,8 @@
 {
 "id": "weapon_cleaning_3",
 "name": "Тактический набор для чистки оружия",
+"name_is_russian": true,
+"img": "/shared/items/weapon_cleaning_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -909,6 +1135,8 @@
 {
 "id": "hard_crystal_3",
 "name": "Твердые кристаллы",
+"name_is_russian": true,
+"img": "/assets/cargo/hard_crystal_3.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -917,6 +1145,8 @@
 {
 "id": "phone_5",
 "name": "Телефон Tuver",
+"name_is_russian": true,
+"img": "/shared/items/phone_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -925,6 +1155,8 @@
 {
 "id": "gemstone_2",
 "name": "Топаз в кейсе",
+"name_is_russian": true,
+"img": "/shared/items/gemstone_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -933,6 +1165,8 @@
 {
 "id": "vest4_m1",
 "name": "Тяжелый бронежилет",
+"name_is_russian": true,
+"img": "/shared/items/vest4_m1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 5,
@@ -941,6 +1175,8 @@
 {
 "id": "fukurou_tensa",
 "name": "Fukurou Tensa",
+"name_is_russian": false,
+"img": "/shared/items/fukurou_tensa.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 2,
@@ -949,6 +1185,8 @@
 {
 "id": "longhorn_van",
 "name": "Longhorn Van",
+"name_is_russian": false,
+"img": "/shared/items/longhorn_van.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 2,
@@ -957,6 +1195,8 @@
 {
 "id": "uv_lamp_3",
 "name": "Ультрафиолетовая лампа",
+"name_is_russian": true,
+"img": "/shared/items/uv_lamp_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -965,6 +1205,8 @@
 {
 "id": "belt_4",
 "name": "Универсальный подсумок",
+"name_is_russian": true,
+"img": "/shared/items/belt_4.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 5,
@@ -973,6 +1215,8 @@
 {
 "id": "collection_upgrade_3",
 "name": "Уникальная коллекция",
+"name_is_russian": true,
+"img": "/shared/items/collection_upgrade_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -981,6 +1225,8 @@
 {
 "id": "romanov_r8",
 "name": "Romanov R8",
+"name_is_russian": false,
+"img": "/shared/items/romanov_r8.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 6,
@@ -989,6 +1235,8 @@
 {
 "id": "car_inventory_3",
 "name": "Вместительные багажные сумки",
+"name_is_russian": true,
+"img": "/shared/items/car_inventory_3.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -997,6 +1245,8 @@
 {
 "id": "roulette_chip_50",
 "name": "Фишки",
+"name_is_russian": true,
+"img": "/shared/items/roulette_chip_50.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -1005,6 +1255,8 @@
 {
 "id": "cargo_production_workbench_upgrade_converter_1",
 "name": "Химический преобразователь",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_upgrade_converter_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -1013,6 +1265,8 @@
 {
 "id": "cargo_production_workbench_3",
 "name": "Химический реактор",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -1021,6 +1275,8 @@
 {
 "id": "valuable_cargo",
 "name": "Ценный груз",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_ammo.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -1029,6 +1285,8 @@
 {
 "id": "watch_5",
 "name": "Часы POLEX",
+"name_is_russian": true,
+"img": "/shared/items/watch_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -1037,6 +1295,8 @@
 {
 "id": "dildo_1",
 "name": "Экзотический инструмент",
+"name_is_russian": true,
+"img": "/shared/items/dildo_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -1045,6 +1305,8 @@
 {
 "id": "action_camera_3_cumulative",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_3_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -1053,6 +1315,8 @@
 {
 "id": "action_camera_3_full",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_3_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -1061,6 +1325,8 @@
 {
 "id": "defense_module_3",
 "name": "Электронный предохранитель",
+"name_is_russian": true,
+"img": "/shared/items/defense_module_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -1069,6 +1335,8 @@
 {
 "id": "cargo_exchange_workbench_additional_double_slot_upgrade",
 "name": "Ящик с инструментами",
+"name_is_russian": true,
+"img": "/shared/items/cargo_exchange_workbench_additional_double_slot_upgrade.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 5,
@@ -1077,6 +1345,8 @@
 {
 "id": "weapon_box_1",
 "name": "Ящик с оружейными деталями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_ammo.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -1085,6 +1355,8 @@
 {
 "id": "collection_reward_cargo_24",
 "name": "Ящик с уникальной коллекцией",
+"name_is_russian": true,
+"img": "/assets/cargo/collection_reward_cargo_24.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 5,
@@ -1093,6 +1365,8 @@
 {
 "id": "apscalar_m1",
 "name": "AP Scalar Mk1",
+"name_is_russian": false,
+"img": "/shared/items/apscalar_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1101,6 +1375,8 @@
 {
 "id": "apscalar_m2",
 "name": "AP Scalar Mk2",
+"name_is_russian": false,
+"img": "/shared/items/apscalar_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1109,6 +1385,8 @@
 {
 "id": "apscalar_m3",
 "name": "AP Scalar Mk3",
+"name_is_russian": false,
+"img": "/shared/items/apscalar_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1117,6 +1395,8 @@
 {
 "id": "toy_5",
 "name": "CollectiToy x TA",
+"name_is_russian": false,
+"img": "/shared/items/toy_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 5,
@@ -1125,6 +1405,8 @@
 {
 "id": "drm14_m1",
 "name": "DRM-14 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/drm14_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1133,6 +1415,8 @@
 {
 "id": "drm14_m2",
 "name": "DRM-14 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/drm14_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1141,6 +1425,8 @@
 {
 "id": "drm14_m3",
 "name": "DRM-14 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/drm14_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1149,6 +1435,8 @@
 {
 "id": "car_ecu_3",
 "name": "Высокопроизводительный ECU",
+"name_is_russian": true,
+"img": "/shared/items/car_ecu_3.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -1157,6 +1445,8 @@
 {
 "id": "car_police_radio_1",
 "name": "Полицейское радио",
+"name_is_russian": true,
+"img": "/shared/items/car_police_radio_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -1165,6 +1455,8 @@
 {
 "id": "srreaper_m1",
 "name": "SR Reaper Mk1",
+"name_is_russian": false,
+"img": "/shared/items/srreaper_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1173,6 +1465,8 @@
 {
 "id": "srreaper_m2",
 "name": "SR Reaper Mk2",
+"name_is_russian": false,
+"img": "/shared/items/srreaper_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1181,6 +1475,8 @@
 {
 "id": "srreaper_m3",
 "name": "SR Reaper Mk3",
+"name_is_russian": false,
+"img": "/shared/items/srreaper_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1189,6 +1485,8 @@
 {
 "id": "tag12k_m1",
 "name": "TAG-12K Mk1",
+"name_is_russian": false,
+"img": "/shared/items/tag12k_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1197,6 +1495,8 @@
 {
 "id": "tag12k_m2",
 "name": "TAG-12K Mk2",
+"name_is_russian": false,
+"img": "/shared/items/tag12k_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1205,6 +1505,8 @@
 {
 "id": "tag12k_m3",
 "name": "TAG-12K Mk3",
+"name_is_russian": false,
+"img": "/shared/items/tag12k_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1213,6 +1515,8 @@
 {
 "id": "usb_1_cumulative",
 "name": "USB-взломщик",
+"name_is_russian": true,
+"img": "/shared/items/usb_1_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -1221,6 +1525,8 @@
 {
 "id": "usb_1_full",
 "name": "USB-взломщик",
+"name_is_russian": true,
+"img": "/shared/items/usb_1_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 5,
@@ -1229,6 +1535,8 @@
 {
 "id": "vulture50_m1",
 "name": "Vulture 50 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/vulture50_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1237,6 +1545,8 @@
 {
 "id": "vulture50_m2",
 "name": "Vulture 50 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/vulture50_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 5,
@@ -1245,6 +1555,8 @@
 {
 "id": "car_parts_7",
 "name": "Автомобильный компрессор",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1253,6 +1565,8 @@
 {
 "id": "car_trinket_3",
 "name": "Автомобильный парфюм",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1261,6 +1575,8 @@
 {
 "id": "car_engine_cooling_2",
 "name": "Улучшенный интеркулер",
+"name_is_russian": true,
+"img": "/shared/items/car_engine_cooling_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -1269,6 +1585,8 @@
 {
 "id": "weapon_trinket_2",
 "name": "Баллистический хронограф",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1277,6 +1595,8 @@
 {
 "id": "storage_6",
 "name": "Большая тумба",
+"name_is_russian": true,
+"img": "/shared/items/storage_6.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1285,6 +1605,8 @@
 {
 "id": "car_garage_2",
 "name": "Большой автогараж",
+"name_is_russian": true,
+"img": "/shared/items/car_garage_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1293,6 +1615,8 @@
 {
 "id": "shelving_3",
 "name": "Большой стеллаж",
+"name_is_russian": true,
+"img": "/shared/items/shelving_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1301,6 +1625,8 @@
 {
 "id": "car_trinket_4",
 "name": "Брелок гонщика",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1309,6 +1635,8 @@
 {
 "id": "alcohol_6",
 "name": "Бутылка Eclipse",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1317,6 +1645,8 @@
 {
 "id": "alcohol_2",
 "name": "Бутылка Krystal Light",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1325,6 +1655,8 @@
 {
 "id": "alcohol_10",
 "name": "Бутылка Old Pocket",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_10.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1333,6 +1665,8 @@
 {
 "id": "alcohol_11",
 "name": "Бутылка Rosefield",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_11.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1341,6 +1675,8 @@
 {
 "id": "graphics_card_2",
 "name": "Видеокарта RG 7700",
+"name_is_russian": true,
+"img": "/shared/items/graphics_card_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1349,6 +1685,8 @@
 {
 "id": "car_device_3",
 "name": "Видеорегистратор",
+"name_is_russian": true,
+"img": "/shared/items/car_device_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1357,6 +1695,8 @@
 {
 "id": "water_pump_2",
 "name": "Водяной насос",
+"name_is_russian": true,
+"img": "/shared/items/water_pump_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1365,6 +1705,8 @@
 {
 "id": "pharma_tools_3",
 "name": "Глюкометр",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1373,6 +1715,8 @@
 {
 "id": "car_turbocharger_2",
 "name": "Улучшенный турбокомплект",
+"name_is_russian": true,
+"img": "/shared/items/car_turbocharger_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -1381,6 +1725,8 @@
 {
 "id": "cargo_manifest_2_cumulative",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_2_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1389,6 +1735,8 @@
 {
 "id": "cargo_manifest_2_full",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_2_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1397,6 +1745,8 @@
 {
 "id": "decoder_2",
 "name": "Декодер",
+"name_is_russian": true,
+"img": "/shared/items/decoder_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1405,6 +1755,8 @@
 {
 "id": "settlement_sale_2",
 "name": "Документ на поселение",
+"name_is_russian": true,
+"img": "/shared/items/settlement_sale_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1413,6 +1765,8 @@
 {
 "id": "plot_sale_2",
 "name": "Документ на участок",
+"name_is_russian": true,
+"img": "/shared/items/plot_sale_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1421,6 +1775,8 @@
 {
 "id": "car_parts_3",
 "name": "Домкрат",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1429,6 +1785,8 @@
 {
 "id": "smoke_grenade_1",
 "name": "Дымовая граната",
+"name_is_russian": true,
+"img": "/shared/items/smoke_grenade_1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -1437,6 +1795,8 @@
 {
 "id": "drugs_5",
 "name": "Жевательные пластинки",
+"name_is_russian": true,
+"img": "/shared/items/drugs_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1445,6 +1805,8 @@
 {
 "id": "police_badge_2",
 "name": "Жетон лейтенанта",
+"name_is_russian": true,
+"img": "/shared/items/police_badge_2.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1453,6 +1815,8 @@
 {
 "id": "journal_3",
 "name": "Журнал MONOLITH",
+"name_is_russian": true,
+"img": "/shared/items/journal_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1461,6 +1825,8 @@
 {
 "id": "journal_4",
 "name": "Журнал VELVET RIOT",
+"name_is_russian": true,
+"img": "/shared/items/journal_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1469,6 +1835,8 @@
 {
 "id": "lighter_4",
 "name": "Зажигалка Clipper",
+"name_is_russian": true,
+"img": "/shared/items/lighter_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1477,6 +1845,8 @@
 {
 "id": "lighter_3",
 "name": "Зажигалка RedOlive",
+"name_is_russian": true,
+"img": "/shared/items/lighter_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1485,6 +1855,8 @@
 {
 "id": "antique_2",
 "name": "Золотая статуя кошки",
+"name_is_russian": true,
+"img": "/shared/items/antique_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1493,6 +1865,8 @@
 {
 "id": "toy_3",
 "name": "Игрушка CollectiToy #3",
+"name_is_russian": true,
+"img": "/shared/items/toy_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1501,6 +1875,8 @@
 {
 "id": "toy_4",
 "name": "Игрушка CollectiToy #4",
+"name_is_russian": true,
+"img": "/shared/items/toy_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1509,6 +1885,8 @@
 {
 "id": "car_steering_rack_2",
 "name": "Усиленная рулевая рейка",
+"name_is_russian": true,
+"img": "/shared/items/car_steering_rack_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -1517,6 +1895,8 @@
 {
 "id": "injector_1",
 "name": "Инъектор",
+"name_is_russian": true,
+"img": "/shared/items/injector_1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 4,
@@ -1525,6 +1905,8 @@
 {
 "id": "camera_3",
 "name": "Камера CIRCUM 360",
+"name_is_russian": true,
+"img": "/shared/items/camera_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1533,6 +1915,8 @@
 {
 "id": "picture_tube_2",
 "name": "Картина",
+"name_is_russian": true,
+"img": "/shared/items/picture_tube_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1541,6 +1925,8 @@
 {
 "id": "baseball_card_5",
 "name": "Карточка с Брэдли Сандерсоном",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1549,6 +1935,8 @@
 {
 "id": "baseball_card_4",
 "name": "Карточка с Трентом Карвером",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1557,6 +1945,8 @@
 {
 "id": "reagents_2",
 "name": "Качественные реагенты",
+"name_is_russian": true,
+"img": "/assets/cargo/reagents_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -1565,6 +1955,8 @@
 {
 "id": "room_key_8",
 "name": "Ключ от комнаты · в аптеке района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_8.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1573,6 +1965,8 @@
 {
 "id": "room_key_9",
 "name": "Ключ от комнаты · в аптеке района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/room_key_9.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1581,6 +1975,8 @@
 {
 "id": "room_key_4",
 "name": "Ключ от комнаты · в магазине экипировки района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_4.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1589,6 +1985,8 @@
 {
 "id": "room_key_2",
 "name": "Ключ от комнаты · в магазине экипировки района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/room_key_2.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1597,6 +1995,8 @@
 {
 "id": "room_key_10",
 "name": "Ключ от комнаты · в минимаркете района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_10.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1605,6 +2005,8 @@
 {
 "id": "room_key_11",
 "name": "Ключ от комнаты · в минимаркете района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/room_key_11.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1613,6 +2015,8 @@
 {
 "id": "room_key_7",
 "name": "Ключ от комнаты · в одном из коттеджей района Лорейн-Хиллз",
+"name_is_russian": true,
+"img": "/shared/items/room_key_7.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1621,6 +2025,8 @@
 {
 "id": "room_key_12",
 "name": "Ключ от комнаты · в одном из отелей района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/room_key_12.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1629,6 +2035,8 @@
 {
 "id": "room_key_3",
 "name": "Ключ от комнаты · в оружейном магазине района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_3.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1637,6 +2045,8 @@
 {
 "id": "room_key_1",
 "name": "Ключ от комнаты · в оружейном магазине района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/room_key_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1645,6 +2055,8 @@
 {
 "id": "room_key_5",
 "name": "Ключ от комнаты · левая, на заправке района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/room_key_5.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1653,6 +2065,8 @@
 {
 "id": "tablet_1_cumulative",
 "name": "Кодовый планшет",
+"name_is_russian": true,
+"img": "/shared/items/tablet_1_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1661,6 +2075,8 @@
 {
 "id": "tablet_1_full",
 "name": "Кодовый планшет",
+"name_is_russian": true,
+"img": "/shared/items/tablet_1_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1669,6 +2085,8 @@
 {
 "id": "blade_4",
 "name": "Коллекционный нож Cyber",
+"name_is_russian": true,
+"img": "/shared/items/blade_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1677,6 +2095,8 @@
 {
 "id": "blade_3",
 "name": "Коллекционный нож Streamline",
+"name_is_russian": true,
+"img": "/shared/items/blade_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1685,6 +2105,8 @@
 {
 "id": "poker_cards_4",
 "name": "Колода карт Bad Habit",
+"name_is_russian": true,
+"img": "/shared/items/poker_cards_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1693,6 +2115,8 @@
 {
 "id": "poker_cards_2",
 "name": "Колода карт Mystic Card Chronicles",
+"name_is_russian": true,
+"img": "/shared/items/poker_cards_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1701,6 +2125,8 @@
 {
 "id": "ring_3",
 "name": "Кольцо GUDDI",
+"name_is_russian": true,
+"img": "/shared/items/ring_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1709,6 +2135,8 @@
 {
 "id": "ring_5",
 "name": "Кольцо MAFFI",
+"name_is_russian": true,
+"img": "/shared/items/ring_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1717,6 +2145,8 @@
 {
 "id": "comics_3",
 "name": "Комикс DIGITAL SOUL",
+"name_is_russian": true,
+"img": "/shared/items/comics_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1725,6 +2155,8 @@
 {
 "id": "comics_4",
 "name": "Комикс KAIRO",
+"name_is_russian": true,
+"img": "/shared/items/comics_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1733,6 +2165,8 @@
 {
 "id": "console_4",
 "name": "Консоль G-Cube",
+"name_is_russian": true,
+"img": "/shared/items/console_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1741,6 +2175,8 @@
 {
 "id": "console_3",
 "name": "Консоль ZTX",
+"name_is_russian": true,
+"img": "/shared/items/console_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1749,6 +2185,8 @@
 {
 "id": "soft_crystal_2",
 "name": "Кристаллический концентрат",
+"name_is_russian": true,
+"img": "/assets/cargo/soft_crystal_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -1757,6 +2195,8 @@
 {
 "id": "lab_crystal_2",
 "name": "Кристаллический порошок",
+"name_is_russian": true,
+"img": "/shared/items/lab_crystal_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1765,6 +2205,8 @@
 {
 "id": "vial_6",
 "name": "Лекарственная ампула",
+"name_is_russian": true,
+"img": "/shared/items/vial_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1773,6 +2215,8 @@
 {
 "id": "lottery_ticket_medium_1",
 "name": "Лотерейный билет",
+"name_is_russian": true,
+"img": "/shared/items/lottery_ticket_medium_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1781,6 +2225,8 @@
 {
 "id": "car_device_4",
 "name": "Магнитола",
+"name_is_russian": true,
+"img": "/shared/items/car_device_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1789,6 +2235,8 @@
 {
 "id": "storage_lockpick_1",
 "name": "Мастер-ключ",
+"name_is_russian": true,
+"img": "/shared/items/storage_lockpick_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1797,6 +2245,8 @@
 {
 "id": "workshop_building_1",
 "name": "Мастерская",
+"name_is_russian": true,
+"img": "/shared/items/workshop_building_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1805,6 +2255,8 @@
 {
 "id": "wall_3",
 "name": "Металлический забор",
+"name_is_russian": true,
+"img": "/shared/items/wall_3.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1813,6 +2265,8 @@
 {
 "id": "fluffy_cuffs_1",
 "name": "Меховые наручники",
+"name_is_russian": true,
+"img": "/shared/items/fluffy_cuffs_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1821,6 +2275,8 @@
 {
 "id": "mini_drill_1",
 "name": "Мини-бур",
+"name_is_russian": true,
+"img": "/shared/items/mini_drill_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1829,6 +2285,8 @@
 {
 "id": "equipment_5",
 "name": "Мощный фонарик",
+"name_is_russian": true,
+"img": "/shared/items/equipment_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1837,6 +2295,8 @@
 {
 "id": "headphones_3",
 "name": "Наушники DS MAX",
+"name_is_russian": true,
+"img": "/shared/items/headphones_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1845,6 +2305,8 @@
 {
 "id": "headphones_4",
 "name": "Наушники OMEGA",
+"name_is_russian": true,
+"img": "/shared/items/headphones_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1853,6 +2315,8 @@
 {
 "id": "home_2",
 "name": "Небольшой дом",
+"name_is_russian": true,
+"img": "/shared/items/home_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1861,6 +2325,8 @@
 {
 "id": "laptop_3",
 "name": "Ноутбук HUBRID",
+"name_is_russian": true,
+"img": "/shared/items/laptop_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1869,6 +2335,8 @@
 {
 "id": "laptop_6",
 "name": "Ноутбук SUS VILO",
+"name_is_russian": true,
+"img": "/shared/items/laptop_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1877,6 +2345,8 @@
 {
 "id": "painkiller_2",
 "name": "Обезболивающие",
+"name_is_russian": true,
+"img": "/shared/items/painkiller_2.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 4,
@@ -1885,6 +2355,8 @@
 {
 "id": "necklace_3",
 "name": "Ожерелье MAFFI",
+"name_is_russian": true,
+"img": "/shared/items/necklace_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1893,6 +2365,8 @@
 {
 "id": "necklace_4",
 "name": "Ожерелье REFIER",
+"name_is_russian": true,
+"img": "/shared/items/necklace_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1901,6 +2375,8 @@
 {
 "id": "weapon_trinket_7",
 "name": "Оружейный микрокомпьютер",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1909,6 +2385,8 @@
 {
 "id": "collection_upgrade_2",
 "name": "Особая коллекция",
+"name_is_russian": true,
+"img": "/shared/items/collection_upgrade_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1917,6 +2395,8 @@
 {
 "id": "bush_drugs_2",
 "name": "Пакет с урожаем",
+"name_is_russian": true,
+"img": "/shared/items/bush_drugs_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1925,6 +2405,8 @@
 {
 "id": "perfume_1",
 "name": "Парфюм INFINITY",
+"name_is_russian": true,
+"img": "/shared/items/perfume_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1933,6 +2415,8 @@
 {
 "id": "perfume_4",
 "name": "Парфюм LACROCAS",
+"name_is_russian": true,
+"img": "/shared/items/perfume_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1941,6 +2425,8 @@
 {
 "id": "cargo_workbench_circular_saw_1",
 "name": "Пила для вскрытия грузов",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_circular_saw_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1949,6 +2435,8 @@
 {
 "id": "narco_farm_1",
 "name": "Плантация",
+"name_is_russian": true,
+"img": "/shared/items/narco_farm_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -1957,6 +2445,8 @@
 {
 "id": "burner_2",
 "name": "Полевая горелка",
+"name_is_russian": true,
+"img": "/shared/items/burner_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1965,6 +2455,8 @@
 {
 "id": "police_radio_1",
 "name": "Полицейская рация",
+"name_is_russian": true,
+"img": "/shared/items/police_radio_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -1973,6 +2465,8 @@
 {
 "id": "condoms_4",
 "name": "Презервативы LUX",
+"name_is_russian": true,
+"img": "/shared/items/condoms_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1981,6 +2475,8 @@
 {
 "id": "condoms_3",
 "name": "Презервативы Zipit",
+"name_is_russian": true,
+"img": "/shared/items/condoms_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -1989,6 +2485,8 @@
 {
 "id": "cargo_alcohol_grade_2",
 "name": "Премиальный груз",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_alcohol_grade_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -1997,6 +2495,8 @@
 {
 "id": "equipment_10",
 "name": "Премиальный мультитул",
+"name_is_russian": true,
+"img": "/shared/items/equipment_10.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2005,6 +2505,8 @@
 {
 "id": "cargo_production_workbench_upgrade_thermometer_1",
 "name": "Промышленный термометр",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_upgrade_thermometer_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2013,6 +2515,8 @@
 {
 "id": "cargo_charge_workbench_lab_freezer_2",
 "name": "Промышленный фризер",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_lab_freezer_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2021,6 +2525,8 @@
 {
 "id": "gun_grease_2",
 "name": "Профессиональная оружейная смазка",
+"name_is_russian": true,
+"img": "/shared/items/gun_grease_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2029,6 +2535,8 @@
 {
 "id": "weapon_cleaning_2",
 "name": "Профессиональный набор для чистки оружия",
+"name_is_russian": true,
+"img": "/shared/items/weapon_cleaning_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2037,6 +2545,8 @@
 {
 "id": "drugs_1",
 "name": "Пудра",
+"name_is_russian": true,
+"img": "/shared/items/drugs_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2045,6 +2555,8 @@
 {
 "id": "bush_growing_2",
 "name": "Растущий куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_growing_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2053,6 +2565,8 @@
 {
 "id": "car_cargo_2",
 "name": "Усиленный багажный каркас",
+"name_is_russian": true,
+"img": "/shared/items/car_cargo_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 5,
@@ -2061,6 +2575,8 @@
 {
 "id": "car_parts_5",
 "name": "Руль",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2069,6 +2585,8 @@
 {
 "id": "flash_grenade_1",
 "name": "Светошумовая граната",
+"name_is_russian": true,
+"img": "/shared/items/flash_grenade_1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2077,6 +2595,8 @@
 {
 "id": "earrings_5",
 "name": "Серьги CHIPARDI",
+"name_is_russian": true,
+"img": "/shared/items/earrings_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2085,6 +2605,8 @@
 {
 "id": "earrings_6",
 "name": "Серьги MEKASSI",
+"name_is_russian": true,
+"img": "/shared/items/earrings_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2093,6 +2615,8 @@
 {
 "id": "cigar_2",
 "name": "Сигары Old Huba",
+"name_is_russian": true,
+"img": "/shared/items/cigar_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2101,6 +2625,8 @@
 {
 "id": "personal_alarm_1",
 "name": "Система охраны",
+"name_is_russian": true,
+"img": "/shared/items/personal_alarm_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2109,6 +2635,8 @@
 {
 "id": "storage_building_1",
 "name": "Склад",
+"name_is_russian": true,
+"img": "/shared/items/storage_building_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2117,6 +2645,8 @@
 {
 "id": "phone_4",
 "name": "Смартфон Flip Ring",
+"name_is_russian": true,
+"img": "/shared/items/phone_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2125,6 +2655,8 @@
 {
 "id": "phone_3",
 "name": "Смартфон P-Verse",
+"name_is_russian": true,
+"img": "/shared/items/phone_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2133,6 +2665,8 @@
 {
 "id": "bush_mature_2",
 "name": "Созревший куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_mature_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2141,6 +2675,8 @@
 {
 "id": "backpack_3",
 "name": "Спортивная сумка",
+"name_is_russian": true,
+"img": "/shared/items/backpack_3.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 4,
@@ -2149,6 +2685,8 @@
 {
 "id": "storage_2",
 "name": "Средний сейф",
+"name_is_russian": true,
+"img": "/shared/items/storage_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2157,6 +2695,8 @@
 {
 "id": "shelving_5",
 "name": "Средний стеллаж-клетка",
+"name_is_russian": true,
+"img": "/shared/items/shelving_5.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2165,6 +2705,8 @@
 {
 "id": "gunpowder_2",
 "name": "Стандартный пороховой набор",
+"name_is_russian": true,
+"img": "/shared/items/gunpowder_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2173,6 +2715,8 @@
 {
 "id": "antique_1",
 "name": "Статуя божества",
+"name_is_russian": true,
+"img": "/shared/items/antique_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2181,6 +2725,8 @@
 {
 "id": "drugs_bag_1",
 "name": "Сумка с чистой пудрой",
+"name_is_russian": true,
+"img": "/assets/cargo/drugs_bag_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2189,6 +2735,8 @@
 {
 "id": "money_workbench_speedup_2",
 "name": "Счетчик банкнот",
+"name_is_russian": true,
+"img": "/shared/items/money_workbench_speedup_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2197,6 +2745,8 @@
 {
 "id": "equipment_8",
 "name": "Тактический бинокль",
+"name_is_russian": true,
+"img": "/shared/items/equipment_8.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2205,6 +2755,8 @@
 {
 "id": "hard_crystal_2",
 "name": "Твердые кристаллы",
+"name_is_russian": true,
+"img": "/assets/cargo/hard_crystal_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2213,6 +2765,8 @@
 {
 "id": "equipment_3",
 "name": "Тепловизор",
+"name_is_russian": true,
+"img": "/shared/items/equipment_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2221,6 +2775,8 @@
 {
 "id": "pharma_tools_4",
 "name": "Тонометр",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2229,6 +2785,8 @@
 {
 "id": "car_cargo_1",
 "name": "Багажный каркас",
+"name_is_russian": true,
+"img": "/shared/items/car_cargo_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2237,6 +2795,8 @@
 {
 "id": "car_suspension_2",
 "name": "Гоночный диск",
+"name_is_russian": true,
+"img": "/shared/items/car_suspension_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2245,6 +2805,8 @@
 {
 "id": "police_evidence_1",
 "name": "Улики",
+"name_is_russian": true,
+"img": "/shared/items/police_evidence_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -2253,6 +2815,8 @@
 {
 "id": "cargo_charge_workbench_upgrade_evaporator_1",
 "name": "Улучшенный испаритель",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_upgrade_evaporator_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2261,6 +2825,8 @@
 {
 "id": "car_engine_cooling_1",
 "name": "Интеркулер",
+"name_is_russian": true,
+"img": "/shared/items/car_engine_cooling_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2269,6 +2835,8 @@
 {
 "id": "belt_3",
 "name": "Универсальный подсумок",
+"name_is_russian": true,
+"img": "/shared/items/belt_3.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 4,
@@ -2277,6 +2845,8 @@
 {
 "id": "equip_carbine_3",
 "name": "Усиленный карабин",
+"name_is_russian": true,
+"img": "/shared/items/equip_carbine_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2285,6 +2855,8 @@
 {
 "id": "hairdryer_1",
 "name": "Фен SuperDryer",
+"name_is_russian": true,
+"img": "/shared/items/hairdryer_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2293,6 +2865,8 @@
 {
 "id": "roulette_chip_25",
 "name": "Фишки",
+"name_is_russian": true,
+"img": "/shared/items/roulette_chip_25.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2301,6 +2875,8 @@
 {
 "id": "vial_2",
 "name": "Флакон с жидкостью",
+"name_is_russian": true,
+"img": "/shared/items/vial_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2309,6 +2885,8 @@
 {
 "id": "meth_lab_1",
 "name": "Химическая лаборатория",
+"name_is_russian": true,
+"img": "/shared/items/meth_lab_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2317,6 +2895,8 @@
 {
 "id": "cargo_production_workbench_2",
 "name": "Химический реактор",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2325,6 +2905,8 @@
 {
 "id": "weapon_trinket_6",
 "name": "Хронограф",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2333,6 +2915,8 @@
 {
 "id": "watch_4",
 "name": "Часы NURDAN",
+"name_is_russian": true,
+"img": "/shared/items/watch_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2341,6 +2925,8 @@
 {
 "id": "watch_6",
 "name": "Часы PENARAI",
+"name_is_russian": true,
+"img": "/shared/items/watch_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 4,
@@ -2349,6 +2935,8 @@
 {
 "id": "vest3_m1",
 "name": "Штурмовой бронежилет",
+"name_is_russian": true,
+"img": "/shared/items/vest3_m1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 4,
@@ -2357,6 +2945,8 @@
 {
 "id": "action_camera_2_cumulative",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_2_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -2365,6 +2955,8 @@
 {
 "id": "action_camera_2_full",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_2_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 4,
@@ -2373,6 +2965,8 @@
 {
 "id": "defense_module_2",
 "name": "Электронный предохранитель",
+"name_is_russian": true,
+"img": "/shared/items/defense_module_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2381,6 +2975,8 @@
 {
 "id": "cargo_minimarket",
 "name": "Ящик с алкоголем",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_minimarket.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2389,6 +2985,8 @@
 {
 "id": "cargo_carparts",
 "name": "Ящик с запчастями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_carparts.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2397,6 +2995,8 @@
 {
 "id": "cargo_exchange_workbench_additional_slot_upgrade",
 "name": "Ящик с инструментами",
+"name_is_russian": true,
+"img": "/shared/items/cargo_exchange_workbench_additional_slot_upgrade.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2405,6 +3005,8 @@
 {
 "id": "cargo_medicine",
 "name": "Ящик с медикаментами",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_medicine.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2413,6 +3015,8 @@
 {
 "id": "cargo_ammo",
 "name": "Ящик с оружейными деталями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_ammo.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2421,6 +3025,8 @@
 {
 "id": "collection_reward_cargo_14",
 "name": "Ящик с редкой коллекцией",
+"name_is_russian": true,
+"img": "/assets/cargo/collection_reward_cargo_14.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2429,6 +3035,8 @@
 {
 "id": "cargo_jewelry",
 "name": "Ящик с украшениями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_jewelry.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2437,6 +3045,8 @@
 {
 "id": "cargo_equip",
 "name": "Ящик с экипировкой",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_equip.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2445,6 +3055,8 @@
 {
 "id": "cargo_electronics",
 "name": "Ящик с электроникой",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_electronics.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 4,
@@ -2453,6 +3065,8 @@
 {
 "id": "crypto_farm_1",
 "name": "crypto_farm_1",
+"name_is_russian": false,
+"img": "/shared/items/crypto_farm_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 4,
@@ -2461,6 +3075,8 @@
 {
 "id": "jp7_m1",
 "name": "JP-7 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/jp7_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2469,6 +3085,8 @@
 {
 "id": "jp7_m2",
 "name": "JP-7 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/jp7_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2477,6 +3095,8 @@
 {
 "id": "jp7_m3",
 "name": "JP-7 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/jp7_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2485,6 +3105,8 @@
 {
 "id": "lbr44_m1",
 "name": "LBR-44 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/lbr44_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2493,6 +3115,8 @@
 {
 "id": "lbr44_m2",
 "name": "LBR-44 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/lbr44_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2501,6 +3125,8 @@
 {
 "id": "car_steering_rack_1",
 "name": "Рулевая рейка",
+"name_is_russian": true,
+"img": "/shared/items/car_steering_rack_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2509,6 +3135,8 @@
 {
 "id": "ordr12_m1",
 "name": "ORDR-12 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/ordr12_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2517,6 +3145,8 @@
 {
 "id": "ordr12_m2",
 "name": "ORDR-12 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/ordr12_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2525,6 +3155,8 @@
 {
 "id": "ordr12_m3",
 "name": "ORDR-12 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/ordr12_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2533,6 +3165,8 @@
 {
 "id": "pdw90_m1",
 "name": "PDW90 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/pdw90_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2541,6 +3175,8 @@
 {
 "id": "pdw90_m2",
 "name": "PDW90 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/pdw90_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2549,6 +3185,8 @@
 {
 "id": "pdw90_m3",
 "name": "PDW90 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/pdw90_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2557,6 +3195,8 @@
 {
 "id": "rc556_m1",
 "name": "RC 5.56 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/rc556_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2565,6 +3205,8 @@
 {
 "id": "rc556_m2",
 "name": "RC 5.56 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/rc556_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2573,6 +3215,8 @@
 {
 "id": "rc556_m3",
 "name": "RC 5.56 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/rc556_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2581,6 +3225,8 @@
 {
 "id": "car_turbocharger_1",
 "name": "Турбокомплект",
+"name_is_russian": true,
+"img": "/shared/items/car_turbocharger_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2589,6 +3235,8 @@
 {
 "id": "starh_m1",
 "name": "STAR-H Mk1",
+"name_is_russian": false,
+"img": "/shared/items/starh_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2597,6 +3245,8 @@
 {
 "id": "starh_m2",
 "name": "STAR-H Mk2",
+"name_is_russian": false,
+"img": "/shared/items/starh_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2605,6 +3255,8 @@
 {
 "id": "starh_m3",
 "name": "STAR-H Mk3",
+"name_is_russian": false,
+"img": "/shared/items/starh_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 4,
@@ -2613,6 +3265,8 @@
 {
 "id": "car_garage_1",
 "name": "Автогараж",
+"name_is_russian": true,
+"img": "/shared/items/car_garage_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2621,6 +3275,8 @@
 {
 "id": "car_parts_2",
 "name": "Автомобильная фара",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2629,6 +3285,8 @@
 {
 "id": "car_parts_6",
 "name": "Автомобильные свечи",
+"name_is_russian": true,
+"img": "/shared/items/car_parts_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2637,6 +3295,8 @@
 {
 "id": "car_lift_1",
 "name": "Автоподъемник",
+"name_is_russian": true,
+"img": "/shared/items/car_lift_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2645,6 +3305,8 @@
 {
 "id": "first_aid_cabinet_1",
 "name": "Аптечка первой помощи",
+"name_is_russian": true,
+"img": "/shared/items/first_aid_cabinet_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2653,6 +3315,8 @@
 {
 "id": "car_trinket_2",
 "name": "Ароматизатор",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2661,6 +3325,8 @@
 {
 "id": "car_inventory_2",
 "name": "Увеличенные багажные сумки",
+"name_is_russian": true,
+"img": "/shared/items/car_inventory_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -2669,6 +3335,8 @@
 {
 "id": "gunpowder_1",
 "name": "Базовый пороховой набор",
+"name_is_russian": true,
+"img": "/shared/items/gunpowder_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2677,6 +3345,8 @@
 {
 "id": "suitcase",
 "name": "Белый чемодан",
+"name_is_russian": true,
+"img": "/assets/cargo/suitcase.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -2685,6 +3355,8 @@
 {
 "id": "equipment_2",
 "name": "Бинокль",
+"name_is_russian": true,
+"img": "/shared/items/equipment_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2693,6 +3365,8 @@
 {
 "id": "bolt_cutter",
 "name": "Болторез",
+"name_is_russian": true,
+"img": "/shared/items/bolt_cutter.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -2701,6 +3375,8 @@
 {
 "id": "alcohol_1",
 "name": "Бутылка Black Pirate",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2709,6 +3385,8 @@
 {
 "id": "alcohol_3",
 "name": "Бутылка Diamond Breeze",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2717,6 +3395,8 @@
 {
 "id": "alcohol_7",
 "name": "Бутылка Fine Wine",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2725,6 +3405,8 @@
 {
 "id": "alcohol_4",
 "name": "Бутылка Happy Forester",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2733,6 +3415,8 @@
 {
 "id": "alcohol_9",
 "name": "Бутылка Omega",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_9.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2741,6 +3425,8 @@
 {
 "id": "alcohol_8",
 "name": "Бутылка Severka",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_8.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2749,6 +3435,8 @@
 {
 "id": "car_device_2",
 "name": "Бюджетная магнитола",
+"name_is_russian": true,
+"img": "/shared/items/car_device_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2757,6 +3445,8 @@
 {
 "id": "car_device_1",
 "name": "Бюджетный видеорегистратор",
+"name_is_russian": true,
+"img": "/shared/items/car_device_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2765,6 +3455,8 @@
 {
 "id": "fan_1",
 "name": "Вентилятор",
+"name_is_russian": true,
+"img": "/shared/items/fan_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2773,6 +3465,8 @@
 {
 "id": "cargo_workbench_1",
 "name": "Верстак для вскрытия грузов",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2781,6 +3475,8 @@
 {
 "id": "cargo_exchange_workbench_1",
 "name": "Верстак для контрабанды",
+"name_is_russian": true,
+"img": "/shared/items/cargo_exchange_workbench_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2789,6 +3485,8 @@
 {
 "id": "graphics_card_1",
 "name": "Видеокарта HD X900",
+"name_is_russian": true,
+"img": "/shared/items/graphics_card_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2797,6 +3495,8 @@
 {
 "id": "weapon_trinket_1",
 "name": "Гироскоп",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2805,6 +3505,8 @@
 {
 "id": "pharma_tools_1",
 "name": "Градусник",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2813,6 +3515,8 @@
 {
 "id": "cargo_manifest_1_cumulative",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_1_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -2821,6 +3525,8 @@
 {
 "id": "cargo_manifest_1_full",
 "name": "Грузовая ведомость",
+"name_is_russian": true,
+"img": "/shared/items/cargo_manifest_1_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -2829,6 +3535,8 @@
 {
 "id": "decoder_1",
 "name": "Декодер",
+"name_is_russian": true,
+"img": "/shared/items/decoder_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2837,6 +3545,8 @@
 {
 "id": "antique_3",
 "name": "Деревянная статуэтка",
+"name_is_russian": true,
+"img": "/shared/items/antique_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2845,6 +3555,8 @@
 {
 "id": "antique_5",
 "name": "Деревянный тотем",
+"name_is_russian": true,
+"img": "/shared/items/antique_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2853,6 +3565,8 @@
 {
 "id": "settlement_sale_1",
 "name": "Документ на поселение",
+"name_is_russian": true,
+"img": "/shared/items/settlement_sale_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2861,6 +3575,8 @@
 {
 "id": "plot_sale_1",
 "name": "Документ на участок",
+"name_is_russian": true,
+"img": "/shared/items/plot_sale_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2869,6 +3585,8 @@
 {
 "id": "collection_upgrade_1",
 "name": "Дополнительная коллекция",
+"name_is_russian": true,
+"img": "/shared/items/collection_upgrade_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -2877,6 +3595,8 @@
 {
 "id": "police_badge_1",
 "name": "Жетон сержанта",
+"name_is_russian": true,
+"img": "/shared/items/police_badge_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -2885,6 +3605,8 @@
 {
 "id": "journal_2",
 "name": "Журнал AURORA MODE",
+"name_is_russian": true,
+"img": "/shared/items/journal_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2893,6 +3615,8 @@
 {
 "id": "journal_1",
 "name": "Журнал VERSIA",
+"name_is_russian": true,
+"img": "/shared/items/journal_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2901,6 +3625,8 @@
 {
 "id": "lighter_2",
 "name": "Зажигалка Lerrou",
+"name_is_russian": true,
+"img": "/shared/items/lighter_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2909,6 +3635,8 @@
 {
 "id": "lighter_1",
 "name": "Зажигалка Snap-Snap",
+"name_is_russian": true,
+"img": "/shared/items/lighter_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2917,6 +3645,8 @@
 {
 "id": "cash_bag",
 "name": "Закрытая сумка с деньгами",
+"name_is_russian": true,
+"img": "/assets/cargo/cash_bag.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -2925,6 +3655,8 @@
 {
 "id": "toy_1",
 "name": "Игрушка CollectiToy #1",
+"name_is_russian": true,
+"img": "/shared/items/toy_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2933,6 +3665,8 @@
 {
 "id": "toy_2",
 "name": "Игрушка CollectiToy #2",
+"name_is_russian": true,
+"img": "/shared/items/toy_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2941,6 +3675,8 @@
 {
 "id": "equipment_4",
 "name": "Индивидуальный сухой паек",
+"name_is_russian": true,
+"img": "/shared/items/equipment_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2949,6 +3685,8 @@
 {
 "id": "camera_1",
 "name": "Камера EOS 900",
+"name_is_russian": true,
+"img": "/shared/items/camera_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2957,6 +3695,8 @@
 {
 "id": "camera_2",
 "name": "Камера ISE S770",
+"name_is_russian": true,
+"img": "/shared/items/camera_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2965,6 +3705,8 @@
 {
 "id": "reagents_1",
 "name": "Канистры с реагентами",
+"name_is_russian": true,
+"img": "/assets/cargo/reagents_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -2973,6 +3715,8 @@
 {
 "id": "picture_tube_1",
 "name": "Картина",
+"name_is_russian": true,
+"img": "/shared/items/picture_tube_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2981,6 +3725,8 @@
 {
 "id": "baseball_card_2",
 "name": "Карточка с Дэймоном Стриклендом",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2989,6 +3735,8 @@
 {
 "id": "baseball_card_3",
 "name": "Карточка с Максвеллом Риверсом",
+"name_is_russian": true,
+"img": "/shared/items/baseball_card_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -2997,6 +3745,8 @@
 {
 "id": "safe_key_10",
 "name": "Ключ от сейфа · в аптеке района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_10.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3005,6 +3755,8 @@
 {
 "id": "safe_key_5",
 "name": "Ключ от сейфа · в аптеке района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_5.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3013,6 +3765,8 @@
 {
 "id": "safe_key_6",
 "name": "Ключ от сейфа · в кафе на пирсе района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_6.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3021,6 +3775,8 @@
 {
 "id": "safe_key_11",
 "name": "Ключ от сейфа · в кафе района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_11.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3029,6 +3785,8 @@
 {
 "id": "safe_key_13",
 "name": "Ключ от сейфа · в магазине электроники района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_13.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3037,6 +3795,8 @@
 {
 "id": "safe_key_8",
 "name": "Ключ от сейфа · в минимаркете в центре района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_8.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3045,6 +3805,8 @@
 {
 "id": "safe_key_4",
 "name": "Ключ от сейфа · в минимаркете на севере района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_4.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3053,6 +3815,8 @@
 {
 "id": "safe_key_9",
 "name": "Ключ от сейфа · в минимаркете района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_9.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3061,6 +3825,8 @@
 {
 "id": "safe_key_14",
 "name": "Ключ от сейфа · в одном из коттеджей района Лорейн-Хиллз",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_14.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3069,6 +3835,8 @@
 {
 "id": "safe_key_7",
 "name": "Ключ от сейфа · в особняке района Лорейн-Хиллз",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_7.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3077,6 +3845,8 @@
 {
 "id": "safe_key_2",
 "name": "Ключ от сейфа · в отеле Reef района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_2.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3085,6 +3855,8 @@
 {
 "id": "safe_key_1",
 "name": "Ключ от сейфа · в отеле Seasons района Санни-Бич",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3093,6 +3865,8 @@
 {
 "id": "safe_key_3",
 "name": "Ключ от сейфа · в стрип-клубе",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_3.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3101,6 +3875,8 @@
 {
 "id": "safe_key_12",
 "name": "Ключ от сейфа · на заправке района Даунтаун",
+"name_is_russian": true,
+"img": "/shared/items/safe_key_12.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3109,6 +3885,8 @@
 {
 "id": "drugs_3",
 "name": "Колёса",
+"name_is_russian": true,
+"img": "/shared/items/drugs_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3117,6 +3895,8 @@
 {
 "id": "blade_2",
 "name": "Коллекционный нож Aeron",
+"name_is_russian": true,
+"img": "/shared/items/blade_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3125,6 +3905,8 @@
 {
 "id": "blade_1",
 "name": "Коллекционный нож Imperial",
+"name_is_russian": true,
+"img": "/shared/items/blade_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3133,6 +3915,8 @@
 {
 "id": "poker_cards_3",
 "name": "Колода карт Ace's Dominion",
+"name_is_russian": true,
+"img": "/shared/items/poker_cards_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3141,6 +3925,8 @@
 {
 "id": "poker_cards_1",
 "name": "Колода карт Poker Powerplay",
+"name_is_russian": true,
+"img": "/shared/items/poker_cards_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3149,6 +3935,8 @@
 {
 "id": "ring_1",
 "name": "Кольцо ALON GIA",
+"name_is_russian": true,
+"img": "/shared/items/ring_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3157,6 +3945,8 @@
 {
 "id": "ring_2",
 "name": "Кольцо AMINA",
+"name_is_russian": true,
+"img": "/shared/items/ring_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3165,6 +3955,8 @@
 {
 "id": "ring_4",
 "name": "Кольцо SUGI",
+"name_is_russian": true,
+"img": "/shared/items/ring_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3173,6 +3965,8 @@
 {
 "id": "comics_1",
 "name": "Комикс HELGRIM",
+"name_is_russian": true,
+"img": "/shared/items/comics_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3181,6 +3975,8 @@
 {
 "id": "comics_2",
 "name": "Комикс TADASHI",
+"name_is_russian": true,
+"img": "/shared/items/comics_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3189,6 +3985,8 @@
 {
 "id": "console_1",
 "name": "Консоль Key-Ten-Do",
+"name_is_russian": true,
+"img": "/shared/items/console_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3197,6 +3995,8 @@
 {
 "id": "console_2",
 "name": "Консоль X-STATION",
+"name_is_russian": true,
+"img": "/shared/items/console_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3205,6 +4005,8 @@
 {
 "id": "cargo_alcohol_grade_1",
 "name": "Контрабандный груз",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_alcohol_grade_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3213,6 +4015,8 @@
 {
 "id": "suitcase_3",
 "name": "Красный чемодан",
+"name_is_russian": true,
+"img": "/assets/cargo/suitcase_3.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3221,6 +4025,8 @@
 {
 "id": "soft_crystal_1",
 "name": "Кристаллический концентрат",
+"name_is_russian": true,
+"img": "/assets/cargo/soft_crystal_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3229,6 +4035,8 @@
 {
 "id": "lab_crystal_1",
 "name": "Кристаллический порошок",
+"name_is_russian": true,
+"img": "/shared/items/lab_crystal_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3237,6 +4045,8 @@
 {
 "id": "cargo_workbench_lab_table_1",
 "name": "Лабораторный стол",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_lab_table_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3245,6 +4055,8 @@
 {
 "id": "equipment_1",
 "name": "Лазерный дальномер",
+"name_is_russian": true,
+"img": "/shared/items/equipment_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3253,6 +4065,8 @@
 {
 "id": "drugs_2",
 "name": "Листовое сырье",
+"name_is_russian": true,
+"img": "/shared/items/drugs_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3261,6 +4075,8 @@
 {
 "id": "lottery_ticket_1",
 "name": "Лотерейный билет",
+"name_is_russian": true,
+"img": "/shared/items/lottery_ticket_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3269,6 +4085,8 @@
 {
 "id": "storage_1",
 "name": "Малый сейф",
+"name_is_russian": true,
+"img": "/shared/items/storage_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3277,6 +4095,8 @@
 {
 "id": "shelving_4",
 "name": "Малый стеллаж-клетка",
+"name_is_russian": true,
+"img": "/shared/items/shelving_4.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3285,6 +4105,8 @@
 {
 "id": "antique_6",
 "name": "Медный кувшин",
+"name_is_russian": true,
+"img": "/shared/items/antique_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3293,6 +4115,8 @@
 {
 "id": "weapon_cleaning_1",
 "name": "Набор для чистки оружия",
+"name_is_russian": true,
+"img": "/shared/items/weapon_cleaning_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3301,6 +4125,8 @@
 {
 "id": "cash_1",
 "name": "Наличные",
+"name_is_russian": true,
+"img": "/shared/items/cash_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3309,6 +4135,8 @@
 {
 "id": "headphones_1",
 "name": "Наушники AIRHEADS",
+"name_is_russian": true,
+"img": "/shared/items/headphones_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3317,6 +4145,8 @@
 {
 "id": "headphones_2",
 "name": "Наушники MS MIC",
+"name_is_russian": true,
+"img": "/shared/items/headphones_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3325,6 +4155,8 @@
 {
 "id": "laptop_1",
 "name": "Ноутбук AIR-P",
+"name_is_russian": true,
+"img": "/shared/items/laptop_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3333,6 +4165,8 @@
 {
 "id": "laptop_2",
 "name": "Ноутбук UTAB",
+"name_is_russian": true,
+"img": "/shared/items/laptop_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3341,6 +4175,8 @@
 {
 "id": "painkiller_1",
 "name": "Обезболивающие",
+"name_is_russian": true,
+"img": "/shared/items/painkiller_1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3349,6 +4185,8 @@
 {
 "id": "necklace_1",
 "name": "Ожерелье ALON GIA",
+"name_is_russian": true,
+"img": "/shared/items/necklace_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3357,6 +4195,8 @@
 {
 "id": "necklace_5",
 "name": "Ожерелье CHIPARDI",
+"name_is_russian": true,
+"img": "/shared/items/necklace_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3365,6 +4205,8 @@
 {
 "id": "necklace_2",
 "name": "Ожерелье GUDDI",
+"name_is_russian": true,
+"img": "/shared/items/necklace_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3373,6 +4215,8 @@
 {
 "id": "gun_grease_1",
 "name": "Оружейная смазка",
+"name_is_russian": true,
+"img": "/shared/items/gun_grease_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3381,6 +4225,8 @@
 {
 "id": "lockpick_1",
 "name": "Отмычка",
+"name_is_russian": true,
+"img": "/shared/items/lockpick_1.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3389,6 +4235,8 @@
 {
 "id": "pharma_tools_6",
 "name": "Офтальмоскоп",
+"name_is_russian": true,
+"img": "/shared/items/pharma_tools_6.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3397,6 +4245,8 @@
 {
 "id": "package_1",
 "name": "Пакет с посылкой",
+"name_is_russian": true,
+"img": "/shared/items/package_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3405,6 +4255,8 @@
 {
 "id": "bush_drugs_1",
 "name": "Пакет с урожаем",
+"name_is_russian": true,
+"img": "/shared/items/bush_drugs_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3413,6 +4265,8 @@
 {
 "id": "perfume_2",
 "name": "Парфюм FLERS",
+"name_is_russian": true,
+"img": "/shared/items/perfume_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3421,6 +4275,8 @@
 {
 "id": "perfume_3",
 "name": "Парфюм TRIO",
+"name_is_russian": true,
+"img": "/shared/items/perfume_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3429,6 +4285,8 @@
 {
 "id": "cargo_exchange_workbench_speedup_upgrade_1",
 "name": "Печатная машинка",
+"name_is_russian": true,
+"img": "/shared/items/cargo_exchange_workbench_speedup_upgrade_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3437,6 +4295,8 @@
 {
 "id": "car_trinket_1",
 "name": "Подвесные кубики",
+"name_is_russian": true,
+"img": "/shared/items/car_trinket_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3445,6 +4305,8 @@
 {
 "id": "burner_1",
 "name": "Походная горелка",
+"name_is_russian": true,
+"img": "/shared/items/burner_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3453,6 +4315,8 @@
 {
 "id": "condoms_1",
 "name": "Презервативы Burex",
+"name_is_russian": true,
+"img": "/shared/items/condoms_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3461,6 +4325,8 @@
 {
 "id": "condoms_2",
 "name": "Презервативы Context",
+"name_is_russian": true,
+"img": "/shared/items/condoms_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3469,6 +4335,8 @@
 {
 "id": "cargo_production_workbench_upgrade_engine_1",
 "name": "Промышленный мотор",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_upgrade_engine_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3477,6 +4345,8 @@
 {
 "id": "cargo_charge_workbench_lab_freezer_1",
 "name": "Промышленный фризер",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_lab_freezer_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3485,6 +4355,8 @@
 {
 "id": "bush_growing_1",
 "name": "Растущий куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_growing_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3493,6 +4365,8 @@
 {
 "id": "drugs_4",
 "name": "Сахар",
+"name_is_russian": true,
+"img": "/shared/items/drugs_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3501,6 +4375,8 @@
 {
 "id": "earrings_1",
 "name": "Серьги GUDDI",
+"name_is_russian": true,
+"img": "/shared/items/earrings_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3509,6 +4385,8 @@
 {
 "id": "earrings_4",
 "name": "Серьги MAFFI",
+"name_is_russian": true,
+"img": "/shared/items/earrings_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3517,6 +4395,8 @@
 {
 "id": "earrings_3",
 "name": "Серьги SUGI",
+"name_is_russian": true,
+"img": "/shared/items/earrings_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3525,6 +4405,8 @@
 {
 "id": "wall_2",
 "name": "Сетчатый забор",
+"name_is_russian": true,
+"img": "/shared/items/wall_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3533,6 +4415,8 @@
 {
 "id": "cigar_3",
 "name": "Сигареты KeKe",
+"name_is_russian": true,
+"img": "/shared/items/cigar_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3541,6 +4425,8 @@
 {
 "id": "cigar_1",
 "name": "Сигареты Lucky Shot",
+"name_is_russian": true,
+"img": "/shared/items/cigar_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3549,6 +4435,8 @@
 {
 "id": "suitcase_2",
 "name": "Синий чемодан",
+"name_is_russian": true,
+"img": "/assets/cargo/suitcase_2.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3557,6 +4445,8 @@
 {
 "id": "location_alarm_1",
 "name": "Система охраны",
+"name_is_russian": true,
+"img": "/shared/items/location_alarm_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3565,6 +4455,8 @@
 {
 "id": "cargo_workbench_toolbox_1",
 "name": "Слесарные инструменты",
+"name_is_russian": true,
+"img": "/shared/items/cargo_workbench_toolbox_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3573,6 +4465,8 @@
 {
 "id": "phone_2",
 "name": "Смартфон D-MAX",
+"name_is_russian": true,
+"img": "/shared/items/phone_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3581,6 +4475,8 @@
 {
 "id": "phone_1",
 "name": "Смартфон G-FLOW",
+"name_is_russian": true,
+"img": "/shared/items/phone_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3589,6 +4485,8 @@
 {
 "id": "weapon_trinket_4",
 "name": "Современный компас",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3597,6 +4495,8 @@
 {
 "id": "bush_mature_1",
 "name": "Созревший куст",
+"name_is_russian": true,
+"img": "/assets/cargo/bush_mature_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3605,6 +4505,8 @@
 {
 "id": "backpack_2",
 "name": "Спортивная сумка",
+"name_is_russian": true,
+"img": "/shared/items/backpack_2.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3613,6 +4515,8 @@
 {
 "id": "vest2_m1",
 "name": "Средний бронежилет",
+"name_is_russian": true,
+"img": "/shared/items/vest2_m1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3621,6 +4525,8 @@
 {
 "id": "shelving_2",
 "name": "Средний стеллаж",
+"name_is_russian": true,
+"img": "/shared/items/shelving_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3629,6 +4535,8 @@
 {
 "id": "storage_5",
 "name": "Средняя тумба",
+"name_is_russian": true,
+"img": "/shared/items/storage_5.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3637,6 +4545,8 @@
 {
 "id": "armor_plate_1",
 "name": "Стальная пластина",
+"name_is_russian": true,
+"img": "/shared/items/armor_plate_1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3645,6 +4555,8 @@
 {
 "id": "equip_carbine_2",
 "name": "Стальной карабин",
+"name_is_russian": true,
+"img": "/shared/items/equip_carbine_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3653,6 +4565,8 @@
 {
 "id": "collection_table",
 "name": "Стол для коллекций",
+"name_is_russian": true,
+"img": "/shared/items/collection_table.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3661,6 +4575,8 @@
 {
 "id": "cargo_charge_workbench_garden_bed",
 "name": "Стол для рассады",
+"name_is_russian": true,
+"img": "/shared/items/cargo_charge_workbench_garden_bed.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3669,6 +4585,8 @@
 {
 "id": "drugs_bag_0",
 "name": "Сумка с пудрой",
+"name_is_russian": true,
+"img": "/assets/cargo/drugs_bag_0.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3677,6 +4595,8 @@
 {
 "id": "money_workbench_speedup_1",
 "name": "Счетчик банкнот",
+"name_is_russian": true,
+"img": "/shared/items/money_workbench_speedup_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3685,6 +4605,8 @@
 {
 "id": "equipment_9",
 "name": "Тактический мультитул",
+"name_is_russian": true,
+"img": "/shared/items/equipment_9.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3693,6 +4615,8 @@
 {
 "id": "weapon_trinket_5",
 "name": "Тактический сенсор",
+"name_is_russian": true,
+"img": "/shared/items/weapon_trinket_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3701,6 +4625,8 @@
 {
 "id": "hard_crystal_1",
 "name": "Твердые кристаллы",
+"name_is_russian": true,
+"img": "/assets/cargo/hard_crystal_1.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3709,6 +4635,8 @@
 {
 "id": "car_ecu_2",
 "name": "Улучшенный ECU",
+"name_is_russian": true,
+"img": "/shared/items/car_ecu_2.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 4,
@@ -3717,6 +4645,8 @@
 {
 "id": "home_1",
 "name": "Трейлер",
+"name_is_russian": true,
+"img": "/shared/items/home_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3725,6 +4655,8 @@
 {
 "id": "belt_2",
 "name": "Универсальный подсумок",
+"name_is_russian": true,
+"img": "/shared/items/belt_2.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3733,6 +4665,8 @@
 {
 "id": "wallet_1",
 "name": "Утерянный кошелек",
+"name_is_russian": true,
+"img": "/shared/items/wallet_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3741,6 +4675,8 @@
 {
 "id": "roulette_chip_5",
 "name": "Фишки",
+"name_is_russian": true,
+"img": "/shared/items/roulette_chip_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3749,6 +4685,8 @@
 {
 "id": "vial_3",
 "name": "Флакон с вакциной",
+"name_is_russian": true,
+"img": "/shared/items/vial_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3757,6 +4695,8 @@
 {
 "id": "vial_1",
 "name": "Флакон с витаминами",
+"name_is_russian": true,
+"img": "/shared/items/vial_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3765,6 +4705,8 @@
 {
 "id": "vial_7",
 "name": "Флакон с запрещенным лекарством",
+"name_is_russian": true,
+"img": "/shared/items/vial_7.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3773,6 +4715,8 @@
 {
 "id": "vial_4",
 "name": "Флакон с редким лекарством",
+"name_is_russian": true,
+"img": "/shared/items/vial_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3781,6 +4725,8 @@
 {
 "id": "cargo_open_workbench_upgrade_additional_slot_2",
 "name": "Химические весы",
+"name_is_russian": true,
+"img": "/shared/items/cargo_open_workbench_upgrade_additional_slot_2.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3789,6 +4735,8 @@
 {
 "id": "cargo_production_workbench_1",
 "name": "Химический реактор",
+"name_is_russian": true,
+"img": "/shared/items/cargo_production_workbench_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3797,6 +4745,8 @@
 {
 "id": "figurine_1",
 "name": "Хрупкая статуэтка",
+"name_is_russian": true,
+"img": "/shared/items/figurine_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3805,6 +4755,8 @@
 {
 "id": "watch_2",
 "name": "Часы CONSTERAN",
+"name_is_russian": true,
+"img": "/shared/items/watch_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3813,6 +4765,8 @@
 {
 "id": "watch_3",
 "name": "Часы PARDIN",
+"name_is_russian": true,
+"img": "/shared/items/watch_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3821,6 +4775,8 @@
 {
 "id": "watch_1",
 "name": "Часы PEGIUET",
+"name_is_russian": true,
+"img": "/shared/items/watch_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3829,6 +4785,8 @@
 {
 "id": "action_camera_1_cumulative",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_1_cumulative.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3837,6 +4795,8 @@
 {
 "id": "action_camera_1_full",
 "name": "Экшн-камера",
+"name_is_russian": true,
+"img": "/shared/items/action_camera_1_full.webp",
 "category": "tools",
 "category_de": "Werkzeug/Schlüssel",
 "rarity": 2,
@@ -3845,6 +4805,8 @@
 {
 "id": "defense_module_1",
 "name": "Электронный предохранитель",
+"name_is_russian": true,
+"img": "/shared/items/defense_module_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3853,6 +4815,8 @@
 {
 "id": "cargo_minimarket_common",
 "name": "Ящик с алкоголем",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_minimarket.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3861,6 +4825,8 @@
 {
 "id": "cargo_carparts_common",
 "name": "Ящик с запчастями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_carparts.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3869,6 +4835,8 @@
 {
 "id": "collection_reward_cargo_0",
 "name": "Ящик с коллекцией",
+"name_is_russian": true,
+"img": "/assets/cargo/collection_reward_cargo_0.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3877,6 +4845,8 @@
 {
 "id": "collection_reward_cargo_10",
 "name": "Ящик с коллекцией",
+"name_is_russian": true,
+"img": "/assets/cargo/collection_reward_cargo_10.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3885,6 +4855,8 @@
 {
 "id": "cargo_medicine_common",
 "name": "Ящик с медикаментами",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_medicine.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3893,6 +4865,8 @@
 {
 "id": "cargo_ammo_common",
 "name": "Ящик с оружейными деталями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_ammo.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3901,6 +4875,8 @@
 {
 "id": "cargo_jewelry_common",
 "name": "Ящик с украшениями",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_jewelry.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3909,6 +4885,8 @@
 {
 "id": "cargo_equip_common",
 "name": "Ящик с экипировкой",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_equip.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3917,6 +4895,8 @@
 {
 "id": "cargo_electronics_common",
 "name": "Ящик с электроникой",
+"name_is_russian": true,
+"img": "/assets/cargo/cargo_electronics.webp",
 "category": "contraband",
 "category_de": "Schmuggelware",
 "rarity": 2,
@@ -3925,6 +4905,8 @@
 {
 "id": "afak_1",
 "name": "AFAK",
+"name_is_russian": false,
+"img": "/shared/items/afak_1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 2,
@@ -3933,6 +4915,8 @@
 {
 "id": "broken_video_card",
 "name": "broken_video_card",
+"name_is_russian": false,
+"img": "/shared/items/broken_video_card.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3941,6 +4925,8 @@
 {
 "id": "cb45_m1",
 "name": "CB45 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/cb45_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -3949,6 +4935,8 @@
 {
 "id": "cb45_m2",
 "name": "CB45 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/cb45_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -3957,6 +4945,8 @@
 {
 "id": "cb45_m3",
 "name": "CB45 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/cb45_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -3965,6 +4955,8 @@
 {
 "id": "crypto_wallet",
 "name": "crypto_wallet",
+"name_is_russian": false,
+"img": "/shared/items/crypto_wallet.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -3973,6 +4965,8 @@
 {
 "id": "crypto_workbench_1",
 "name": "crypto_workbench_1",
+"name_is_russian": false,
+"img": "/shared/items/crypto_workbench_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3981,6 +4975,8 @@
 {
 "id": "crypto_workbench_cooling_upgrade",
 "name": "crypto_workbench_cooling_upgrade",
+"name_is_russian": false,
+"img": "/shared/items/crypto_workbench_cooling_upgrade.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3989,6 +4985,8 @@
 {
 "id": "crypto_workbench_speedup_upgrade",
 "name": "crypto_workbench_speedup_upgrade",
+"name_is_russian": false,
+"img": "/shared/items/crypto_workbench_speedup_upgrade.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -3997,6 +4995,8 @@
 {
 "id": "dp9_m1",
 "name": "DP-9 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/dp9_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4005,6 +5005,8 @@
 {
 "id": "dp9_m2",
 "name": "DP-9 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/dp9_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4013,6 +5015,8 @@
 {
 "id": "car_parts_4",
 "name": "DW-04",
+"name_is_russian": false,
+"img": "/shared/items/car_parts_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 2,
@@ -4021,6 +5025,8 @@
 {
 "id": "car_inventory_1",
 "name": "Багажные сумки",
+"name_is_russian": true,
+"img": "/shared/items/car_inventory_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 2,
@@ -4029,6 +5035,8 @@
 {
 "id": "car_suspension_1",
 "name": "Тормозной диск",
+"name_is_russian": true,
+"img": "/shared/items/car_suspension_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 2,
@@ -4037,6 +5045,8 @@
 {
 "id": "harris500_m1",
 "name": "Harris 500 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/harris500_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4045,6 +5055,8 @@
 {
 "id": "harris500_m2",
 "name": "Harris 500 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/harris500_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4053,6 +5065,8 @@
 {
 "id": "harris500_m3",
 "name": "Harris 500 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/harris500_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4061,6 +5075,8 @@
 {
 "id": "kl545_m1",
 "name": "KL-545 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/kl545_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4069,6 +5085,8 @@
 {
 "id": "kl545_m2",
 "name": "KL-545 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/kl545_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4077,6 +5095,8 @@
 {
 "id": "kl545_m3",
 "name": "KL-545 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/kl545_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4085,6 +5105,8 @@
 {
 "id": "car_ecu_1",
 "name": "ECU",
+"name_is_russian": false,
+"img": "/shared/items/car_ecu_1.webp",
 "category": "vehicles",
 "category_de": "Fahrzeug",
 "rarity": 2,
@@ -4093,6 +5115,8 @@
 {
 "id": "mc10_m1",
 "name": "MC-10 Mk1",
+"name_is_russian": false,
+"img": "/shared/items/mc10_m1.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4101,6 +5125,8 @@
 {
 "id": "mc10_m2",
 "name": "MC-10 Mk2",
+"name_is_russian": false,
+"img": "/shared/items/mc10_m2.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4109,6 +5135,8 @@
 {
 "id": "mc10_m3",
 "name": "MC-10 Mk3",
+"name_is_russian": false,
+"img": "/shared/items/mc10_m3.webp",
 "category": "weapons",
 "category_de": "Waffe",
 "rarity": 2,
@@ -4117,6 +5145,8 @@
 {
 "id": "video_card_1",
 "name": "video_card_1",
+"name_is_russian": false,
+"img": "/shared/items/video_card_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 2,
@@ -4125,6 +5155,8 @@
 {
 "id": "car_spare_parts_1",
 "name": "Автомобильные запчасти",
+"name_is_russian": true,
+"img": "/shared/items/car_spare_parts_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4133,6 +5165,8 @@
 {
 "id": "alcohol_box_1",
 "name": "Алкоголь",
+"name_is_russian": true,
+"img": "/shared/items/alcohol_box_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4141,6 +5175,8 @@
 {
 "id": "jewelry_pouch_1",
 "name": "Бижутерия",
+"name_is_russian": true,
+"img": "/shared/items/jewelry_pouch_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4149,6 +5185,8 @@
 {
 "id": "drugs_bricket_1",
 "name": "Брикет",
+"name_is_russian": true,
+"img": "/shared/items/drugs_bricket_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4157,6 +5195,8 @@
 {
 "id": "cube_1",
 "name": "Головоломка",
+"name_is_russian": true,
+"img": "/shared/items/cube_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4165,6 +5205,8 @@
 {
 "id": "cube_2",
 "name": "Головоломка",
+"name_is_russian": true,
+"img": "/shared/items/cube_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4173,6 +5215,8 @@
 {
 "id": "cube_3",
 "name": "Головоломка",
+"name_is_russian": true,
+"img": "/shared/items/cube_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4181,6 +5225,8 @@
 {
 "id": "cube_4",
 "name": "Головоломка",
+"name_is_russian": true,
+"img": "/shared/items/cube_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4189,6 +5235,8 @@
 {
 "id": "cube_5",
 "name": "Головоломка",
+"name_is_russian": true,
+"img": "/shared/items/cube_5.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4197,6 +5245,8 @@
 {
 "id": "weaponparts_box_1",
 "name": "Детали для оружия",
+"name_is_russian": true,
+"img": "/shared/items/weaponparts_box_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4205,6 +5255,8 @@
 {
 "id": "antique_set_1",
 "name": "Дешевые древности",
+"name_is_russian": true,
+"img": "/shared/items/antique_set_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4213,6 +5265,8 @@
 {
 "id": "picture_fake_1",
 "name": "Картина",
+"name_is_russian": true,
+"img": "/shared/items/picture_fake_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4221,6 +5275,8 @@
 {
 "id": "vest1_m1",
 "name": "Легкий бронежилет",
+"name_is_russian": true,
+"img": "/shared/items/vest1_m1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 1,
@@ -4229,6 +5285,8 @@
 {
 "id": "lottery_ticket_low_1",
 "name": "Лотерейный билет",
+"name_is_russian": true,
+"img": "/shared/items/lottery_ticket_low_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4237,6 +5295,8 @@
 {
 "id": "storage_4",
 "name": "Малая тумба",
+"name_is_russian": true,
+"img": "/shared/items/storage_4.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 1,
@@ -4245,6 +5305,8 @@
 {
 "id": "shelving_1",
 "name": "Малый стеллаж",
+"name_is_russian": true,
+"img": "/shared/items/shelving_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 1,
@@ -4253,6 +5315,8 @@
 {
 "id": "pharma_pack_1",
 "name": "Медикаменты",
+"name_is_russian": true,
+"img": "/shared/items/pharma_pack_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4261,6 +5325,8 @@
 {
 "id": "garbage_1",
 "name": "Мусор",
+"name_is_russian": true,
+"img": "/shared/items/garbage_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4269,6 +5335,8 @@
 {
 "id": "equip_carbine_1",
 "name": "Набор карабинов",
+"name_is_russian": true,
+"img": "/shared/items/equip_carbine_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4277,6 +5345,8 @@
 {
 "id": "shotgun_ammo_1",
 "name": "Патроны для дробовика",
+"name_is_russian": true,
+"img": "/shared/items/shotgun_ammo_1.webp",
 "category": "ammo",
 "category_de": "Munition",
 "rarity": 1,
@@ -4285,6 +5355,8 @@
 {
 "id": "pistol_ammo_1",
 "name": "Патроны для пистолета",
+"name_is_russian": true,
+"img": "/shared/items/pistol_ammo_1.webp",
 "category": "ammo",
 "category_de": "Munition",
 "rarity": 1,
@@ -4293,6 +5365,8 @@
 {
 "id": "mp_ammo_1",
 "name": "Патроны для ПП",
+"name_is_russian": true,
+"img": "/shared/items/mp_ammo_1.webp",
 "category": "ammo",
 "category_de": "Munition",
 "rarity": 1,
@@ -4301,6 +5375,8 @@
 {
 "id": "rifle_ammo_1",
 "name": "Патроны для штурмовой винтовки",
+"name_is_russian": true,
+"img": "/shared/items/rifle_ammo_1.webp",
 "category": "ammo",
 "category_de": "Munition",
 "rarity": 1,
@@ -4309,6 +5385,8 @@
 {
 "id": "garbage_2",
 "name": "Сломанная камера",
+"name_is_russian": true,
+"img": "/shared/items/garbage_2.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4317,6 +5395,8 @@
 {
 "id": "garbage_3",
 "name": "Сломанный ноутбук",
+"name_is_russian": true,
+"img": "/shared/items/garbage_3.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4325,6 +5405,8 @@
 {
 "id": "garbage_4",
 "name": "Сломанный тостер",
+"name_is_russian": true,
+"img": "/shared/items/garbage_4.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4333,6 +5415,8 @@
 {
 "id": "toaster_1",
 "name": "Тостер Goodhouse",
+"name_is_russian": true,
+"img": "/shared/items/toaster_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4341,6 +5425,8 @@
 {
 "id": "belt_1",
 "name": "Универсальный подсумок",
+"name_is_russian": true,
+"img": "/shared/items/belt_1.webp",
 "category": "gear",
 "category_de": "Ausrüstung",
 "rarity": 1,
@@ -4349,6 +5435,8 @@
 {
 "id": "wall_1",
 "name": "Фермерский забор",
+"name_is_russian": true,
+"img": "/shared/items/wall_1.webp",
 "category": "base",
 "category_de": "Basis",
 "rarity": 1,
@@ -4357,6 +5445,8 @@
 {
 "id": "roulette_chip_1",
 "name": "Фишки",
+"name_is_russian": true,
+"img": "/shared/items/roulette_chip_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,
@@ -4365,6 +5455,8 @@
 {
 "id": "electronics_box_1",
 "name": "Электроника",
+"name_is_russian": true,
+"img": "/shared/items/electronics_box_1.webp",
 "category": "valuables",
 "category_de": "Wertsache",
 "rarity": 1,

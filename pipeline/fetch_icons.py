@@ -25,9 +25,10 @@ def fetch(url):
 def catalog():
     s = fetch(f"{BASE}/items/").decode("utf-8", "ignore")
     items = []
-    for m in re.finditer(r'<a class="tile" href="/items/([a-z0-9_]+)/" style="--rare:(#[0-9a-fA-F]{6})" data-g="([a-z]+)" data-r="(\d+)" data-q="([^"]*)".*?<strong>([^<]*)</strong>', s, re.S):
-        iid, col, g, r, q, name = m.groups()
-        items.append({"id": iid, "name": html.unescape(name), "category": g, "category_de": CATS.get(g, g), "rarity": int(r), "rarity_color": col})
+    for m in re.finditer(r'<a class="tile" href="/items/([a-z0-9_]+)/" style="--rare:(#[0-9a-fA-F]{6})" data-g="([a-z]+)" data-r="(\d+)" data-q="([^"]*)".*?<img src="([^"]+)".*?<strong>([^<]*)</strong>', s, re.S):
+        iid, col, g, r, q, img, name = m.groups()
+        name = html.unescape(name)
+        items.append({"id": iid, "name": name, "name_is_russian": bool(re.search("[\u0400-\u04ff]", name)), "img": img, "category": g, "category_de": CATS.get(g, g), "rarity": int(r), "rarity_color": col})
     json.dump({"source": BASE + "/items/", "note": "Namen/IDs aus Fan-Wiki; Icons © Kefir, nicht ins Repo.", "items": items},
               open(CAT, "w"), ensure_ascii=False, indent=0)
     print(len(items), "items")
@@ -40,11 +41,24 @@ def find(q, items):
     q = q.lower()
     return [i for i in items if i["id"] == q] or [i for i in items if q in i["name"].lower() ]
 
+def _upscale(im, target=300):
+    """Small icons (~120 px) are upscaled 2x with the FSRCNN model (colour) + smooth alpha, then lightly sharpened."""
+    import cv2, numpy as np
+    if max(im.size) >= target: return im
+    a = np.array(im); rgb, al = a[..., :3], a[..., 3]
+    sr = cv2.dnn_superres.DnnSuperResImpl_create(); sr.readModel(os.path.join(ROOT, "pipeline", "models", "FSRCNN_x2.pb")); sr.setModel("fsrcnn", 2)
+    while max(rgb.shape[:2]) < target:
+        rgb = sr.upsample(np.ascontiguousarray(rgb)); al = cv2.resize(al, (rgb.shape[1], rgb.shape[0]), interpolation=cv2.INTER_CUBIC)
+    rgb = cv2.addWeighted(rgb, 1.4, cv2.GaussianBlur(rgb, (0, 0), 1.0), -0.4, 0)
+    return Image.fromarray(np.dstack([rgb, al]), "RGBA")
+
 def icon(iid):
     os.makedirs(OUT, exist_ok=True)
     p = os.path.join(OUT, iid + ".png")
     if not os.path.exists(p):
-        Image.open(io.BytesIO(fetch(f"{BASE}/shared/items/{iid}.webp"))).convert("RGBA").save(p)
+        it = next((i for i in load() if i["id"] == iid), {})
+        im = Image.open(io.BytesIO(fetch(BASE + it.get("img", f"/shared/items/{iid}.webp")))).convert("RGBA")
+        _upscale(im).save(p)
     return p
 
 def sheet(cat, items):
