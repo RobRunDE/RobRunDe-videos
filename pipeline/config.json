@@ -1,4 +1,16 @@
 {
+  "engine": "elevenlabs",
+  "elevenlabs": {
+    "voice_id": "aTTiK3YzK3dXETpuDE2h",
+    "voice_name": "Ben - Effortless and Casual",
+    "model_id": "eleven_multilingual_v2",
+    "voice_settings": {
+      "stability": 0.45,
+      "similarity_boost": 0.8,
+      "style": 0.25,
+      "use_speaker_boost": true
+    }
+  },
   "voice": "de_DE-thorsten-high",
   "voice_url_base": "https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE",
   "voice_paths": {

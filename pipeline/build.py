@@ -67,8 +67,16 @@ def probe(p):
 
 # ---------------------------------------------------------------- timeline
 def plan_timeline(spec, workdir):
-    vo = make_voiceover([b["text"] for b in spec["beats"]], os.path.join(workdir, "vo.wav"),
-                        pauses=[b.get("pause_after", 0) for b in spec["beats"]])
+    # cache: re-voice only if text, pauses or voice changed (saves ElevenLabs credits on previews/re-renders)
+    import hashlib
+    from tts import CFG as TCFG
+    key = hashlib.sha1(json.dumps([[b["text"], b.get("pause_after", 0)] for b in spec["beats"]] +
+                                  [TCFG.get("engine"), TCFG.get("elevenlabs", {}).get("voice_id"), TCFG.get("voice")]).encode()).hexdigest()
+    vj, vw = os.path.join(workdir, "vo.json"), os.path.join(workdir, "vo.wav")
+    vo = json.load(open(vj)) if os.path.exists(vj) and os.path.exists(vw) else None
+    if not vo or vo.get("cache_key") != key:
+        vo = make_voiceover([b["text"] for b in spec["beats"]], vw, pauses=[b.get("pause_after", 0) for b in spec["beats"]])
+        vo["cache_key"] = key; json.dump(vo, open(vj, "w"), ensure_ascii=False, indent=1)
     dur = vo["duration"] + 0.6
     shots, events = [], []
     for i, (b, bi) in enumerate(zip(spec["beats"], vo["beats"])):

@@ -8,7 +8,7 @@ Usage (library):  from tts import make_voiceover
 English gaming terms are respelled so the German voice says them naturally.
 Add new terms to EN below whenever a word sounds wrong.
 """
-import json, os, re, subprocess, sys, wave
+import base64, json, os, re, subprocess, sys, urllib.request, wave
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -55,7 +55,62 @@ def _speech_bounds(a, sr):
 def _syl(w):
     return max(1, len(re.findall(r'[aeiouäöüy]+', w.lower()))) + 0.15 * len(w)
 
+def _el_key():
+    k = os.environ.get("ELEVENLABS_API_KEY")
+    if not k and os.path.exists(os.path.expanduser("~/.elevenlabs_key")):
+        k = open(os.path.expanduser("~/.elevenlabs_key")).read().strip()
+    return k
+
 def make_voiceover(beats, out_wav, gap=0.14, pauses=None):
+    """Uses ElevenLabs when config engine == "elevenlabs" and a key is available, else Piper."""
+    if CFG.get("engine") == "elevenlabs" and _el_key():
+        try:
+            return make_voiceover_el(beats, out_wav, pauses)
+        except Exception as e:
+            print("ElevenLabs failed, falling back to Piper:", e, file=sys.stderr)
+    return make_voiceover_piper(beats, out_wav, gap, pauses)
+
+def make_voiceover_el(beats, out_wav, pauses=None):
+    """ElevenLabs TTS, one request per beat (previous/next text passed for natural flow).
+    Exact word timings come from the character alignment of the /with-timestamps endpoint."""
+    el = CFG["elevenlabs"]; key = _el_key(); sr = 44100
+    pieces, words, binfo, t = [], [], [], 0.0
+    for bi, text in enumerate(beats):
+        body = {"text": text, "model_id": el["model_id"], "language_code": "de", "voice_settings": el["voice_settings"],
+                "previous_text": " ".join(beats[:bi])[-600:] or None, "next_text": " ".join(beats[bi + 1:])[:600] or None}
+        req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{el['voice_id']}/with-timestamps?output_format=mp3_44100_128",
+                                     data=json.dumps(body).encode(), headers={"xi-api-key": key, "Content-Type": "application/json", "User-Agent": "curl/8.5.0", "Accept": "*/*"})
+        r = json.loads(urllib.request.urlopen(req, timeout=120).read())
+        mp3 = base64.b64decode(r["audio_base64"])   # mp3 (pcm output needs the Pro tier)
+        a = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", "pipe:0", "-f", "f32le", "-ac", "1", "-ar", str(sr), "pipe:1"],
+                                         input=mp3, capture_output=True, check=True).stdout, np.float32)
+        al = r.get("alignment") or r.get("normalized_alignment")
+        chars, cs, ce = al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]
+        # trim leading silence
+        i0 = max(0, int((cs[0] if cs else 0) * sr) - int(0.04 * sr)); a = a[i0:]; off = i0 / sr
+        b0 = t; cur, ws_ = "", None
+        for ch, s0, e0 in zip(chars + [" "], cs + [0], ce + [0]):
+            if ch.isspace():
+                if cur: words.append([round(t + ws_ - off, 3), round(t + we - off, 3), cur]); cur = ""
+            else:
+                if not cur: ws_ = s0
+                cur += ch; we = e0
+        dur = len(a) / sr
+        pieces.append(a); t += dur
+        extra = (pauses or [0] * len(beats))[bi] or 0
+        if extra > 0: pieces.append(np.zeros(int(extra * sr), np.float32)); t += extra
+        binfo.append({"start": round(b0, 3), "end": round(t, 3)})
+    full = np.concatenate(pieces)
+    raw = out_wav.replace(".wav", "_raw.wav")
+    with wave.open(raw, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((np.clip(full, -1, 1) * 32767).astype(np.int16).tobytes())
+    af = "aresample=48000,highpass=f=70,acompressor=threshold=-20dB:ratio=2.5:attack=8:release=120,loudnorm=I=-16:TP=-2"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-af", af, "-ac", "1", out_wav], check=True)
+    info = {"duration": round(t, 3), "beats": binfo, "words": words, "engine": "elevenlabs"}
+    json.dump(info, open(out_wav.replace(".wav", ".json"), "w"), ensure_ascii=False, indent=1)
+    return info
+
+def make_voiceover_piper(beats, out_wav, gap=0.14, pauses=None):
     from piper import SynthesisConfig
     v = voice()
     cfg = SynthesisConfig(length_scale=CFG["length_scale"], noise_scale=CFG["noise_scale"], noise_w_scale=CFG["noise_w_scale"])

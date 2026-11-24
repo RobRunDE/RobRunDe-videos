@@ -20,7 +20,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 7. Max. 10 geplante Posts in Buffer (Free-Plan) – vorher Queue prüfen.
 
 ## Wochen-Ablauf (Schritt für Schritt)
-0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Stimme, OpenCV usw.).
+0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Den ElevenLabs-Schlüssel aus dem Auftrag der geplanten Aufgabe nach `~/.elevenlabs_key` schreiben (`umask 077`). **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
 1. **Lernen aus Zahlen:** Buffer → `list_posts` (TikTok-Kanal, gesendete Posts, `includeMetrics`) bzw. `get_aggregated_post_metrics`.
    Notiere in `plan/learnings.md`: welche Formate/Hooks/Themen gut liefen (Views, Likes, Kommentare, Shares), was schwach war. Nutze das für die neue Woche.
 2. **Recherche (Pflicht, gründlich):** WebSearch/WebFetch zu ROB RUN: Steam-Store-Seite, Steam-News & Patch-Notes der letzten Wochen,
@@ -84,7 +84,7 @@ Daraus folgt für jedes Video:
 - Abwechselnd zusätzlich: Folgen („sonst verpasst du Teil 2“), Teilen („Schick das deinem Squad, der das immer falsch macht“), Speichern.
 - Serien-Logik nutzen („Teil 2 morgen“) nur, wenn Teil 2 wirklich eingeplant ist.
 
-## Skript-Stil (Stimme: Piper, deutscher Mann ~25)
+## Skript-Stil (Stimme: ElevenLabs, deutscher Mann ~25; Ersatz: Piper)
 - 25–45 s, kurze Sätze, direkt, selbstbewusst, leicht ironisch, keine erzwungene Jugendsprache. Englische Gaming-Begriffe normal verwenden
   (Loot, Raid, Keycard …) – neue Begriffe, die falsch klingen, in `pipeline/tts.py` → `EN` als Lautschrift ergänzen.
 - Zahlen als Ziffern sind ok. Ein Gedanke pro Beat; Beat-Länge ≈ Shot-Länge.
@@ -99,6 +99,7 @@ oder in Teile schneiden (`<name>_p1.mp4` …). Sinnvolle Dateinamen. Dann Schrit
 
 ## Technik
 - Pipeline: `pipeline/build.py` (Render), `pipeline/tts.py` (Stimme), `pipeline/index_clips.py` (Archiv), `pipeline/motion.py` (Grafik).
-- Stimme wechseln: `pipeline/config.json` → `voice` (siehe `voice_paths`), Tempo `length_scale`, Tonhöhe `pitch`.
-- Nur freie Ressourcen nutzen (keine bezahlten Dienste, kein Higgsfield). Sounds werden synthetisch erzeugt.
+- Stimme: `pipeline/config.json` → `engine: elevenlabs`, `elevenlabs.voice_id` (Starter-Tarif ≈ 30.000 Zeichen/Monat – sparsam: nur fertige Skripte vertonen, Vorschau-Renders nutzen die gecachte `work/<slug>/vo.wav` nicht neu, wenn Text gleich). Ohne Schlüssel/bei Fehler fällt `tts.py` automatisch auf Piper zurück (`voice`, `length_scale`, `pitch`). Im Bericht melden, falls Piper benutzt wurde.
+- ElevenLabs liefert exakte Wort-Zeitstempel → Untertitel sitzen wortgenau.
+- Bezahlte Dienste: nur ElevenLabs (Starter). Kein Higgsfield. Sounds werden synthetisch erzeugt.
 - `work/` und `pipeline/voices/` sind nicht im Git.
