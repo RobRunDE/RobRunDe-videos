@@ -1,0 +1,4374 @@
+{
+"source": "https://robrun.info/items/",
+"note": "Namen/IDs aus Fan-Wiki; Icons © Kefir, nicht ins Repo.",
+"items": [
+{
+"id": "gemstone_1",
+"name": "Бриллиант в кейсе",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "vest5_m1",
+"name": "Бронежилет \"Бастион\"",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "alcohol_15",
+"name": "Бутылка King’s Reserve",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "auto_flipper_1",
+"name": "Джеммер",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "cargo_safe_legendary",
+"name": "Дорогой сейф",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "vinyl_2",
+"name": "Золотой диск",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "baseball_card_6",
+"name": "Карточка с Харли Вангером",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "yacht_key_1",
+"name": "Ключи от яхты",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "blade_6",
+"name": "Коллекционный нож Shade",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "ring_7",
+"name": "Кольцо WISH",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "lottery_ticket_jackpot_1",
+"name": "Лотерейный билет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "pharma_tools_2",
+"name": "Микроскоп",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "laptop_5",
+"name": "Ноутбук MSR PRO",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "equipment_12",
+"name": "Переносной РЭБ",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "car_trinket_6",
+"name": "Плюшевая игрушка на стекло",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "evict_plot_1",
+"name": "Право на выселение",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "roulette_chip_100",
+"name": "Фишки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "egg_faberge_1",
+"name": "BIG EGG #53",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "buletti_soltempra",
+"name": "Buletti Soltempra",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "vip_key_4",
+"name": "ID-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "vip_key_5",
+"name": "ID-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "lmg_m2",
+"name": "LM 249 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "longhorn_wild",
+"name": "Longhorn Wild",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gemstone_5",
+"name": "Аметист в кейсе",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "bank_cash_bag",
+"name": "Банковская сумка с деньгами",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "wall_4",
+"name": "Бетонный забор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "pharma_tools_5",
+"name": "Бинокуляры",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_trinket_5",
+"name": "Бобблхед \"Питбуль\"",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "super_bolt_cutter",
+"name": "Болторез",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "storage_3",
+"name": "Большой сейф",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "shelving_6",
+"name": "Большой стеллаж-клетка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "equipment_6",
+"name": "Бронежилет для собаки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drill_1",
+"name": "Бур",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "alcohol_13",
+"name": "Бутылка Amber Shift",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "alcohol_5",
+"name": "Бутылка Golden Jaguar",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "alcohol_12",
+"name": "Бутылка Krystal Authority",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "alcohol_14",
+"name": "Бутылка Velvet Dynasty",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "helicopter_garage_1",
+"name": "Вертолетная площадка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "royal_j",
+"name": "Royal J",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "longhorn_titan",
+"name": "Longhorn Titan",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "burner_3",
+"name": "Высокоточная горелка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gas_grenade_1",
+"name": "Газовая граната",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_manifest_3_cumulative",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_manifest_3_full",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "decoder_3",
+"name": "Декодер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "settlement_sale_3",
+"name": "Документ на поселение",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "plot_sale_3",
+"name": "Документ на участок",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "police_badge_3",
+"name": "Жетон капитана",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "journal_5",
+"name": "Журнал OPALINE",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "lighter_5",
+"name": "Зажигалка SkyDragon",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_parts_1",
+"name": "Значок Royal Motors",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_statue_1",
+"name": "Золотая статуя",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gold_bar_1",
+"name": "Золотой слиток",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gemstone_4",
+"name": "Изумруд в кейсе",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "injector_2",
+"name": "Инъектор",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "antique_4",
+"name": "Каменная статуя девы",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "picture_tube_3",
+"name": "Картина",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "baseball_card_1",
+"name": "Карточка с Эйсоном Маккинли",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_charge_workbench_upgrade_refrigerant_1",
+"name": "Качественный хладагент",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "room_key_6",
+"name": "Ключ от комнаты · правая, на заправке района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "room_key_13",
+"name": "Ключ от комнаты · VIP, в стрип-клубе",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vip_key_1",
+"name": "Ключ-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vip_key_2",
+"name": "Ключ-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vip_key_3",
+"name": "Ключ-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vip_key_6",
+"name": "Ключ-карта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "deposit_box_1_cumulative",
+"name": "Ключи от банковских ячеек",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "deposit_box_1_full",
+"name": "Ключи от банковских ячеек",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "equipment_11",
+"name": "Коллекционный мультитул",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "blade_5",
+"name": "Коллекционный нож Nightfall",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "poker_cards_5",
+"name": "Колода карт Joker's Choice",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "ring_6",
+"name": "Кольцо PRIDE",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "comics_5",
+"name": "Комикс MASK",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "console_5",
+"name": "Консоль X-STATION VR",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vial_5",
+"name": "Косметическая ампула",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "soft_crystal_3",
+"name": "Кристаллический концентрат",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "lab_crystal_3",
+"name": "Кристаллический порошок",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drugs_6",
+"name": "Леденцы",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "lottery_ticket_high_1",
+"name": "Лотерейный билет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_safe",
+"name": "Маленький сейф",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "headphones_5",
+"name": "Наушники Beat Head",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "laptop_4",
+"name": "Ноутбук PD STATION",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "necklace_6",
+"name": "Ожерелье PENARAI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "frag_grenade_1",
+"name": "Осколочная граната",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gunpowder_3",
+"name": "Очищенный пороховой набор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "bush_drugs_3",
+"name": "Пакет с урожаем",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "perfume_5",
+"name": "Парфюм DUCHEE",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_exchange_workbench_speedup_upgrade_2",
+"name": "Печатная машинка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_workbench_plasma_cutter_1",
+"name": "Плазменный резак для вскрытия грузов",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vinyl_1",
+"name": "Платиновый диск",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "royal_e",
+"name": "Royal E",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "condoms_5",
+"name": "Презервативы Playgirl",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_device_6",
+"name": "Премиальная магнитола",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_parts_8",
+"name": "Премиальный автомобильный компрессор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_device_5",
+"name": "Премиальный видеорегистратор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_charge_workbench_lab_freezer_3",
+"name": "Промышленный фризер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "weapon_trinket_3",
+"name": "Пульт управления дроном",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_alcohol_grade_3",
+"name": "Раритетный груз",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "bush_growing_3",
+"name": "Растущий куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gemstone_3",
+"name": "Рубин в кейсе",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "earrings_2",
+"name": "Серьги AMINA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gun_grease_3",
+"name": "Синтетическая оружейная смазка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "clan_alarm_1",
+"name": "Система охраны",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "grenade_launcher_shell_1",
+"name": "Снаряд для гранатомета",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "equipment_7",
+"name": "Современный тактический бинокль",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "bush_mature_3",
+"name": "Созревший куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "backpack_4",
+"name": "Спортивная сумка",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "armor_plate_2",
+"name": "Стальная пластина",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_workbench_slot_1",
+"name": "Стационарные тиски",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "glass_cutter_1",
+"name": "Стеклорез",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drugs_bag_2",
+"name": "Сумка с идеальной пудрой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "money_workbench_speedup_3",
+"name": "Счетчик банкнот",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "equip_carbine_4",
+"name": "Тактический карабин",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "weapon_cleaning_3",
+"name": "Тактический набор для чистки оружия",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "hard_crystal_3",
+"name": "Твердые кристаллы",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "phone_5",
+"name": "Телефон Tuver",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "gemstone_2",
+"name": "Топаз в кейсе",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vest4_m1",
+"name": "Тяжелый бронежилет",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "fukurou_tensa",
+"name": "Fukurou Tensa",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "longhorn_van",
+"name": "Longhorn Van",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "uv_lamp_3",
+"name": "Ультрафиолетовая лампа",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "belt_4",
+"name": "Универсальный подсумок",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "collection_upgrade_3",
+"name": "Уникальная коллекция",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "romanov_r8",
+"name": "Romanov R8",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 6,
+"rarity_color": "#d93f3f"
+},
+{
+"id": "car_inventory_3",
+"name": "Вместительные багажные сумки",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "roulette_chip_50",
+"name": "Фишки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_production_workbench_upgrade_converter_1",
+"name": "Химический преобразователь",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_production_workbench_3",
+"name": "Химический реактор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "valuable_cargo",
+"name": "Ценный груз",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "watch_5",
+"name": "Часы POLEX",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "dildo_1",
+"name": "Экзотический инструмент",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "action_camera_3_cumulative",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "action_camera_3_full",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "defense_module_3",
+"name": "Электронный предохранитель",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_exchange_workbench_additional_double_slot_upgrade",
+"name": "Ящик с инструментами",
+"category": "base",
+"category_de": "Basis",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "weapon_box_1",
+"name": "Ящик с оружейными деталями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "collection_reward_cargo_24",
+"name": "Ящик с уникальной коллекцией",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "apscalar_m1",
+"name": "AP Scalar Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "apscalar_m2",
+"name": "AP Scalar Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "apscalar_m3",
+"name": "AP Scalar Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "toy_5",
+"name": "CollectiToy x TA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drm14_m1",
+"name": "DRM-14 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drm14_m2",
+"name": "DRM-14 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "drm14_m3",
+"name": "DRM-14 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_ecu_3",
+"name": "Высокопроизводительный ECU",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_police_radio_1",
+"name": "Полицейское радио",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "srreaper_m1",
+"name": "SR Reaper Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "srreaper_m2",
+"name": "SR Reaper Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "srreaper_m3",
+"name": "SR Reaper Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "tag12k_m1",
+"name": "TAG-12K Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "tag12k_m2",
+"name": "TAG-12K Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "tag12k_m3",
+"name": "TAG-12K Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "usb_1_cumulative",
+"name": "USB-взломщик",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "usb_1_full",
+"name": "USB-взломщик",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vulture50_m1",
+"name": "Vulture 50 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "vulture50_m2",
+"name": "Vulture 50 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_parts_7",
+"name": "Автомобильный компрессор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_trinket_3",
+"name": "Автомобильный парфюм",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_engine_cooling_2",
+"name": "Улучшенный интеркулер",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "weapon_trinket_2",
+"name": "Баллистический хронограф",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "storage_6",
+"name": "Большая тумба",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_garage_2",
+"name": "Большой автогараж",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "shelving_3",
+"name": "Большой стеллаж",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_trinket_4",
+"name": "Брелок гонщика",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "alcohol_6",
+"name": "Бутылка Eclipse",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "alcohol_2",
+"name": "Бутылка Krystal Light",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "alcohol_10",
+"name": "Бутылка Old Pocket",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "alcohol_11",
+"name": "Бутылка Rosefield",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "graphics_card_2",
+"name": "Видеокарта RG 7700",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_device_3",
+"name": "Видеорегистратор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "water_pump_2",
+"name": "Водяной насос",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "pharma_tools_3",
+"name": "Глюкометр",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_turbocharger_2",
+"name": "Улучшенный турбокомплект",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "cargo_manifest_2_cumulative",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_manifest_2_full",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "decoder_2",
+"name": "Декодер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "settlement_sale_2",
+"name": "Документ на поселение",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "plot_sale_2",
+"name": "Документ на участок",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_parts_3",
+"name": "Домкрат",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "smoke_grenade_1",
+"name": "Дымовая граната",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "drugs_5",
+"name": "Жевательные пластинки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "police_badge_2",
+"name": "Жетон лейтенанта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "journal_3",
+"name": "Журнал MONOLITH",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "journal_4",
+"name": "Журнал VELVET RIOT",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lighter_4",
+"name": "Зажигалка Clipper",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lighter_3",
+"name": "Зажигалка RedOlive",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "antique_2",
+"name": "Золотая статуя кошки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "toy_3",
+"name": "Игрушка CollectiToy #3",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "toy_4",
+"name": "Игрушка CollectiToy #4",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_steering_rack_2",
+"name": "Усиленная рулевая рейка",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "injector_1",
+"name": "Инъектор",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "camera_3",
+"name": "Камера CIRCUM 360",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "picture_tube_2",
+"name": "Картина",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "baseball_card_5",
+"name": "Карточка с Брэдли Сандерсоном",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "baseball_card_4",
+"name": "Карточка с Трентом Карвером",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "reagents_2",
+"name": "Качественные реагенты",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_8",
+"name": "Ключ от комнаты · в аптеке района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_9",
+"name": "Ключ от комнаты · в аптеке района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_4",
+"name": "Ключ от комнаты · в магазине экипировки района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_2",
+"name": "Ключ от комнаты · в магазине экипировки района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_10",
+"name": "Ключ от комнаты · в минимаркете района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_11",
+"name": "Ключ от комнаты · в минимаркете района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_7",
+"name": "Ключ от комнаты · в одном из коттеджей района Лорейн-Хиллз",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_12",
+"name": "Ключ от комнаты · в одном из отелей района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_3",
+"name": "Ключ от комнаты · в оружейном магазине района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_1",
+"name": "Ключ от комнаты · в оружейном магазине района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "room_key_5",
+"name": "Ключ от комнаты · левая, на заправке района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "tablet_1_cumulative",
+"name": "Кодовый планшет",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "tablet_1_full",
+"name": "Кодовый планшет",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "blade_4",
+"name": "Коллекционный нож Cyber",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "blade_3",
+"name": "Коллекционный нож Streamline",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "poker_cards_4",
+"name": "Колода карт Bad Habit",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "poker_cards_2",
+"name": "Колода карт Mystic Card Chronicles",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "ring_3",
+"name": "Кольцо GUDDI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "ring_5",
+"name": "Кольцо MAFFI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "comics_3",
+"name": "Комикс DIGITAL SOUL",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "comics_4",
+"name": "Комикс KAIRO",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "console_4",
+"name": "Консоль G-Cube",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "console_3",
+"name": "Консоль ZTX",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "soft_crystal_2",
+"name": "Кристаллический концентрат",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lab_crystal_2",
+"name": "Кристаллический порошок",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "vial_6",
+"name": "Лекарственная ампула",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lottery_ticket_medium_1",
+"name": "Лотерейный билет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_device_4",
+"name": "Магнитола",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "storage_lockpick_1",
+"name": "Мастер-ключ",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "workshop_building_1",
+"name": "Мастерская",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "wall_3",
+"name": "Металлический забор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "fluffy_cuffs_1",
+"name": "Меховые наручники",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "mini_drill_1",
+"name": "Мини-бур",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "equipment_5",
+"name": "Мощный фонарик",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "headphones_3",
+"name": "Наушники DS MAX",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "headphones_4",
+"name": "Наушники OMEGA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "home_2",
+"name": "Небольшой дом",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "laptop_3",
+"name": "Ноутбук HUBRID",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "laptop_6",
+"name": "Ноутбук SUS VILO",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "painkiller_2",
+"name": "Обезболивающие",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "necklace_3",
+"name": "Ожерелье MAFFI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "necklace_4",
+"name": "Ожерелье REFIER",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "weapon_trinket_7",
+"name": "Оружейный микрокомпьютер",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "collection_upgrade_2",
+"name": "Особая коллекция",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "bush_drugs_2",
+"name": "Пакет с урожаем",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "perfume_1",
+"name": "Парфюм INFINITY",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "perfume_4",
+"name": "Парфюм LACROCAS",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_workbench_circular_saw_1",
+"name": "Пила для вскрытия грузов",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "narco_farm_1",
+"name": "Плантация",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "burner_2",
+"name": "Полевая горелка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "police_radio_1",
+"name": "Полицейская рация",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "condoms_4",
+"name": "Презервативы LUX",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "condoms_3",
+"name": "Презервативы Zipit",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_alcohol_grade_2",
+"name": "Премиальный груз",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "equipment_10",
+"name": "Премиальный мультитул",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_production_workbench_upgrade_thermometer_1",
+"name": "Промышленный термометр",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_charge_workbench_lab_freezer_2",
+"name": "Промышленный фризер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "gun_grease_2",
+"name": "Профессиональная оружейная смазка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "weapon_cleaning_2",
+"name": "Профессиональный набор для чистки оружия",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "drugs_1",
+"name": "Пудра",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "bush_growing_2",
+"name": "Растущий куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_cargo_2",
+"name": "Усиленный багажный каркас",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 5,
+"rarity_color": "#ffd500"
+},
+{
+"id": "car_parts_5",
+"name": "Руль",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "flash_grenade_1",
+"name": "Светошумовая граната",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "earrings_5",
+"name": "Серьги CHIPARDI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "earrings_6",
+"name": "Серьги MEKASSI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cigar_2",
+"name": "Сигары Old Huba",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "personal_alarm_1",
+"name": "Система охраны",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "storage_building_1",
+"name": "Склад",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "phone_4",
+"name": "Смартфон Flip Ring",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "phone_3",
+"name": "Смартфон P-Verse",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "bush_mature_2",
+"name": "Созревший куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "backpack_3",
+"name": "Спортивная сумка",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "storage_2",
+"name": "Средний сейф",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "shelving_5",
+"name": "Средний стеллаж-клетка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "gunpowder_2",
+"name": "Стандартный пороховой набор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "antique_1",
+"name": "Статуя божества",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "drugs_bag_1",
+"name": "Сумка с чистой пудрой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "money_workbench_speedup_2",
+"name": "Счетчик банкнот",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "equipment_8",
+"name": "Тактический бинокль",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "hard_crystal_2",
+"name": "Твердые кристаллы",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "equipment_3",
+"name": "Тепловизор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "pharma_tools_4",
+"name": "Тонометр",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_cargo_1",
+"name": "Багажный каркас",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_suspension_2",
+"name": "Гоночный диск",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "police_evidence_1",
+"name": "Улики",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_charge_workbench_upgrade_evaporator_1",
+"name": "Улучшенный испаритель",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_engine_cooling_1",
+"name": "Интеркулер",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "belt_3",
+"name": "Универсальный подсумок",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "equip_carbine_3",
+"name": "Усиленный карабин",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "hairdryer_1",
+"name": "Фен SuperDryer",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "roulette_chip_25",
+"name": "Фишки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "vial_2",
+"name": "Флакон с жидкостью",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "meth_lab_1",
+"name": "Химическая лаборатория",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_production_workbench_2",
+"name": "Химический реактор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "weapon_trinket_6",
+"name": "Хронограф",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "watch_4",
+"name": "Часы NURDAN",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "watch_6",
+"name": "Часы PENARAI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "vest3_m1",
+"name": "Штурмовой бронежилет",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "action_camera_2_cumulative",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "action_camera_2_full",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "defense_module_2",
+"name": "Электронный предохранитель",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_minimarket",
+"name": "Ящик с алкоголем",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_carparts",
+"name": "Ящик с запчастями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_exchange_workbench_additional_slot_upgrade",
+"name": "Ящик с инструментами",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_medicine",
+"name": "Ящик с медикаментами",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_ammo",
+"name": "Ящик с оружейными деталями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "collection_reward_cargo_14",
+"name": "Ящик с редкой коллекцией",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_jewelry",
+"name": "Ящик с украшениями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_equip",
+"name": "Ящик с экипировкой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "cargo_electronics",
+"name": "Ящик с электроникой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "crypto_farm_1",
+"name": "crypto_farm_1",
+"category": "base",
+"category_de": "Basis",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "jp7_m1",
+"name": "JP-7 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "jp7_m2",
+"name": "JP-7 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "jp7_m3",
+"name": "JP-7 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lbr44_m1",
+"name": "LBR-44 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "lbr44_m2",
+"name": "LBR-44 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_steering_rack_1",
+"name": "Рулевая рейка",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "ordr12_m1",
+"name": "ORDR-12 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "ordr12_m2",
+"name": "ORDR-12 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "ordr12_m3",
+"name": "ORDR-12 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "pdw90_m1",
+"name": "PDW90 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "pdw90_m2",
+"name": "PDW90 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "pdw90_m3",
+"name": "PDW90 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "rc556_m1",
+"name": "RC 5.56 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "rc556_m2",
+"name": "RC 5.56 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "rc556_m3",
+"name": "RC 5.56 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_turbocharger_1",
+"name": "Турбокомплект",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "starh_m1",
+"name": "STAR-H Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "starh_m2",
+"name": "STAR-H Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "starh_m3",
+"name": "STAR-H Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "car_garage_1",
+"name": "Автогараж",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_parts_2",
+"name": "Автомобильная фара",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_parts_6",
+"name": "Автомобильные свечи",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_lift_1",
+"name": "Автоподъемник",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "first_aid_cabinet_1",
+"name": "Аптечка первой помощи",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_trinket_2",
+"name": "Ароматизатор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_inventory_2",
+"name": "Увеличенные багажные сумки",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "gunpowder_1",
+"name": "Базовый пороховой набор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "suitcase",
+"name": "Белый чемодан",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "equipment_2",
+"name": "Бинокль",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "bolt_cutter",
+"name": "Болторез",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_1",
+"name": "Бутылка Black Pirate",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_3",
+"name": "Бутылка Diamond Breeze",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_7",
+"name": "Бутылка Fine Wine",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_4",
+"name": "Бутылка Happy Forester",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_9",
+"name": "Бутылка Omega",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "alcohol_8",
+"name": "Бутылка Severka",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_device_2",
+"name": "Бюджетная магнитола",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_device_1",
+"name": "Бюджетный видеорегистратор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "fan_1",
+"name": "Вентилятор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_workbench_1",
+"name": "Верстак для вскрытия грузов",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_exchange_workbench_1",
+"name": "Верстак для контрабанды",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "graphics_card_1",
+"name": "Видеокарта HD X900",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "weapon_trinket_1",
+"name": "Гироскоп",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "pharma_tools_1",
+"name": "Градусник",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_manifest_1_cumulative",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_manifest_1_full",
+"name": "Грузовая ведомость",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "decoder_1",
+"name": "Декодер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "antique_3",
+"name": "Деревянная статуэтка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "antique_5",
+"name": "Деревянный тотем",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "settlement_sale_1",
+"name": "Документ на поселение",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "plot_sale_1",
+"name": "Документ на участок",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "collection_upgrade_1",
+"name": "Дополнительная коллекция",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "police_badge_1",
+"name": "Жетон сержанта",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "journal_2",
+"name": "Журнал AURORA MODE",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "journal_1",
+"name": "Журнал VERSIA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "lighter_2",
+"name": "Зажигалка Lerrou",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "lighter_1",
+"name": "Зажигалка Snap-Snap",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cash_bag",
+"name": "Закрытая сумка с деньгами",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "toy_1",
+"name": "Игрушка CollectiToy #1",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "toy_2",
+"name": "Игрушка CollectiToy #2",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "equipment_4",
+"name": "Индивидуальный сухой паек",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "camera_1",
+"name": "Камера EOS 900",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "camera_2",
+"name": "Камера ISE S770",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "reagents_1",
+"name": "Канистры с реагентами",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "picture_tube_1",
+"name": "Картина",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "baseball_card_2",
+"name": "Карточка с Дэймоном Стриклендом",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "baseball_card_3",
+"name": "Карточка с Максвеллом Риверсом",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_10",
+"name": "Ключ от сейфа · в аптеке района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_5",
+"name": "Ключ от сейфа · в аптеке района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_6",
+"name": "Ключ от сейфа · в кафе на пирсе района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_11",
+"name": "Ключ от сейфа · в кафе района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_13",
+"name": "Ключ от сейфа · в магазине электроники района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_8",
+"name": "Ключ от сейфа · в минимаркете в центре района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_4",
+"name": "Ключ от сейфа · в минимаркете на севере района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_9",
+"name": "Ключ от сейфа · в минимаркете района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_14",
+"name": "Ключ от сейфа · в одном из коттеджей района Лорейн-Хиллз",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_7",
+"name": "Ключ от сейфа · в особняке района Лорейн-Хиллз",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_2",
+"name": "Ключ от сейфа · в отеле Reef района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_1",
+"name": "Ключ от сейфа · в отеле Seasons района Санни-Бич",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_3",
+"name": "Ключ от сейфа · в стрип-клубе",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "safe_key_12",
+"name": "Ключ от сейфа · на заправке района Даунтаун",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "drugs_3",
+"name": "Колёса",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "blade_2",
+"name": "Коллекционный нож Aeron",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "blade_1",
+"name": "Коллекционный нож Imperial",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "poker_cards_3",
+"name": "Колода карт Ace's Dominion",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "poker_cards_1",
+"name": "Колода карт Poker Powerplay",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "ring_1",
+"name": "Кольцо ALON GIA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "ring_2",
+"name": "Кольцо AMINA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "ring_4",
+"name": "Кольцо SUGI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "comics_1",
+"name": "Комикс HELGRIM",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "comics_2",
+"name": "Комикс TADASHI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "console_1",
+"name": "Консоль Key-Ten-Do",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "console_2",
+"name": "Консоль X-STATION",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_alcohol_grade_1",
+"name": "Контрабандный груз",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "suitcase_3",
+"name": "Красный чемодан",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "soft_crystal_1",
+"name": "Кристаллический концентрат",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "lab_crystal_1",
+"name": "Кристаллический порошок",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_workbench_lab_table_1",
+"name": "Лабораторный стол",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "equipment_1",
+"name": "Лазерный дальномер",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "drugs_2",
+"name": "Листовое сырье",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "lottery_ticket_1",
+"name": "Лотерейный билет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "storage_1",
+"name": "Малый сейф",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "shelving_4",
+"name": "Малый стеллаж-клетка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "antique_6",
+"name": "Медный кувшин",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "weapon_cleaning_1",
+"name": "Набор для чистки оружия",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cash_1",
+"name": "Наличные",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "headphones_1",
+"name": "Наушники AIRHEADS",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "headphones_2",
+"name": "Наушники MS MIC",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "laptop_1",
+"name": "Ноутбук AIR-P",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "laptop_2",
+"name": "Ноутбук UTAB",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "painkiller_1",
+"name": "Обезболивающие",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "necklace_1",
+"name": "Ожерелье ALON GIA",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "necklace_5",
+"name": "Ожерелье CHIPARDI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "necklace_2",
+"name": "Ожерелье GUDDI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "gun_grease_1",
+"name": "Оружейная смазка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "lockpick_1",
+"name": "Отмычка",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "pharma_tools_6",
+"name": "Офтальмоскоп",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "package_1",
+"name": "Пакет с посылкой",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "bush_drugs_1",
+"name": "Пакет с урожаем",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "perfume_2",
+"name": "Парфюм FLERS",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "perfume_3",
+"name": "Парфюм TRIO",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_exchange_workbench_speedup_upgrade_1",
+"name": "Печатная машинка",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_trinket_1",
+"name": "Подвесные кубики",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "burner_1",
+"name": "Походная горелка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "condoms_1",
+"name": "Презервативы Burex",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "condoms_2",
+"name": "Презервативы Context",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_production_workbench_upgrade_engine_1",
+"name": "Промышленный мотор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_charge_workbench_lab_freezer_1",
+"name": "Промышленный фризер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "bush_growing_1",
+"name": "Растущий куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "drugs_4",
+"name": "Сахар",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "earrings_1",
+"name": "Серьги GUDDI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "earrings_4",
+"name": "Серьги MAFFI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "earrings_3",
+"name": "Серьги SUGI",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "wall_2",
+"name": "Сетчатый забор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cigar_3",
+"name": "Сигареты KeKe",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cigar_1",
+"name": "Сигареты Lucky Shot",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "suitcase_2",
+"name": "Синий чемодан",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "location_alarm_1",
+"name": "Система охраны",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_workbench_toolbox_1",
+"name": "Слесарные инструменты",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "phone_2",
+"name": "Смартфон D-MAX",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "phone_1",
+"name": "Смартфон G-FLOW",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "weapon_trinket_4",
+"name": "Современный компас",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "bush_mature_1",
+"name": "Созревший куст",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "backpack_2",
+"name": "Спортивная сумка",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "vest2_m1",
+"name": "Средний бронежилет",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "shelving_2",
+"name": "Средний стеллаж",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "storage_5",
+"name": "Средняя тумба",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "armor_plate_1",
+"name": "Стальная пластина",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "equip_carbine_2",
+"name": "Стальной карабин",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "collection_table",
+"name": "Стол для коллекций",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_charge_workbench_garden_bed",
+"name": "Стол для рассады",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "drugs_bag_0",
+"name": "Сумка с пудрой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "money_workbench_speedup_1",
+"name": "Счетчик банкнот",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "equipment_9",
+"name": "Тактический мультитул",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "weapon_trinket_5",
+"name": "Тактический сенсор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "hard_crystal_1",
+"name": "Твердые кристаллы",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_ecu_2",
+"name": "Улучшенный ECU",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 4,
+"rarity_color": "#e375ff"
+},
+{
+"id": "home_1",
+"name": "Трейлер",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "belt_2",
+"name": "Универсальный подсумок",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "wallet_1",
+"name": "Утерянный кошелек",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "roulette_chip_5",
+"name": "Фишки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "vial_3",
+"name": "Флакон с вакциной",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "vial_1",
+"name": "Флакон с витаминами",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "vial_7",
+"name": "Флакон с запрещенным лекарством",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "vial_4",
+"name": "Флакон с редким лекарством",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_open_workbench_upgrade_additional_slot_2",
+"name": "Химические весы",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_production_workbench_1",
+"name": "Химический реактор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "figurine_1",
+"name": "Хрупкая статуэтка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "watch_2",
+"name": "Часы CONSTERAN",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "watch_3",
+"name": "Часы PARDIN",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "watch_1",
+"name": "Часы PEGIUET",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "action_camera_1_cumulative",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "action_camera_1_full",
+"name": "Экшн-камера",
+"category": "tools",
+"category_de": "Werkzeug/Schlüssel",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "defense_module_1",
+"name": "Электронный предохранитель",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_minimarket_common",
+"name": "Ящик с алкоголем",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_carparts_common",
+"name": "Ящик с запчастями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "collection_reward_cargo_0",
+"name": "Ящик с коллекцией",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "collection_reward_cargo_10",
+"name": "Ящик с коллекцией",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_medicine_common",
+"name": "Ящик с медикаментами",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_ammo_common",
+"name": "Ящик с оружейными деталями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_jewelry_common",
+"name": "Ящик с украшениями",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_equip_common",
+"name": "Ящик с экипировкой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cargo_electronics_common",
+"name": "Ящик с электроникой",
+"category": "contraband",
+"category_de": "Schmuggelware",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "afak_1",
+"name": "AFAK",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "broken_video_card",
+"name": "broken_video_card",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cb45_m1",
+"name": "CB45 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cb45_m2",
+"name": "CB45 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "cb45_m3",
+"name": "CB45 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "crypto_wallet",
+"name": "crypto_wallet",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "crypto_workbench_1",
+"name": "crypto_workbench_1",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "crypto_workbench_cooling_upgrade",
+"name": "crypto_workbench_cooling_upgrade",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "crypto_workbench_speedup_upgrade",
+"name": "crypto_workbench_speedup_upgrade",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "dp9_m1",
+"name": "DP-9 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "dp9_m2",
+"name": "DP-9 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_parts_4",
+"name": "DW-04",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_inventory_1",
+"name": "Багажные сумки",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_suspension_1",
+"name": "Тормозной диск",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "harris500_m1",
+"name": "Harris 500 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "harris500_m2",
+"name": "Harris 500 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "harris500_m3",
+"name": "Harris 500 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "kl545_m1",
+"name": "KL-545 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "kl545_m2",
+"name": "KL-545 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "kl545_m3",
+"name": "KL-545 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_ecu_1",
+"name": "ECU",
+"category": "vehicles",
+"category_de": "Fahrzeug",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "mc10_m1",
+"name": "MC-10 Mk1",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "mc10_m2",
+"name": "MC-10 Mk2",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "mc10_m3",
+"name": "MC-10 Mk3",
+"category": "weapons",
+"category_de": "Waffe",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "video_card_1",
+"name": "video_card_1",
+"category": "base",
+"category_de": "Basis",
+"rarity": 2,
+"rarity_color": "#67f835"
+},
+{
+"id": "car_spare_parts_1",
+"name": "Автомобильные запчасти",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "alcohol_box_1",
+"name": "Алкоголь",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "jewelry_pouch_1",
+"name": "Бижутерия",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "drugs_bricket_1",
+"name": "Брикет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "cube_1",
+"name": "Головоломка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "cube_2",
+"name": "Головоломка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "cube_3",
+"name": "Головоломка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "cube_4",
+"name": "Головоломка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "cube_5",
+"name": "Головоломка",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "weaponparts_box_1",
+"name": "Детали для оружия",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "antique_set_1",
+"name": "Дешевые древности",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "picture_fake_1",
+"name": "Картина",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "vest1_m1",
+"name": "Легкий бронежилет",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "lottery_ticket_low_1",
+"name": "Лотерейный билет",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "storage_4",
+"name": "Малая тумба",
+"category": "base",
+"category_de": "Basis",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "shelving_1",
+"name": "Малый стеллаж",
+"category": "base",
+"category_de": "Basis",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "pharma_pack_1",
+"name": "Медикаменты",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "garbage_1",
+"name": "Мусор",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "equip_carbine_1",
+"name": "Набор карабинов",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "shotgun_ammo_1",
+"name": "Патроны для дробовика",
+"category": "ammo",
+"category_de": "Munition",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "pistol_ammo_1",
+"name": "Патроны для пистолета",
+"category": "ammo",
+"category_de": "Munition",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "mp_ammo_1",
+"name": "Патроны для ПП",
+"category": "ammo",
+"category_de": "Munition",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "rifle_ammo_1",
+"name": "Патроны для штурмовой винтовки",
+"category": "ammo",
+"category_de": "Munition",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "garbage_2",
+"name": "Сломанная камера",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "garbage_3",
+"name": "Сломанный ноутбук",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "garbage_4",
+"name": "Сломанный тостер",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "toaster_1",
+"name": "Тостер Goodhouse",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "belt_1",
+"name": "Универсальный подсумок",
+"category": "gear",
+"category_de": "Ausrüstung",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "wall_1",
+"name": "Фермерский забор",
+"category": "base",
+"category_de": "Basis",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "roulette_chip_1",
+"name": "Фишки",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+},
+{
+"id": "electronics_box_1",
+"name": "Электроника",
+"category": "valuables",
+"category_de": "Wertsache",
+"rarity": 1,
+"rarity_color": "#9a9894"
+}
+]
+}

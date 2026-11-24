@@ -30,3 +30,8 @@ Katalog gesichtet am 2026-11-24. Nach Updates neu holen und Liste prüfen (Steam
 
 ### trailer_02.mp4 – „Rob Run Official Cinematic Trailer“ (154 s, Render-Cinematic, KEIN Gameplay)
 - 5 Pickup in Wüste · 15–25 Protagonist Close-up · 30 Geldbündel im Sand · 35 Clownsmaske · 41 Räuber im Tresorraum · 46 Überfall im Laden · 51 Magazin wird geladen (Detail) · 56 Szene von oben · 61–66 Räuber mit Helm schießen · 71 Schuss auf Polizeiwagen/Explosion · 92–97 Polizei-Scheinwerfer in der Nacht · 102 Explosion von oben · 107–127 Protagonist Close-ups · 138+ Logo/„Wishlist on Steam“ ✗
+
+## Item-Icons (Fan-Wiki robrun.info, Bilder © Kefir)
+- 546 Gegenstände mit transparentem Hintergrund: 50 Waffen, 19 Ausrüstung, 63 Werkzeuge/Schlüssel, 25 Fahrzeuge, 255 Wertsachen, 48 Schmuggelware, 82 Basis, 4 Munition.
+- Abruf nur bei Bedarf über `pipeline/fetch_icons.py` (keine Massen-Kopie, nicht ins Repo). robrun.info ist ein Fan-Projekt, nicht mit Kefir verbunden – deren Texte/Karten nicht übernehmen, nur die Spiel-Icons und Item-Namen.
+- Einsatz: Item-Karte (`"item"` im Beat) über eigenem Gameplay, z. B. Waffen-Ranking, Loot-Wert, welcher Schlüssel was öffnet.

@@ -16,6 +16,8 @@ Spec (see plan/EXAMPLE_SPEC.json):
      "stamp": {"text": "EINBRUCH-ZIEL", "at": 1.0},       # optional stamp on gameplay (at = s after beat start)
      "pause_after": 0.0,                                  # optional breathing room (s) - game sound comes up
      "cta": false}                                        # true on the last beat: follow button + title
+  Beat extra: "item": {"id": "lmg_m2", "label": "LM 249 Mk2", "sub": "Sturmgewehr", "at": 0.3} -> item card with the game icon
+               (ids: knowledge/item_catalog.json, icons via pipeline/fetch_icons.py).
   Shot extras: "zoom": 1.3, "fx": 0.7, "fy": 0.4  -> slow push towards a detail (UI, loot, enemy).
   "clip" may also be a still image (.jpg/.png), e.g. official/screenshot_08.jpg - it gets a slow push-in automatically.
   Official Steam media: run pipeline/fetch_official.py first; rules in knowledge/official_media.md.
@@ -193,6 +195,11 @@ class Overlay:
                 c = b["chip"]; self.chips.append((c["text"], c.get("kind", "info"), b["_t0"] + c.get("at", 0.15), b["_t1"] - 0.1))
             if b.get("stamp"):
                 s = b["stamp"]; t = b["_t0"] + s.get("at", 0.4); self.stamps.append((s["text"], t, min(t + 1.3, b["_t1"])))
+        self.items = []
+        for b in spec["beats"]:
+            if b.get("item"):
+                it = b["item"]; t = b["_t0"] + it.get("at", 0.3)
+                self.items.append((it, t, b["_t1"] - 0.1))
         self.cta_t = next((b["_t0"] for b in spec["beats"] if b.get("cta")), None)
 
     @staticmethod
@@ -205,7 +212,7 @@ class Overlay:
         return cur, idx
 
     def draw(self, cv, t):
-        self.draw_header(cv, t); self.draw_stamps(cv, t); self.draw_chips(cv, t); self.draw_cta(cv, t); self.draw_caps(cv, t)
+        self.draw_header(cv, t); self.draw_items(cv, t); self.draw_stamps(cv, t); self.draw_chips(cv, t); self.draw_cta(cv, t); self.draw_caps(cv, t)
 
     def dim(self, t):
         for st, kind, _ in self.headers[1:]:
@@ -251,6 +258,35 @@ class Overlay:
                     ImageDraw.Draw(im).rounded_rectangle((6, 7, 64, 23), 8, fill=(ACC + (255,)) if i < n else (255, 255, 255, 70))
                     _sc[k] = np.array(im)
                 blit(cv, _sc[k], W / 2 + (i - (tot - 1) / 2) * 70, HDR_Y + 105, alpha=eout((dt - 0.5 - i * 0.05) / 0.25))
+
+    def item_sprite(self, it):
+        """Item card: transparent game icon on a dark glass card with rarity glow, name + type."""
+        k = ("item", it["id"], it.get("label"), it.get("sub"))
+        if k in _sc: return _sc[k]
+        from fetch_icons import icon, load
+        meta = next((i for i in load() if i["id"] == it["id"]), {})
+        col = tuple(int((it.get("color") or meta.get("rarity_color", "#00f0ff"))[i:i + 2], 16) for i in (1, 3, 5))
+        ic = Image.open(icon(it["id"])).convert("RGBA"); ic.thumbnail((520, 240))
+        name = it.get("label") or meta.get("name", it["id"]); sub = it.get("sub") or meta.get("category_de", "")
+        w, h, m = 640, ic.height + 150, 40
+        im = Image.new("RGBA", (w + 2 * m, h + 2 * m), (0, 0, 0, 0))
+        glow = Image.new("RGBA", im.size, (0, 0, 0, 0))
+        ImageDraw.Draw(glow).rounded_rectangle((m, m, m + w, m + h), 34, outline=col + (200,), width=10)
+        im = Image.fromarray(cv2.GaussianBlur(np.array(glow), (0, 0), 16))
+        d = ImageDraw.Draw(im)
+        d.rounded_rectangle((m, m, m + w, m + h), 34, fill=(10, 10, 16, 228), outline=col + (255,), width=3)
+        im.alpha_composite(ic, (m + (w - ic.width) // 2, m + 24))
+        f1, f2 = font("black", 46), font("bold", 28)
+        d.text((m + w / 2, m + ic.height + 58), name.upper(), font=f1, fill=WHT + (255,), anchor="mm")
+        d.text((m + w / 2, m + ic.height + 108), sub, font=f2, fill=col + (255,), anchor="mm")
+        _sc[k] = np.array(im); return _sc[k]
+
+    def draw_items(self, cv, t):
+        for it, ti, to in self.items:
+            if not (ti <= t < to): continue
+            a = eout((t - ti) / 0.4); out = esin((t - (to - 0.25)) / 0.25)
+            fl = 6 * math.sin((t - ti) * 2.2)
+            blit(cv, self.item_sprite(it), W / 2, CARD_Y + CARD_H * 0.42 + 50 * (1 - a) + fl, alpha=a * (1 - out), scale=0.94 + 0.06 * a)
 
     def draw_chips(self, cv, t):
         for txt, kind, ti, to in self.chips:
