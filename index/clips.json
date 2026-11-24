@@ -1,0 +1,353 @@
+{
+ "w1_garage_lager.mp4": {
+  "duration": 140.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/w1_garage_lager.mp4",
+  "cuts": [
+   0.0,
+   3.17,
+   63.27,
+   73.0,
+   76.0,
+   91.17,
+   99.83,
+   100.9,
+   107.07,
+   120.07,
+   122.4,
+   127.1,
+   128.47,
+   128.9,
+   130.17,
+   132.2,
+   132.67,
+   133.1,
+   133.5,
+   134.1,
+   134.63
+  ],
+  "sheet": "index/sheets/w1_garage_lager.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "basis",
+   "inventar",
+   "sammlungen",
+   "lager",
+   "breaching",
+   "solo"
+  ],
+  "summary": "Eigene Basis/Garage: Sammlungen packen, Ersatzteilkiste, großes Lager voller Geld, danach Tür aufbrechen (Breaching). Name & Chat verpixelt.",
+  "moments": [
+   {
+    "start": 5,
+    "end": 40,
+    "what": "Sammlungen-Menü (Collections) mit Pack-Button",
+    "quality": "B"
+   },
+   {
+    "start": 60,
+    "end": 80,
+    "what": "Sammlung einzeln verkauft Hinweis (Steering Wheel, Dashcam…)",
+    "quality": "B"
+   },
+   {
+    "start": 110,
+    "end": 125,
+    "what": "Großes Lager voller 25.000-$-Bündel, Tactical Carabiner Tooltip",
+    "quality": "A"
+   },
+   {
+    "start": 130,
+    "end": 140,
+    "what": "Tür aufbrechen (BREACHING…) in der Stadt",
+    "quality": "B"
+   }
+  ],
+  "used_in": []
+ },
+ "m1_juwelier_duo_p1.mp4": {
+  "duration": 91.73,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/m1_juwelier_duo_p1.mp4",
+  "cuts": [
+   0.0,
+   0.8,
+   1.47,
+   2.13,
+   3.2,
+   47.8,
+   49.63,
+   50.1,
+   51.9,
+   55.9,
+   68.73,
+   82.33,
+   84.5,
+   85.7,
+   86.2,
+   86.7
+  ],
+  "sheet": "index/sheets/m1_juwelier_duo_p1.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "auto",
+   "fahrt",
+   "juwelier",
+   "schmuckladen",
+   "alarm",
+   "verkäufer",
+   "duo",
+   "deutsch-ui"
+  ],
+  "summary": "Duo-Fahrt durch Looty Bay, mit dem Auto in einen Schmuckladen/Luxus-Lobby, Verkäufer am Tresen, Alarm-Countdown, Vitrinen.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 36,
+    "what": "Autofahrt durch die Stadt, Brücke, Strandpromenade",
+    "quality": "B"
+   },
+   {
+    "start": 37,
+    "end": 46,
+    "what": "Auto fährt in den Laden, Verkäufer hinter Tresen",
+    "quality": "A"
+   },
+   {
+    "start": 47,
+    "end": 53,
+    "what": "ALARM WIRD AUSGELÖST IN – Countdown, Modeschmuck geloot",
+    "quality": "A"
+   },
+   {
+    "start": 56,
+    "end": 91,
+    "what": "Lobby, Partner läuft rum, Vitrinen plündern",
+    "quality": "B"
+   }
+  ],
+  "used_in": [
+   "JUWELIER_AUTO"
+  ]
+ },
+ "m1_juwelier_duo_p2.mp4": {
+  "duration": 91.66,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/m1_juwelier_duo_p2.mp4",
+  "cuts": [
+   0.0,
+   2.47,
+   2.93,
+   6.63,
+   7.33,
+   14.83,
+   15.67,
+   19.53,
+   23.33,
+   24.03,
+   24.87,
+   40.57,
+   41.47,
+   74.63,
+   75.13,
+   82.83,
+   84.07,
+   84.93,
+   85.57,
+   86.13,
+   86.73
+  ],
+  "sheet": "index/sheets/m1_juwelier_duo_p2.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "juwelier",
+   "vitrine",
+   "flucht",
+   "pool",
+   "hehler",
+   "strand",
+   "duo"
+  ],
+  "summary": "Vitrinen zerschlagen, mit Auto die Treppe runter und durch den Pool, Strand, Verkauf beim Hehler-Truck.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 5,
+    "what": "Vitrine – Zerschlagen, Halskette/Uhr geloot",
+    "quality": "A"
+   },
+   {
+    "start": 16,
+    "end": 30,
+    "what": "Auto fährt Treppe runter und in den Pool",
+    "quality": "A"
+   },
+   {
+    "start": 44,
+    "end": 64,
+    "what": "Fahrt über Wiese zum Strand",
+    "quality": "C"
+   },
+   {
+    "start": 64,
+    "end": 80,
+    "what": "Hehler-Truck am Strand, Verkaufsmenü",
+    "quality": "A"
+   },
+   {
+    "start": 80,
+    "end": 91,
+    "what": "Wegfahren am Strand",
+    "quality": "C"
+   }
+  ],
+  "used_in": [
+   "JUWELIER_AUTO"
+  ]
+ },
+ "m2_hotel_flucht_duo_p1.mp4": {
+  "duration": 100.2,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/m2_hotel_flucht_duo_p1.mp4",
+  "cuts": [
+   0.0,
+   25.43,
+   28.0,
+   28.67,
+   33.83,
+   45.6,
+   46.3,
+   47.53,
+   57.33,
+   61.13,
+   62.77,
+   72.87,
+   75.07,
+   84.1,
+   84.53,
+   84.93,
+   85.63
+  ],
+  "sheet": "index/sheets/m2_hotel_flucht_duo_p1.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "lobby",
+   "polizeiauto",
+   "pool",
+   "fahrt",
+   "duo"
+  ],
+  "summary": "Luxus-Lobby, Polizeiauto, Auto im Pool, Fahrt am Strand. Noch nicht im Detail gesichtet.",
+  "moments": [],
+  "used_in": []
+ },
+ "m2_hotel_flucht_duo_p2.mp4": {
+  "duration": 100.22,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/m2_hotel_flucht_duo_p2.mp4",
+  "cuts": [
+   0.0,
+   8.2,
+   9.13,
+   9.73,
+   15.67,
+   32.2,
+   33.53,
+   34.7,
+   36.47,
+   39.07,
+   47.43,
+   48.1,
+   53.3,
+   75.57,
+   76.77,
+   85.57,
+   86.8,
+   87.37,
+   88.03,
+   89.53,
+   92.03,
+   94.77,
+   97.27,
+   97.7
+  ],
+  "sheet": "index/sheets/m2_hotel_flucht_duo_p2.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "schusswechsel",
+   "fahrt",
+   "inventar",
+   "duo"
+  ],
+  "summary": "Schaden/Schusswechsel im Gras, Polizeiauto im Busch, Inventar-Menüs. Noch nicht im Detail gesichtet.",
+  "moments": [],
+  "used_in": []
+ },
+ "m2_hotel_flucht_duo_p3.mp4": {
+  "duration": 100.12,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30.0,
+  "has_audio": true,
+  "path": "raw/m2_hotel_flucht_duo_p3.mp4",
+  "cuts": [
+   0.0,
+   10.93,
+   19.03,
+   29.2,
+   32.53,
+   33.33,
+   34.37,
+   37.0,
+   39.27,
+   40.3,
+   44.4,
+   52.77,
+   61.27,
+   65.53,
+   66.5,
+   68.63,
+   71.7,
+   73.57,
+   77.2,
+   78.33,
+   85.03,
+   85.67,
+   89.23,
+   90.13,
+   92.8,
+   93.47,
+   94.27,
+   95.6,
+   97.27,
+   99.4
+  ],
+  "sheet": "index/sheets/m2_hotel_flucht_duo_p3.mp4.jpg",
+  "sheet_step_s": 2.0,
+  "tags": [
+   "parkhaus",
+   "menü",
+   "transporter",
+   "inventar",
+   "brücke"
+  ],
+  "summary": "Parkhaus, Spielmenü, Transporter, Inventar, Brückenfahrt. Noch nicht im Detail gesichtet.",
+  "moments": [],
+  "used_in": []
+ }
+}

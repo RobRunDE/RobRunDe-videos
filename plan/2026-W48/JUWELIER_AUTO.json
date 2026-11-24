@@ -1,0 +1,125 @@
+{
+ "slug": "JUWELIER_AUTO",
+ "version": 1,
+ "theme": "orange",
+ "layout": "tall",
+ "hook": {
+  "lines": [
+   "MIT DEM AUTO",
+   "IN DEN SCHMUCKLADEN"
+  ],
+  "accent": [
+   "AUTO"
+  ]
+ },
+ "keywords": {
+  "VERKÄUFER": "red",
+  "ALARM": "red",
+  "SCHMUCK": "gold",
+  "POOL": "accent",
+  "HEHLER": "green",
+  "BARGELD": "green"
+ },
+ "cta_title": "SAUBERER GEMACHT?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "SCHREIB'S IN DIE KOMMENTARE",
+ "beats": [
+  {
+   "text": "Wir sind mit dem Auto direkt in den Schmuckladen gefahren. Und trotzdem lief fast alles schief.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 39.5
+    }
+   ]
+  },
+  {
+   "text": "Erster Fehler: Den Verkäufer hat keiner in Schach gehalten.",
+   "header": "FEHLER",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 43.0,
+     "zoom": 1.3,
+     "fx": 0.6,
+     "fy": 0.4
+    }
+   ],
+   "chip": {
+    "text": "VERKÄUFER FREI",
+    "kind": "bad",
+    "at": 0.3
+   }
+  },
+  {
+   "text": "Wer ihn nicht mit der Waffe bedroht, riskiert den Alarm. Und oben läuft schon der Countdown.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 47.3,
+     "zoom": 1.35,
+     "fx": 0.3,
+     "fy": 0.15
+    }
+   ],
+   "stamp": {
+    "text": "ALARM",
+    "at": 1.4
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Also schnell: Vitrinen zerschlagen, Schmuck in die Tasche.",
+   "header": "PLAN B",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 0.0,
+     "zoom": 1.25,
+     "fx": 0.7,
+     "fy": 0.55
+    }
+   ],
+   "chip": {
+    "text": "+ MODESCHMUCK",
+    "kind": "info",
+    "at": 0.6
+   }
+  },
+  {
+   "text": "Raus ging's dann mit dem Auto. Die Treppe runter und quer durch den Pool.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 22.2
+    }
+   ],
+   "pause_after": 0.7
+  },
+  {
+   "text": "Die Beute bringen wir zum Hehler. Der zahlt dir Bargeld für Diebesgut.",
+   "header": "PAYOFF",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 66.0
+    }
+   ],
+   "chip": {
+    "text": "HEHLER = BARGELD",
+    "kind": "good",
+    "at": 0.5
+   }
+  },
+  {
+   "text": "Nächstes Mal halten wir zuerst den Verkäufer in Schach. Hättest du's sauberer gemacht?",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 84.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}
