@@ -1,1 +1,56 @@
-{}
+[
+ {
+  "date": "2026-11-24T20:45:00+01:00",
+  "slug": "PATCH_17NOV",
+  "post_id": "6b05e5202db23f32428d886f",
+  "format": "Update-News",
+  "hook": "ROB RUN HAT 5 REGELN GEÄNDERT",
+  "theme": "pink",
+  "layout": "compact"
+ },
+ {
+  "date": "2026-11-25T18:00:00+01:00",
+  "slug": "GELD_WASCHEN",
+  "post_id": "6b05e5206111797095d100d2",
+  "format": "How-to",
+  "hook": "HÖR AUF, BARGELD ZU HORTEN",
+  "theme": "lime",
+  "layout": "standard"
+ },
+ {
+  "date": "2026-11-26T18:00:00+01:00",
+  "slug": "FRISCHER_SERVER",
+  "post_id": "6b05e5214148285e965e0cce",
+  "format": "Pro-Tipp",
+  "hook": "SPIEL ROB RUN UM 18 UHR",
+  "theme": "white",
+  "layout": "tall"
+ },
+ {
+  "date": "2026-11-27T18:00:00+01:00",
+  "slug": "MYTHOS_BANKGELD",
+  "post_id": "6b05e5224148285e965e0d9b",
+  "format": "Mythos-Check",
+  "hook": "IST DEIN BANKGELD WIRKLICH SICHER?",
+  "theme": "yellow",
+  "layout": "standard"
+ },
+ {
+  "date": "2026-11-28T18:00:00+01:00",
+  "slug": "VERLUST_RANKING",
+  "post_id": "6b05e523d8711eba6d942be6",
+  "format": "Ranking",
+  "hook": "ERWISCHT? SO VERLIERST DU AM WENIGSTEN",
+  "theme": "orange",
+  "layout": "tall"
+ },
+ {
+  "date": "2026-11-29T18:00:00+01:00",
+  "slug": "ANFAENGER_30S",
+  "post_id": "6b05e5244148285e965e0df3",
+  "format": "Anfänger-Guide",
+  "hook": "NEU IN ROB RUN? DAS SPART DIR STUNDEN",
+  "theme": "cyan",
+  "layout": "compact"
+ }
+]
