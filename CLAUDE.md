@@ -52,7 +52,12 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
   Widerspruch („Hör auf, Schlüssel sofort zu öffnen“), Geheimnis („Das sagt dir in ROB RUN keiner“), Ergebnis zuerst („So hab ich in 10 Minuten … “ – nur wenn im Material belegt),
   Frage an den Zuschauer, Vorher/Nachher, „POV: …“.
 - Open Loop: ein Versprechen, das erst am Ende eingelöst wird („…und Nummer 3 macht fast jeder“).
-- Alle 3–5 s neuer visueller Reiz (Shot-Wechsel, Chip, Stempel, Header) – aber weich, keine Pop-Zooms.
+- Alle 3–5 s neuer visueller Reiz (Chip, Stempel, Header, Kamerafahrt, Shot-Wechsel) – aber weich, keine Pop-Zooms.
+
+## Schnitt-Tempo (wichtig: nicht abgehackt)
+- Jeder Shot steht **mindestens 2,2 s** (in `build.py` als `MIN_SHOT` erzwungen), ideal 2,5–4 s. Lieber einen guten, längeren Shot mit ruhiger Kamerafahrt als drei kurze.
+- Max. 2 Shots pro Beat; ein Shot darf über mehrere Beats laufen (gleicher Clip, fortlaufender `in`-Punkt), wenn gerade etwas passiert.
+- Abwechslung entsteht durch Grafik, Text und Kamerafahrt – nicht durch hektisches Schneiden. Neue Abschnitte (Header) blenden weich über.
 
 ## CTA (immer, letzter Beat mit `"cta": true`)
 - Kommentar-Köder mit konkreter Frage („Welcher Fehler ist dir schon passiert?“, „Team A oder B?“, „Was soll ich als Nächstes testen?“) → `cta_prompt`.

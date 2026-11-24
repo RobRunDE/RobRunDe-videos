@@ -29,6 +29,8 @@ from tts import make_voiceover
 
 CARD_W, CARD_H, CARD_X, CARD_Y = 1080, 1000, 0, 430
 HDR_Y, CHIP_Y, CAP_Y = 250, CARD_Y, CARD_Y + CARD_H - 92
+MIN_SHOT = 2.2      # seconds; no choppy cutting
+DISSOLVE = 0.25     # soft blend when a new section (header) starts
 # Looks that rotate between videos so the feed never looks the same.
 THEMES = {"yellow": (255, 214, 10), "cyan": (40, 220, 255), "lime": (170, 255, 60), "orange": (255, 140, 30),
           "pink": (255, 70, 160), "white": (255, 255, 255)}
@@ -68,10 +70,16 @@ def plan_timeline(spec, workdir):
     for i, (b, bi) in enumerate(zip(spec["beats"], vo["beats"])):
         a = bi["start"] if i else 0.0
         e = vo["beats"][i + 1]["start"] if i + 1 < len(vo["beats"]) else dur
-        ws = [s.get("w", 1) for s in b["shots"]]; tot = sum(ws); t = a
+        # Calm pacing: every shot stays on screen at least MIN_SHOT seconds.
+        # If a beat is too short for all its shots, the extra shots are dropped.
+        bs = list(b["shots"])
+        while len(bs) > 1 and (e - a) * min(s.get("w", 1) for s in bs) / sum(s.get("w", 1) for s in bs) < MIN_SHOT:
+            bs.pop()
+        b["shots"] = bs
+        ws = [s.get("w", 1) for s in bs]; tot = sum(ws); t = a
         for s, w in zip(b["shots"], ws):
             d = (e - a) * w / tot
-            shots.append({**s, "t0": t, "t1": t + d}); t += d
+            shots.append({**s, "t0": t, "t1": t + d, "_section_start": t == a and bool(b.get("header") or b.get("cta"))}); t += d
         b["_t0"], b["_t1"] = a, e
     return vo, dur, shots
 
@@ -319,10 +327,12 @@ def build(spec_path, preview=None):
                                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", out_v], stdin=subprocess.PIPE)
     want = sorted(preview or [])
     si, rd = 0, None
+    prev_card = last_card = None
     for fi in range(nf):
         t = fi / FPS
         while si < len(shots) - 1 and t >= shots[si]["t1"]: si += 1
         if rd is None or rd.idx != si:
+            prev_card = last_card
             if rd: rd.close()
             rd = ShotReader(shots[si], si); rd.idx = si
         src = rd.next()
@@ -330,6 +340,9 @@ def build(spec_path, preview=None):
             continue
         s = shots[si]; u = (t - s["t0"]) / max(0.3, s["t1"] - s["t0"])
         card = compose_card(src, rd.style, u, rd).astype(np.float32)
+        if si > 0 and s.get("_section_start") and prev_card is not None and t - s["t0"] < DISSOLVE:
+            k = esin((t - s["t0"]) / DISSOLVE); card = prev_card * (1 - k) + card * k
+        if t + 1 / FPS >= s["t1"] or not s.get("_hold"): last_card = card
         card = np.clip((card - 128) * 1.06 + 130, 0, 255) * CAPBAND
         d = ov.dim(t)
         if d: card *= (1 - d)
