@@ -18,3 +18,4 @@ fi
 python3 -c "import cv2;s=cv2.dnn_superres.DnnSuperResImpl_create();s.readModel('models/FSRCNN_x2.pb')"
 which ffmpeg >/dev/null
 echo "setup ok: voice=$V"
+pip install --break-system-packages -q demucs || true

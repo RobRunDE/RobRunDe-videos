@@ -123,7 +123,7 @@ Daraus folgt für jedes Video:
 
 ## Neues Rohmaterial (wenn der Betreiber im Chat Clips hochlädt)
 Clips nach `raw/` als H.264, max. 1080p, 30/60 fps, **< 95 MB pro Datei** (GitHub-Limit 100 MB): bei Bedarf mit ffmpeg komprimieren
-oder in Teile schneiden (`<name>_p1.mp4` …). Sinnvolle Dateinamen. Dann Schritt 3, committen, pushen.
+oder in Teile schneiden (`<name>_p1.mp4` …). Sinnvolle Dateinamen. Danach **immer** `python3 pipeline/strip_voices.py` (entfernt Voice-Chat/Kommentar/Mikro per Demucs – im Video darf nur Spielsound zu hören sein, Betreiber-Wunsch 24.11.2026). Dann Schritt 3, committen, pushen.
 
 ## Technik
 - Pipeline: `pipeline/build.py` (Render), `pipeline/tts.py` (Stimme), `pipeline/index_clips.py` (Archiv), `pipeline/motion.py` (Grafik).

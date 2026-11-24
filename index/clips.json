@@ -66,7 +66,9 @@
     "quality": "B"
    }
   ],
-  "used_in": []
+  "used_in": [],
+  "voices_removed": true,
+  "voice_db": -91.0
  },
  "m1_juwelier_duo_p1.mp4": {
   "duration": 91.73,
@@ -134,7 +136,9 @@
   ],
   "used_in": [
    "JUWELIER_AUTO"
-  ]
+  ],
+  "voices_removed": true,
+  "voice_db": -29.5
  },
  "m1_juwelier_duo_p2.mp4": {
   "duration": 91.66,
@@ -212,7 +216,9 @@
   ],
   "used_in": [
    "JUWELIER_AUTO"
-  ]
+  ],
+  "voices_removed": true,
+  "voice_db": -36.7
  },
  "m2_hotel_flucht_duo_p1.mp4": {
   "duration": 100.2,
@@ -251,7 +257,9 @@
   ],
   "summary": "Luxus-Lobby, Polizeiauto, Auto im Pool, Fahrt am Strand. Noch nicht im Detail gesichtet.",
   "moments": [],
-  "used_in": []
+  "used_in": [],
+  "voices_removed": true,
+  "voice_db": -34.1
  },
  "m2_hotel_flucht_duo_p2.mp4": {
   "duration": 100.22,
@@ -296,7 +304,9 @@
   ],
   "summary": "Schaden/Schusswechsel im Gras, Polizeiauto im Busch, Inventar-Menüs. Noch nicht im Detail gesichtet.",
   "moments": [],
-  "used_in": []
+  "used_in": [],
+  "voices_removed": true,
+  "voice_db": -35.6
  },
  "m2_hotel_flucht_duo_p3.mp4": {
   "duration": 100.12,
@@ -348,6 +358,8 @@
   ],
   "summary": "Parkhaus, Spielmenü, Transporter, Inventar, Brückenfahrt. Noch nicht im Detail gesichtet.",
   "moments": [],
-  "used_in": []
+  "used_in": [],
+  "voices_removed": true,
+  "voice_db": -33.9
  }
 }
