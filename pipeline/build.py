@@ -19,6 +19,9 @@ Spec (see plan/EXAMPLE_SPEC.json):
   Beat extra: "item": {"id": "lmg_m2", "label": "LM 249 Mk2", "sub": "Sturmgewehr", "at": 0.3} -> item card with the game icon
                (ids: knowledge/item_catalog.json, icons via pipeline/fetch_icons.py).
   Shot extras: "zoom": 1.3, "fx": 0.7, "fy": 0.4  -> slow push towards a detail (UI, loot, enemy).
+  Map: "clip": "assets/map/looty_bay_full.png" with "pins": [{"x": 0.78, "y": 0.30, "label": "Bank", "at": 0.5}]
+       and "routes": [{"points": [[0.7,0.5],[0.45,0.35]], "at": 0.8, "dur": 1.4}] - x/y normalized on the full map image,
+       at/dur in seconds after the shot starts. Combine with "zoom"/"fx"/"fy" to fly into an area.
   "clip" may also be a still image (.jpg/.png), e.g. official/screenshot_08.jpg - it gets a slow push-in automatically.
   Official Steam media: run pipeline/fetch_official.py first; rules in knowledge/official_media.md.
   Top-level extras: "theme", "layout", "cta_title", "cta_button", "cta_prompt".
@@ -113,6 +116,7 @@ class ShotReader:
         if cw > w: cw = w; ch = int(round(cw / ar))
         fx = shot.get("focus", 0.5); x0 = int(clamp(fx * w - cw / 2, 0, w - cw)); y0 = (h - ch) // 2
         self.cw, self.ch = cw - cw % 2, ch - ch % 2
+        self.x0, self.y0, self.iw, self.ih = x0, y0, w, h
         self.n = self.cw * self.ch * 3
         tin = min(shot.get("in", 0.0), max(0, d - (shot["t1"] - shot["t0"]) - 0.05))
         self.still = None
@@ -161,7 +165,59 @@ def compose_card(src, style, u, reader, shot=None):
     sx, sy = CARD_W / cw, CARD_H / ch
     M = np.float32([[sx, 0, -(cx - cw / 2) * sx], [0, sy, -(cy - ch / 2) * sy]])
     card = cv2.warpAffine(img, M, (CARD_W, CARD_H), flags=cv2.INTER_AREA if sx < 1 else cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
+    reader.M, reader.k = M, img.shape[1] / src.shape[1]
     return card
+
+# ---------------------------------------------------------------- map marks
+def to_card(reader, nx, ny):
+    """normalized position on the full source image -> canvas pixel"""
+    px = (nx * reader.iw - reader.x0) * reader.k; py = (ny * reader.ih - reader.y0) * reader.k
+    M = reader.M
+    return CARD_X + M[0, 0] * px + M[0, 2], CARD_Y + M[1, 1] * py + M[1, 2]
+
+def pin_sprite(label, col):
+    k = ("pin", label, col)
+    if k in _sc: return _sc[k]
+    f = font("black", 34); l, t_, r, b = f.getbbox(label); tw, th = r - l, b - t_
+    w, h = tw + 44, th + 26; m = 20
+    im = Image.new("RGBA", (w + 2 * m, h + 2 * m + 26), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((m, m, m + w, m + h), h // 2, fill=(12, 12, 18, 235), outline=col + (255,), width=3)
+    d.polygon([(m + w / 2 - 12, m + h - 1), (m + w / 2 + 12, m + h - 1), (m + w / 2, m + h + 18)], fill=col + (255,))
+    d.text((m + 22 - l, m + 13 - t_), label, font=f, fill=WHT + (255,))
+    _sc[k] = np.array(im); return _sc[k]
+
+def draw_marks(cv, shot, reader, t):
+    """Pins and routes on a shot (typically the in-game map). Times are relative to the shot start."""
+    if getattr(reader, "M", None) is None: return
+    ts = t - shot["t0"]
+    for r in shot.get("routes", []):
+        pts = [to_card(reader, x, y) for x, y in r["points"]]
+        prog = eout((ts - r.get("at", 0.3)) / r.get("dur", 1.2))
+        if prog <= 0: continue
+        seg = [(pts[i], pts[i + 1]) for i in range(len(pts) - 1)]
+        L = [math.dist(a, b) for a, b in seg]; tot = sum(L) or 1; left = prog * tot
+        col = THEMES.get(r.get("color", ""), ACC); poly = [pts[0]]
+        for (a, b), l in zip(seg, L):
+            if left <= 0: break
+            f = min(1, left / l); poly.append((a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f)); left -= l
+        arr = np.int32([[round(x), round(y)] for x, y in poly])
+        glow = cv.copy(); cv2.polylines(glow, [arr], False, col, 26, cv2.LINE_AA)
+        cv[:] = cv2.addWeighted(glow, 0.35, cv, 0.65, 0)
+        cv2.polylines(cv, [arr], False, (255, 255, 255), 12, cv2.LINE_AA); cv2.polylines(cv, [arr], False, col, 8, cv2.LINE_AA)
+        hx, hy = arr[-1]; cv2.circle(cv, (int(hx), int(hy)), 11, (255, 255, 255), -1, cv2.LINE_AA)
+    for pn in shot.get("pins", []):
+        a = eout((ts - pn.get("at", 0.4)) / 0.35)
+        if a <= 0: continue
+        x, y = to_card(reader, pn["x"], pn["y"])
+        if not (CARD_Y - 40 < y < CARD_Y + CARD_H + 40): continue
+        col = THEMES.get(pn.get("color", ""), ACC)
+        ph = (ts * 1.6) % 1
+        ring = cv.copy(); cv2.circle(ring, (int(x), int(y)), int(14 + 40 * ph), col, 4, cv2.LINE_AA)
+        cv[:] = cv2.addWeighted(ring, (1 - ph) * a, cv, 1 - (1 - ph) * a, 0)
+        cv2.circle(cv, (int(x), int(y)), 13, (255, 255, 255), -1, cv2.LINE_AA); cv2.circle(cv, (int(x), int(y)), 9, col, -1, cv2.LINE_AA)
+        if pn.get("label"):
+            spr = pin_sprite(pn["label"], col)
+            blit(cv, spr, x, y - 30 - spr.shape[0] / 2 + 20 * (1 - a), alpha=a)
 
 def background(card):
     small = cv2.resize(card, (68, 63), interpolation=cv2.INTER_AREA)
@@ -414,6 +470,7 @@ def build(spec_path, preview=None):
         if d: card *= (1 - d)
         cv = background(card.astype(np.uint8))
         cv[CARD_Y:CARD_Y + CARD_H] = card.astype(np.uint8)
+        if s.get("pins") or s.get("routes"): draw_marks(cv, s, rd, t)
         ov.draw(cv, t)
         if preview:
             Image.fromarray(cv).save(os.path.join(wd, f"prev_{t:05.2f}.jpg"), quality=88)
