@@ -12,7 +12,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 1. **Keine Fehlinformationen.** Jede Aussage über ROB RUN muss vorher in `knowledge/robrun_facts.md` mit Quelle (URL) und Prüfdatum stehen.
    Quelle = offiziell (Steam-Seite, Steam-News/Patch-Notes, offizielle Website/Socials/Discord-Ankündigungen) **oder** zwei unabhängige seriöse Quellen.
    Was du nicht belegen kannst, kommt nicht ins Video. Lieber ein Thema weglassen als raten. Mechaniken, die du im Gameplay selbst siehst, darfst du zeigen und beschreiben, aber keine Zahlen/Wirkungen erfinden.
-2. **Gameplay ist immer das Bild.** Jeder Satz wird mit Material bebildert, das genau das zeigt (Relevanz A/B laut Briefing). Kein Stock, keine KI-Bilder.
+2. **Inhalt zuerst, Gameplay als Hintergrund** (Betreiber-Wunsch 24.11.2026): Videos drehen sich um Tipps & Tricks (z. B. „5 Fehler, die Spieler häufig machen“). Was gesagt und eingeblendet wird (Header, Chips, Stempel, Item-Karten), trägt das Video. Das Gameplay darunter ist Hintergrund-Visualisierung und muss **nicht** zum Gesagten passen – nimm abwechslungsreiche, actionreiche Szenen (Fahrten, Schüsse, Flucht, Pool…), Menüs möglichst nicht. Themen nicht am vorhandenen Material ausrichten, sondern an Trends/Fakten. Kein Stock, keine KI-Bilder.
 3. **Kein Video sieht aus wie das davor.** Rotieren: `theme` (yellow, cyan, lime, orange, pink, white), `layout` (standard, tall, compact), Format, Hook-Typ, CTA-Typ. Nie zwei gleiche Formate hintereinander.
 4. **Jedes Video hat einen starken Hook (erste 1,5 s) und einen CTA am Ende.**
 5. Lieber weniger als 7 Videos als ein schlechtes. Füllmaterial (Relevanz D/E) nie posten.
@@ -94,7 +94,7 @@ Daraus folgt für jedes Video:
 2. **Hook beantwortet sofort eine von 4 Fragen:** Was ist schiefgelaufen? Was hat sich geändert? Welches Ergebnis sehe ich? Was kann ich kopieren?
 3. **Struktur:** 0–2 s Hook · 2–8 s Kontext (warum wichtig) · Rest = Wert in Kapiteln (Header) · Payoff · CTA. Ideal 25–40 s.
 4. **Loop für Rewatches:** Letzter Satz führt zurück zum Anfang (z. B. Ende „…und genau deshalb—“ → Anfang „Diese 3 Fehler…“) oder das Ende ist so kurz, dass man es nochmal sehen will. Kein langer Abspann.
-5. **Beweis zeigen:** Jede Behauptung mit dem passenden Gameplay-Moment belegen; bei UI/Inventar/Loot mit `zoom`+`fx/fy` langsam auf das Detail fahren.
+5. **Text trägt die Aussage:** Jede Kernaussage als Chip/Stempel/Item-Karte einblenden (Gameplay ist nur Hintergrund, s. Regel 2). Passt ein Moment zufällig, gern mit `zoom`+`fx/fy` darauf fahren.
 6. **Share-/Save-Trigger:** Tipp-Listen → „Speicher dir das“; Fehler/Fails → „Schick das deinem Squad“; Meinungsthemen → Kommentar-Frage mit zwei Lagern.
 7. **Caption-SEO:** „ROB RUN“ + Thema in den ersten 50 Zeichen der Caption (TikTok ist auch Suchmaschine).
 8. **Untertitel animiert und Wort für Wort** (macht die Pipeline), Schlüsselwörter farbig über `keywords`.

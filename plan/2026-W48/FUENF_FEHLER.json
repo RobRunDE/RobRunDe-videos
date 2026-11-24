@@ -1,0 +1,157 @@
+{
+ "slug": "FUENF_FEHLER",
+ "version": 1,
+ "theme": "cyan",
+ "layout": "standard",
+ "hook": {
+  "lines": [
+   "5 FEHLER,",
+   "DIE DICH ALLES KOSTEN"
+  ],
+  "accent": [
+   "ALLES"
+  ]
+ },
+ "keywords": {
+  "BARGELD": "red",
+  "BANK": "green",
+  "Q": "accent",
+  "AUSRÜSTUNG": "green",
+  "STUFE": "red",
+  "ALARM": "red",
+  "SIEDLUNGEN": "accent",
+  "ALLES": "red"
+ },
+ "cta_title": "WELCHER WAR'S BEI DIR?",
+ "cta_button": "SPEICHERN",
+ "cta_prompt": "SCHREIB DEINE NUMMER IN DIE KOMMENTARE",
+ "beats": [
+  {
+   "text": "Diese 5 Fehler kosten dich in ROB RUN dein ganzes Geld. Und Nummer 5 macht fast jeder.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Bargeld mit dir rumtragen. Bargeld kann man dir abnehmen, Geld auf der Bank nicht. Also waschen.",
+   "header": "FEHLER 1",
+   "progress": [
+    1,
+    5
+   ],
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 14.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 7.5
+    }
+   ],
+   "chip": {
+    "text": "BANKGELD = SICHER",
+    "kind": "good",
+    "at": 2.4
+   }
+  },
+  {
+   "text": "Weiterkämpfen, obwohl's vorbei ist. Stirbst du als Krimineller, sind Tasche und Ausrüstung weg. Gibst du mit Q auf, verlierst du nur den Tascheninhalt.",
+   "header": "FEHLER 2",
+   "progress": [
+    2,
+    5
+   ],
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 24.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 61.0
+    }
+   ],
+   "chip": {
+    "text": "Q = AUFGEBEN",
+    "kind": "good",
+    "at": 4.2
+   }
+  },
+  {
+   "text": "Zivilisten erschießen. Damit steigt deine Fahndungsstufe. Und auf Stufe 3 sieht die ganze Stadt, wo du bist.",
+   "header": "FEHLER 3",
+   "progress": [
+    3,
+    5
+   ],
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 15.5
+    }
+   ],
+   "stamp": {
+    "text": "MOST WANTED",
+    "at": 3.4
+   },
+   "pause_after": 0.4
+  },
+  {
+   "text": "Den Verkäufer ignorieren. Halt ihn mit der Waffe in Schach, sonst löst er den Alarm aus.",
+   "header": "FEHLER 4",
+   "progress": [
+    4,
+    5
+   ],
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 42.5
+    }
+   ],
+   "chip": {
+    "text": "SONST ALARM",
+    "kind": "bad",
+    "at": 2.0
+   }
+  },
+  {
+   "text": "Sich in den Siedlungen sicher fühlen. Da gibt's zwar keine Polizei, aber andere Spieler können dich dort töten. Und dann ist alles weg.",
+   "header": "FEHLER 5",
+   "progress": [
+    5,
+    5
+   ],
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 11.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 4.5
+    }
+   ],
+   "chip": {
+    "text": "KEINE POLIZEI ≠ SICHER",
+    "kind": "bad",
+    "at": 1.2
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Welchen davon hast du schon gemacht? Speicher dir das, bevor's dich erwischt.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 62.5
+    }
+   ],
+   "cta": true
+  }
+ ]
+}
