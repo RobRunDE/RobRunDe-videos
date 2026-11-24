@@ -111,7 +111,7 @@ Daraus folgt für jedes Video:
 - Abwechselnd zusätzlich: Folgen („sonst verpasst du Teil 2“), Teilen („Schick das deinem Squad, der das immer falsch macht“), Speichern.
 - Serien-Logik nutzen („Teil 2 morgen“) nur, wenn Teil 2 wirklich eingeplant ist.
 
-## Skript-Stil (Stimme: ElevenLabs, deutscher Mann ~25; Ersatz: Piper)
+## Skript-Stil (Stimme: ElevenLabs „RobRunWeiblich“ – junge Frau, ruhig & flüssig; Ersatz: Piper)
 - 25–45 s, kurze Sätze, direkt, selbstbewusst, leicht ironisch, keine erzwungene Jugendsprache. Englische Gaming-Begriffe normal verwenden
   (Loot, Raid, Keycard …) – neue Begriffe, die falsch klingen, in `pipeline/tts.py` → `EN` als Lautschrift ergänzen.
 - Zahlen als Ziffern sind ok. Ein Gedanke pro Beat; Beat-Länge ≈ Shot-Länge.
