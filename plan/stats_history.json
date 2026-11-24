@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2026-11-24T12:07:39+01:00",
+    "source": "Buffer (Org: My organization, TikTok @robrun_de)",
+    "metrics_updated_at": null,
+    "published_total": 0,
+    "new_since_last": 0,
+    "totals_7d": {"posts": 0, "views": 0, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "watch_time_min": 0, "avg_watch_time_s": 0},
+    "totals_30d": {"posts": 0, "views": 0, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "watch_time_min": 0, "avg_watch_time_s": 0},
+    "followers": null,
+    "queue": {"scheduled": 0, "drafts": 1, "draft_ids": ["6b055dfb93742f90a4dec257"], "queue_until": null},
+    "videos": [],
+    "notes": "Noch keine veröffentlichten Videos. Saves und Follower liefert Buffer nicht. 1 Entwurf (ROB_RUN_3_FEHLER_ARM_v04) ohne Termin."
+  }
+]
