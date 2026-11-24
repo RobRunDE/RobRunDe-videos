@@ -1,41 +1,41 @@
 {
-  "engine": "elevenlabs",
-  "elevenlabs": {
-    "voice_id": "4JjvwsrRXW9QCPCgnLf8",
-    "voice_name": "RobRunWeiblich (eigene Stimme, Einstellung smooth B)",
-    "model_id": "eleven_multilingual_v2",
-    "voice_settings": {
-      "stability": 0.75,
-      "similarity_boost": 0.75,
-      "style": 0.0,
-      "use_speaker_boost": true,
-      "speed": 0.97
-    }
-  },
-  "voice": "de_DE-thorsten-high",
-  "voice_url_base": "https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE",
-  "voice_paths": {
-    "de_DE-thorsten-high": "thorsten/high/de_DE-thorsten-high",
-    "de_DE-thorsten_emotional-medium": "thorsten_emotional/medium/de_DE-thorsten_emotional-medium",
-    "de_DE-karlsson-low": "karlsson/low/de_DE-karlsson-low",
-    "de_DE-pavoque-low": "pavoque/low/de_DE-pavoque-low"
-  },
-  "length_scale": 0.86,
-  "noise_scale": 0.6,
-  "noise_w_scale": 0.8,
-  "pitch": 1.04,
-  "buffer": {
-    "organization_id": "6b0556fca46aa1f543e2ac00",
-    "tiktok_channel_id": "6b055aae8541f09ecb873451",
-    "post_time": "18:00",
-    "timezone": "Europe/Berlin",
-    "max_scheduled": 10
-  },
-  "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/",
-  "approval": {
-    "required": true,
-    "trial_days": 7,
-    "trial_started": null,
-    "note": "Testphase: Videos erst nach ✅ in Telegram einplanen. Nach Ablauf fragt der Autopilot per Telegram, ob er selbststaendig posten darf oder die Testphase verlaengert wird."
+ "engine": "elevenlabs",
+ "elevenlabs": {
+  "voice_id": "4JjvwsrRXW9QCPCgnLf8",
+  "voice_name": "RobRunWeiblich (eigene Stimme, Einstellung smooth B)",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+   "stability": 0.75,
+   "similarity_boost": 0.75,
+   "style": 0.0,
+   "use_speaker_boost": true,
+   "speed": 0.97
   }
+ },
+ "voice": "de_DE-thorsten-high",
+ "voice_url_base": "https://huggingface.co/rhasspy/piper-voices/resolve/main/de/de_DE",
+ "voice_paths": {
+  "de_DE-thorsten-high": "thorsten/high/de_DE-thorsten-high",
+  "de_DE-thorsten_emotional-medium": "thorsten_emotional/medium/de_DE-thorsten_emotional-medium",
+  "de_DE-karlsson-low": "karlsson/low/de_DE-karlsson-low",
+  "de_DE-pavoque-low": "pavoque/low/de_DE-pavoque-low"
+ },
+ "length_scale": 0.86,
+ "noise_scale": 0.6,
+ "noise_w_scale": 0.8,
+ "pitch": 1.04,
+ "buffer": {
+  "organization_id": "6b0556fca46aa1f543e2ac00",
+  "tiktok_channel_id": "6b055aae8541f09ecb873451",
+  "post_time": "18:00",
+  "timezone": "Europe/Berlin",
+  "max_scheduled": 10
+ },
+ "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/",
+ "approval": {
+  "required": true,
+  "trial_days": 7,
+  "trial_started": "2026-11-24",
+  "note": "Testphase: Videos erst nach ✅ in Telegram einplanen. Nach Ablauf fragt der Autopilot per Telegram, ob er selbststaendig posten darf oder die Testphase verlaengert wird."
+ }
 }
