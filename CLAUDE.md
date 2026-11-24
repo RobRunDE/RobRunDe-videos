@@ -59,6 +59,26 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 - Max. 2 Shots pro Beat; ein Shot darf über mehrere Beats laufen (gleicher Clip, fortlaufender `in`-Punkt), wenn gerade etwas passiert.
 - Abwechslung entsteht durch Grafik, Text und Kamerafahrt – nicht durch hektisches Schneiden. Neue Abschnitte (Header) blenden weich über.
 
+## Qualitätsmerkmale (Recherche 11/2026 – vor jedem Video gegenprüfen)
+Was der TikTok-Algorithmus belohnt: **Watchtime/Completion (≥ 70 %) und Rewatches** zuerst, dann **Shares (v. a. per DM) und Saves**, dann Kommentare (Gespräche), dann Likes.
+Daraus folgt für jedes Video:
+1. **Frame 1 erklärt sich ohne Ton:** Hook-Text steht sofort groß im Bild und ist als einzelner Satz verständlich (viele scrollen stumm). Keine tote Zeit am Anfang.
+2. **Hook beantwortet sofort eine von 4 Fragen:** Was ist schiefgelaufen? Was hat sich geändert? Welches Ergebnis sehe ich? Was kann ich kopieren?
+3. **Struktur:** 0–2 s Hook · 2–8 s Kontext (warum wichtig) · Rest = Wert in Kapiteln (Header) · Payoff · CTA. Ideal 25–40 s.
+4. **Loop für Rewatches:** Letzter Satz führt zurück zum Anfang (z. B. Ende „…und genau deshalb—“ → Anfang „Diese 3 Fehler…“) oder das Ende ist so kurz, dass man es nochmal sehen will. Kein langer Abspann.
+5. **Beweis zeigen:** Jede Behauptung mit dem passenden Gameplay-Moment belegen; bei UI/Inventar/Loot mit `zoom`+`fx/fy` langsam auf das Detail fahren.
+6. **Share-/Save-Trigger:** Tipp-Listen → „Speicher dir das“; Fehler/Fails → „Schick das deinem Squad“; Meinungsthemen → Kommentar-Frage mit zwei Lagern.
+7. **Caption-SEO:** „ROB RUN“ + Thema in den ersten 50 Zeichen der Caption (TikTok ist auch Suchmaschine).
+8. **Untertitel animiert und Wort für Wort** (macht die Pipeline), Schlüsselwörter farbig über `keywords`.
+
+### Damit es nicht nach KI aussieht
+- **Eigene Meinung/POV statt Lexikon:** „Ehrlich, das ist der dümmste Fehler, den ich selbst gemacht hab“ wirkt menschlich; neutrale Aufzählungen wirken generiert. Aber nichts erfinden, was das Material nicht zeigt.
+- **Verbotene KI-Floskeln:** „In der Welt von…“, „Tauchen wir ein“, „Hast du dich jemals gefragt“, „Hier sind X Tipps“, „Zusammenfassend“, „Es ist wichtig zu beachten“, „Bist du bereit?“, „Lass uns loslegen“, „ultimativ“, „spannend“.
+- **Atmen lassen:** 1–2× pro Video `pause_after` (0,4–0,8 s) nach einer Pointe oder vor dem Payoff – dann kommt der echte Spielsound hoch (die Pipeline duckt Gameplay-Sound automatisch unter der Stimme).
+- **Echte Momente zeigen:** Fails, knappe Situationen, Reaktionen im Spiel – nicht nur Menüs. Mindestens 60 % Action-/Welt-Shots, Menüs nur als Beleg.
+- **Variieren:** Satzlängen mischen (kurz. Dann ein längerer Satz.), Hook-Typ, Format, Theme, Layout, CTA – nie zweimal hintereinander gleich.
+- **Kein Overload:** max. 1 Chip und 1 Stempel pro Beat; nicht jedes Video braucht Stempel.
+
 ## CTA (immer, letzter Beat mit `"cta": true`)
 - Kommentar-Köder mit konkreter Frage („Welcher Fehler ist dir schon passiert?“, „Team A oder B?“, „Was soll ich als Nächstes testen?“) → `cta_prompt`.
 - Abwechselnd zusätzlich: Folgen („sonst verpasst du Teil 2“), Teilen („Schick das deinem Squad, der das immer falsch macht“), Speichern.

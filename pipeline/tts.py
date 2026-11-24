@@ -55,7 +55,7 @@ def _speech_bounds(a, sr):
 def _syl(w):
     return max(1, len(re.findall(r'[aeiouäöüy]+', w.lower()))) + 0.15 * len(w)
 
-def make_voiceover(beats, out_wav, gap=0.14):
+def make_voiceover(beats, out_wav, gap=0.14, pauses=None):
     from piper import SynthesisConfig
     v = voice()
     cfg = SynthesisConfig(length_scale=CFG["length_scale"], noise_scale=CFG["noise_scale"], noise_w_scale=CFG["noise_w_scale"])
@@ -78,6 +78,9 @@ def make_voiceover(beats, out_wav, gap=0.14):
                 words.append([round(c, 3), round(c + f * span, 3), w]); c += f * span
             pieces.append(audio); t += dur
             pieces.append(np.zeros(int(gap * sr), np.float32)); t += gap
+        extra = (pauses or [0] * len(beats))[bi] or 0
+        if extra > 0:
+            pieces.append(np.zeros(int(extra * sr), np.float32)); t += extra
         binfo.append({"start": round(b0, 3), "end": round(t, 3)})
     full = np.concatenate(pieces)
     raw = out_wav.replace(".wav", "_raw.wav")

@@ -1,15 +1,92 @@
 {
- "slug": "TEST_PIPELINE", "version": 1, "theme": "cyan", "layout": "tall",
- "hook": {"lines": ["90% MACHEN DAS", "KOMPLETT FALSCH"], "accent": ["FALSCH"]},
- "keywords": {"GELD": "green", "FALSCH": "red", "SCHLÜSSEL": "accent"},
- "cta_title": "WELCHER TIPP?", "cta_button": "FOLGEN", "cta_prompt": "SCHREIB ES IN DIE KOMMENTARE",
+ "slug": "TEST_PIPELINE",
+ "version": 1,
+ "theme": "cyan",
+ "layout": "tall",
+ "hook": {
+  "lines": [
+   "90% MACHEN DAS",
+   "KOMPLETT FALSCH"
+  ],
+  "accent": [
+   "FALSCH"
+  ]
+ },
+ "keywords": {
+  "GELD": "green",
+  "FALSCH": "red",
+  "SCHLÜSSEL": "accent"
+ },
+ "cta_title": "WELCHER TIPP?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "SCHREIB ES IN DIE KOMMENTARE",
  "beats": [
-  {"text": "90 Prozent machen das in ROB RUN komplett falsch.", "shots": [{"clip": "raw/BEISPIEL.mp4", "in": 0.0}]},
-  {"text": "Dein Geld liegt offen auf dem Tisch. Jeder sieht es durchs Fenster.", "header": "TIPP 1", "progress": [1, 2],
-   "shots": [{"clip": "raw/BEISPIEL.mp4", "in": 4.2}, {"clip": "raw/BEISPIEL.mp4", "in": 6.0}],
-   "chip": {"text": "GELD SICHTBAR", "kind": "bad"}, "stamp": {"text": "EINBRUCH-ZIEL", "at": 2.2}},
-  {"text": "Grüne Schlüssel erst ab Stufe drei öffnen.", "header": "TIPP 2", "progress": [2, 2],
-   "shots": [{"clip": "raw/BEISPIEL.mp4", "in": 29.0}], "chip": {"text": "AB STUFE 3 ÖFFNEN", "kind": "good"}},
-  {"text": "Welchen Tipp kanntest du noch nicht? Schreib es in die Kommentare.", "cta": true, "shots": [{"clip": "raw/BEISPIEL.mp4", "in": 31.5}]}
+  {
+   "text": "90 Prozent machen das in ROB RUN komplett falsch.",
+   "shots": [
+    {
+     "clip": "raw/BEISPIEL.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Dein Geld liegt offen auf dem Tisch. Jeder sieht es durchs Fenster.",
+   "header": "TIPP 1",
+   "progress": [
+    1,
+    2
+   ],
+   "shots": [
+    {
+     "clip": "raw/BEISPIEL.mp4",
+     "in": 4.2
+    },
+    {
+     "clip": "raw/BEISPIEL.mp4",
+     "in": 6.0,
+     "zoom": 1.35,
+     "fx": 0.65,
+     "fy": 0.45
+    }
+   ],
+   "chip": {
+    "text": "GELD SICHTBAR",
+    "kind": "bad"
+   },
+   "stamp": {
+    "text": "EINBRUCH-ZIEL",
+    "at": 2.2
+   },
+   "pause_after": 0.6
+  },
+  {
+   "text": "Grüne Schlüssel erst ab Stufe drei öffnen.",
+   "header": "TIPP 2",
+   "progress": [
+    2,
+    2
+   ],
+   "shots": [
+    {
+     "clip": "raw/BEISPIEL.mp4",
+     "in": 29.0
+    }
+   ],
+   "chip": {
+    "text": "AB STUFE 3 ÖFFNEN",
+    "kind": "good"
+   }
+  },
+  {
+   "text": "Welchen Tipp kanntest du noch nicht? Schreib es in die Kommentare.",
+   "cta": true,
+   "shots": [
+    {
+     "clip": "raw/BEISPIEL.mp4",
+     "in": 31.5
+    }
+   ]
+  }
  ]
 }

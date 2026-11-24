@@ -14,7 +14,10 @@ Spec (see plan/EXAMPLE_SPEC.json):
      "shots": [{"clip": "raw/x.mp4", "in": 12.0, "focus": 0.5, "w": 1}],   # focus = horizontal crop centre 0..1
      "chip": {"text": "GELD SICHTBAR", "kind": "bad|good|info", "at": 0.2},  # optional label above gameplay
      "stamp": {"text": "EINBRUCH-ZIEL", "at": 1.0},       # optional stamp on gameplay (at = s after beat start)
+     "pause_after": 0.0,                                  # optional breathing room (s) - game sound comes up
      "cta": false}                                        # true on the last beat: follow button + title
+  Shot extras: "zoom": 1.3, "fx": 0.7, "fy": 0.4  -> slow push towards a detail (UI, loot, enemy).
+  Top-level extras: "theme", "layout", "cta_title", "cta_button", "cta_prompt".
   ]
 }
 Everything visual is soft and varied on purpose: no punch zooms, no shakes.
@@ -64,7 +67,8 @@ def probe(p):
 
 # ---------------------------------------------------------------- timeline
 def plan_timeline(spec, workdir):
-    vo = make_voiceover([b["text"] for b in spec["beats"]], os.path.join(workdir, "vo.wav"))
+    vo = make_voiceover([b["text"] for b in spec["beats"]], os.path.join(workdir, "vo.wav"),
+                        pauses=[b.get("pause_after", 0) for b in spec["beats"]])
     dur = vo["duration"] + 0.6
     shots, events = [], []
     for i, (b, bi) in enumerate(zip(spec["beats"], vo["beats"])):
@@ -120,12 +124,16 @@ VIGN = (1 - 0.55 * np.clip(((xx - W / 2) / (W * 0.75)) ** 2 + ((yy - H / 2) / (H
 _r = np.arange(CARD_H, dtype=np.float32)
 CAPBAND = (1 - 0.45 * np.exp(-((_r - (CAP_Y - CARD_Y)) / 62.0) ** 2))[:, None, None]
 
-def compose_card(src, style, u, reader):
+def compose_card(src, style, u, reader, shot=None):
     z, dx = camera(style, u)
+    fy = 0.5
+    if shot and shot.get("zoom"):          # guide the eye: slow push towards (fx, fy)
+        k = esin(clamp(u / 0.6)); z = 1.0 + (shot["zoom"] - 1.0) * k
+        dx = (shot.get("fx", 0.5) - 0.5) * CARD_W * k; fy = 0.5 + (shot.get("fy", 0.5) - 0.5) * k
     img = sr().upsample(src) if reader.up else src
     if reader.up: img = cv2.addWeighted(img, 1.5, cv2.GaussianBlur(img, (0, 0), 1.1), -0.5, 0)
     ih, iw = img.shape[:2]; cw, ch = iw / z, ih / z
-    cx = clamp(iw / 2 + dx * iw / CARD_W, cw / 2, iw - cw / 2); cy = ih / 2
+    cx = clamp(iw / 2 + dx * iw / CARD_W, cw / 2, iw - cw / 2); cy = clamp(ih * fy, ch / 2, ih - ch / 2)
     sx, sy = CARD_W / cw, CARD_H / ch
     M = np.float32([[sx, 0, -(cx - cw / 2) * sx], [0, sy, -(cy - ch / 2) * sy]])
     card = cv2.warpAffine(img, M, (CARD_W, CARD_H), flags=cv2.INTER_AREA if sx < 1 else cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
@@ -339,7 +347,7 @@ def build(spec_path, preview=None):
         if preview and not any(abs(t - w) < 0.5 / FPS for w in want):
             continue
         s = shots[si]; u = (t - s["t0"]) / max(0.3, s["t1"] - s["t0"])
-        card = compose_card(src, rd.style, u, rd).astype(np.float32)
+        card = compose_card(src, rd.style, u, rd, s).astype(np.float32)
         if si > 0 and s.get("_section_start") and prev_card is not None and t - s["t0"] < DISSOLVE:
             k = esin((t - s["t0"]) / DISSOLVE); card = prev_card * (1 - k) + card * k
         if t + 1 / FPS >= s["t1"] or not s.get("_hold"): last_card = card
@@ -364,7 +372,8 @@ def build(spec_path, preview=None):
     synth_sfx(ev, dur, os.path.join(wd, "sfx.wav")); game_audio(shots, dur, os.path.join(wd, "game.wav"))
     mix = os.path.join(wd, "mix.wav")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(wd, "vo.wav"), "-i", os.path.join(wd, "game.wav"), "-i", os.path.join(wd, "sfx.wav"),
-                    "-filter_complex", "[0:a]aresample=48000,aformat=channel_layouts=stereo,apad[v];[1:a]volume=0.13[g];[2:a]aformat=channel_layouts=stereo[s];"
+                    "-filter_complex", "[0:a]aresample=48000,aformat=channel_layouts=stereo,apad,asplit=2[v][vk];[1:a]volume=0.42[g0];"
+                    "[g0][vk]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=350:makeup=1[g];[2:a]aformat=channel_layouts=stereo[s];"
                     "[v][g][s]amix=inputs=3:normalize=0:duration=first,loudnorm=I=-14:TP=-2:LRA=11,aresample=48000[a]",
                     "-map", "[a]", "-t", f"{dur:.3f}", mix], check=True)
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
