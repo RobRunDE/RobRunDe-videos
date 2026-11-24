@@ -1,0 +1,126 @@
+{
+ "slug": "VERLUST_RANKING",
+ "version": 1,
+ "theme": "orange",
+ "layout": "tall",
+ "hook": {
+  "lines": [
+   "ERWISCHT?",
+   "SO VERLIERST DU AM WENIGSTEN"
+  ],
+  "accent": [
+   "WENIGSTEN"
+  ]
+ },
+ "keywords": {
+  "ALLES": "red",
+  "Q": "accent",
+  "AUSRÜSTUNG": "green",
+  "BEHÄLTST": "green",
+  "STADTAUSFAHRT": "accent"
+ },
+ "cta_title": "KÄMPFEN ODER ABHAUEN?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "SCHREIB'S IN DIE KOMMENTARE",
+ "beats": [
+  {
+   "text": "Die Cops haben dich? Das hier entscheidet, wie viel du verlierst. Von schlecht bis perfekt.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 38.0
+    }
+   ]
+  },
+  {
+   "text": "Platz 4: Sterben als Krimineller. Tasche und Ausrüstung, alles weg.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 24.0
+    }
+   ],
+   "header": "PLATZ 4",
+   "progress": [
+    1,
+    4
+   ],
+   "stamp": {
+    "text": "ALLES WEG",
+    "at": 2.2
+   }
+  },
+  {
+   "text": "Platz 3: Aufgeben. Hände hoch mit Q. Nur der Tascheninhalt wird beschlagnahmt, deine Ausrüstung bleibt.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 15.5
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 28.0
+    }
+   ],
+   "header": "PLATZ 3",
+   "progress": [
+    2,
+    4
+   ],
+   "chip": {
+    "text": "Q = HÄNDE HOCH",
+    "kind": "info",
+    "at": 1.6
+   }
+  },
+  {
+   "text": "Platz 2: Bestechen, mit Geld vom Bankkonto. Wird's angenommen, behältst du Tasche und Ausrüstung.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 0.0
+    }
+   ],
+   "header": "PLATZ 2",
+   "progress": [
+    3,
+    4
+   ],
+   "chip": {
+    "text": "TASCHE BLEIBT",
+    "kind": "good",
+    "at": 2.6
+   },
+   "pause_after": 0.4
+  },
+  {
+   "text": "Platz 1: Flucht über eine Stadtausfahrt. Mit der Beute raus, und du behältst alles.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 14.0
+    }
+   ],
+   "header": "PLATZ 1",
+   "progress": [
+    4,
+    4
+   ],
+   "chip": {
+    "text": "ALLES BLEIBT",
+    "kind": "good",
+    "at": 2.4
+   }
+  },
+  {
+   "text": "Und du? Kämpfen, aufgeben oder abhauen?",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 62.5
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

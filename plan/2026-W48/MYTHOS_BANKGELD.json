@@ -1,0 +1,111 @@
+{
+ "slug": "MYTHOS_BANKGELD",
+ "version": 1,
+ "theme": "yellow",
+ "layout": "standard",
+ "hook": {
+  "lines": [
+   "IST DEIN BANKGELD",
+   "WIRKLICH SICHER?"
+  ],
+  "accent": [
+   "SICHER?"
+  ]
+ },
+ "keywords": {
+  "BANKGELD": "green",
+  "BARGELD": "red",
+  "FEDERAL": "red",
+  "RAID": "red",
+  "JAIL": "accent",
+  "TIME": "accent",
+  "BANK": "red"
+ },
+ "cta_title": "TEAM A ODER B?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "A = AUSGEBEN · B = SPAREN",
+ "beats": [
+  {
+   "text": "Dein Geld auf der Bank ist sicher? Halb richtig.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 15.5
+    }
+   ]
+  },
+  {
+   "text": "Stimmt: Bankgeld kann dir kein Spieler klauen. Bargeld schon.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.0
+    }
+   ],
+   "header": "MYTHOS",
+   "stamp": {
+    "text": "STIMMT",
+    "at": 1.0
+   }
+  },
+  {
+   "text": "Aber nach 7 Tagen kommt der Federal Raid. Der nimmt dir Grundstücke, Basen, Waffen und dein ganzes Geld. Auch das auf der Bank.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 8.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 24.0
+    }
+   ],
+   "header": "ABER",
+   "chip": {
+    "text": "AUCH BANKGELD",
+    "kind": "bad",
+    "at": 4.0
+   },
+   "pause_after": 0.6
+  },
+  {
+   "text": "Dein Besitz wird dabei zu Jail Time. Je reicher du beim Wipe bist, desto länger die Strafe.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 16.0
+    }
+   ],
+   "header": "DER HAKEN",
+   "chip": {
+    "text": "BESITZ → JAIL TIME",
+    "kind": "info",
+    "at": 0.8
+   }
+  },
+  {
+   "text": "Und die Jail Time bleibt dir. Damit schaltest du Sachen frei.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 44.0
+    }
+   ],
+   "chip": {
+    "text": "BLEIBT NACH DEM WIPE",
+    "kind": "good",
+    "at": 0.6
+   }
+  },
+  {
+   "text": "Also: bis zum Wipe alles verprassen, oder reich in den Knast? Team A oder Team B?",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 84.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

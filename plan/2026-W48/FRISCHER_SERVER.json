@@ -1,0 +1,109 @@
+{
+ "slug": "FRISCHER_SERVER",
+ "version": 1,
+ "theme": "white",
+ "layout": "tall",
+ "hook": {
+  "lines": [
+   "SPIEL ROB RUN",
+   "UM 18 UHR"
+  ],
+  "accent": [
+   "18 UHR"
+  ]
+ },
+ "keywords": {
+  "18": "accent",
+  "PISTOLEN": "green",
+  "WIPE": "red",
+  "SQUAD": "accent"
+ },
+ "cta_title": "WER IST DABEI?",
+ "cta_button": "TEILEN",
+ "cta_prompt": "MARKIER DEIN SQUAD",
+ "beats": [
+  {
+   "text": "Spiel ROB RUN um 18 Uhr. Nicht später. Hier ist der Grund.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Jeden Tag öffnet in Europa ein frischer Server. Um 18 Uhr deutscher Zeit.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 88.0
+    }
+   ],
+   "header": "FRISCHER SERVER",
+   "chip": {
+    "text": "TÄGLICH 18:00",
+    "kind": "good",
+    "at": 1.6
+   }
+  },
+  {
+   "text": "In den ersten 30 Minuten haben Streifen-Cops dort nur Pistolen. Bessere Ausrüstung bekommen sie erst, wenn der Server älter wird.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 8.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 38.0
+    }
+   ],
+   "header": "COPS SCHWACH",
+   "chip": {
+    "text": "NUR PISTOLEN",
+    "kind": "info",
+    "at": 1.4
+   },
+   "pause_after": 0.4
+  },
+  {
+   "text": "Wer früh drauf ist, hat den ganzen Zyklus vor sich. Denn nach 7 Tagen kommt der Wipe.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 37.0
+    }
+   ],
+   "header": "7 TAGE",
+   "stamp": {
+    "text": "WIPE",
+    "at": 2.6
+   }
+  },
+  {
+   "text": "Keine Waffe? Die spawnen in der Stadt, und die Basis-Pistole ist billiger geworden.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 7.5
+    }
+   ],
+   "header": "ERSTE WAFFE",
+   "chip": {
+    "text": "PISTOLE BILLIGER",
+    "kind": "good",
+    "at": 1.8
+   }
+  },
+  {
+   "text": "Schick das deinem Squad. Heute Abend, 18 Uhr.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 62.5
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

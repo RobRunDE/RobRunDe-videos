@@ -1,0 +1,142 @@
+{
+ "slug": "PATCH_17NOV",
+ "version": 1,
+ "theme": "pink",
+ "layout": "compact",
+ "hook": {
+  "lines": [
+   "ROB RUN HAT",
+   "5 REGELN GEÄNDERT"
+  ],
+  "accent": [
+   "5"
+  ]
+ },
+ "keywords": {
+  "BATTLE-PASS-PUNKTE": "green",
+  "LIMIT": "red",
+  "GRUNDSTÜCK": "accent",
+  "EVICTION": "red",
+  "SHIPMENTS": "green",
+  "LENNYS": "accent"
+ },
+ "cta_title": "TOP ODER FLOP?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "SCHREIB'S IN DIE KOMMENTARE",
+ "beats": [
+  {
+   "text": "ROB RUN hat mit dem Patch vom 17. November 5 Regeln geändert. Und Nummer 3 trifft vor allem Neue.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Du wechselst die Region? Dein Fortschritt und deine Battle-Pass-Punkte kommen jetzt mit.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 14.0
+    }
+   ],
+   "header": "1 · REGION",
+   "progress": [
+    1,
+    5
+   ],
+   "chip": {
+    "text": "PUNKTE BLEIBEN",
+    "kind": "good",
+    "at": 1.6
+   }
+  },
+  {
+   "text": "Jail Time hat jetzt ein Tageslimit und ein Gesamtlimit. Die genauen Zahlen hat Kefir nicht verraten.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 28.0
+    }
+   ],
+   "header": "2 · JAIL TIME",
+   "progress": [
+    2,
+    5
+   ],
+   "chip": {
+    "text": "LIMIT PRO TAG",
+    "kind": "info",
+    "at": 0.8
+   }
+  },
+  {
+   "text": "Voice-Chat im Knast und in Lenny's Motel gibt's nur noch mit eigenem Grundstück und Jail Time.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 8.0
+    }
+   ],
+   "header": "3 · VOICE",
+   "progress": [
+    3,
+    5
+   ],
+   "chip": {
+    "text": "OHNE GRUNDSTÜCK STUMM",
+    "kind": "bad",
+    "at": 1.4
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Eviction Rights sind vorerst aus dem Tausch geflogen.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 62.5
+    }
+   ],
+   "header": "4 · TAUSCH",
+   "progress": [
+    4,
+    5
+   ],
+   "stamp": {
+    "text": "ENTFERNT",
+    "at": 1.2
+   }
+  },
+  {
+   "text": "Und Shipments öffnest du jetzt direkt über Lennys Menü.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 44.0
+    }
+   ],
+   "header": "5 · SHIPMENTS",
+   "progress": [
+    5,
+    5
+   ],
+   "chip": {
+    "text": "ÜBER LENNY",
+    "kind": "good",
+    "at": 1.0
+   }
+  },
+  {
+   "text": "Welche Änderung feierst du, und welche nervt dich? Schreib's rein.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 46.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

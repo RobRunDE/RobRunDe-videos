@@ -1,0 +1,116 @@
+{
+ "slug": "ANFAENGER_30S",
+ "version": 1,
+ "theme": "cyan",
+ "layout": "compact",
+ "hook": {
+  "lines": [
+   "NEU IN ROB RUN?",
+   "DAS SPART DIR STUNDEN"
+  ],
+  "accent": [
+   "STUNDEN"
+  ]
+ },
+ "keywords": {
+  "ZIVILIST": "green",
+  "NICHTS": "green",
+  "LOOT": "accent",
+  "LENNY": "accent",
+  "HEHLER": "accent",
+  "BEKANNTHEIT": "accent",
+  "SIEDLUNGEN": "red"
+ },
+ "cta_title": "WAS ALS NÄCHSTES?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "WÜNSCH DIR DAS NÄCHSTE THEMA",
+ "beats": [
+  {
+   "text": "Neu in ROB RUN? Diese 30 Sekunden sparen dir Stunden.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Ohne Maske bist du Zivilist. Stirbst du so in der Stadt, verlierst du nichts.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 76.0
+    }
+   ],
+   "header": "ZIVILIST",
+   "chip": {
+    "text": "KEIN VERLUST",
+    "kind": "good",
+    "at": 2.2
+   }
+  },
+  {
+   "text": "Deine erste Waffe findest du als Loot in der Stadt. Oder du kaufst sie auf dem Schwarzmarkt bei Lenny.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 38.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 7.5
+    }
+   ],
+   "header": "ERSTE WAFFE",
+   "chip": {
+    "text": "LOOT ODER LENNY",
+    "kind": "info",
+    "at": 2.6
+   }
+  },
+  {
+   "text": "Diebesgut verkaufst du beim Hehler. Wie viel du kriegst, hängt von deiner Bekanntheit ab.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p2.mp4",
+     "in": 64.0
+    }
+   ],
+   "header": "BEUTE",
+   "chip": {
+    "text": "BEKANNTHEIT = PREIS",
+    "kind": "info",
+    "at": 2.2
+   },
+   "pause_after": 0.4
+  },
+  {
+   "text": "Polizei gibt's nur in Looty Bay. Draußen in den Siedlungen können dich aber Spieler töten. Und dann ist alles weg.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 46.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.0
+    }
+   ],
+   "header": "SIEDLUNGEN",
+   "stamp": {
+    "text": "KEINE COPS",
+    "at": 1.2
+   }
+  },
+  {
+   "text": "Was soll ich als Nächstes erklären? Folg mir, sonst verpasst du's.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 62.5
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

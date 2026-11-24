@@ -88,6 +88,7 @@ Texte von robrun.info nie wörtlich übernehmen, nur Fakten in eigenen Worten.
 - ✅ Einnahmen aus Basis-Geschäften (Farmen, Labore, Schmuggel …) massiv erhöht. — robrun.info/en/updates; timesaver.gg; patchbeat.net
 - ✅ Federal Raid (Wipe nach 7 Tagen) nimmt Grundstücke, Basen, Waffen und alles Geld – auch Bankgeld – und wandelt Besitz in Jail Time um; Name, Kosmetik, Einstellungen, Tutorial-Fortschritt und Jail Time bleiben. Je reicher beim Wipe, desto längere Strafe. — senseos.gg/guides/rob-run/wipe-and-fresh-servers; timesaver.gg/blog/rob-run-wipe-schedule (Kefir-FAQ 02.10.); igamemag.com/rob-run-jail-time-guide
 - ✅ Jail Time bleibt über den Wipe und schaltet Dinge frei (Items/Tattoos/Forschung). — igamemag.com/rob-run-jail-time-guide; robrungame.com (Forschung braucht Jail Time)
+- ✅ Waffen spawnen als Stadt-Loot und sind auf dem Schwarzmarkt kaufbar – direkt bei Lenny oder über den Laptop in der Basis. — Kefir Help Center (zitiert bei timesaver.gg/blog/rob-run-weapons-guide); RRI Schwarzmarkt; playhub.com
 - ⚠️ Kefir-FAQ 13.11.: Gruppen max. 3 Spieler, Ausrüstung nutzt sich bei jedem Tod ab, Reparatur noch nicht im Spiel. — nur robrun-wiki.com → vor Nutzung zweite Quelle suchen
 
 ## Videoideen aus dieser Recherche (nur ✅-Fakten verwenden)
