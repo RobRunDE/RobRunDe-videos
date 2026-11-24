@@ -17,6 +17,8 @@ Spec (see plan/EXAMPLE_SPEC.json):
      "pause_after": 0.0,                                  # optional breathing room (s) - game sound comes up
      "cta": false}                                        # true on the last beat: follow button + title
   Shot extras: "zoom": 1.3, "fx": 0.7, "fy": 0.4  -> slow push towards a detail (UI, loot, enemy).
+  "clip" may also be a still image (.jpg/.png), e.g. official/screenshot_08.jpg - it gets a slow push-in automatically.
+  Official Steam media: run pipeline/fetch_official.py first; rules in knowledge/official_media.md.
   Top-level extras: "theme", "layout", "cta_title", "cta_button", "cta_prompt".
   ]
 }
@@ -60,7 +62,11 @@ def sr():
 
 def clip_path(c): return c if os.path.isabs(c) else os.path.join(ROOT, c)
 
+IMG_EXT = (".jpg", ".jpeg", ".png", ".webp")
+
 def probe(p):
+    if p.lower().endswith(IMG_EXT):
+        im = cv2.imread(p); return im.shape[1], im.shape[0], 3600.0, False
     o = json.loads(subprocess.run(["ffprobe", "-v", "error", "-print_format", "json", "-show_streams", "-show_format", p], capture_output=True, text=True).stdout)
     v = next(s for s in o["streams"] if s["codec_type"] == "video")
     return v["width"], v["height"], float(o["format"]["duration"]), any(s["codec_type"] == "audio" for s in o["streams"])
@@ -107,17 +113,25 @@ class ShotReader:
         self.cw, self.ch = cw - cw % 2, ch - ch % 2
         self.n = self.cw * self.ch * 3
         tin = min(shot.get("in", 0.0), max(0, d - (shot["t1"] - shot["t0"]) - 0.05))
+        self.still = None
+        if p.lower().endswith(IMG_EXT):      # still image: one frame, the camera move animates it
+            im = cv2.cvtColor(cv2.imread(p), cv2.COLOR_BGR2RGB)
+            self.still = np.ascontiguousarray(im[y0:y0 + self.ch, x0:x0 + self.cw]); self.last = self.still
+            self.p = None; self.style = idx % 2; self.up = self.cw < CARD_W * 0.8
+            if "zoom" not in shot: shot["zoom"] = 1.12; shot.setdefault("fx", 0.5); shot.setdefault("fy", 0.5)
+            return
         self.p = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", f"{tin:.3f}", "-i", p, "-vf",
                                    f"crop={self.cw}:{self.ch}:{x0}:{y0},fps={FPS}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
                                   stdout=subprocess.PIPE)
         self.last = None; self.style = idx % 4
         self.up = self.cw < CARD_W * 0.8
     def next(self):
+        if self.still is not None: return self.still
         b = self.p.stdout.read(self.n)
         if len(b) == self.n: self.last = np.frombuffer(b, np.uint8).reshape(self.ch, self.cw, 3)
         return self.last
     def close(self):
-        try: self.p.kill()
+        try: self.p and self.p.kill()
         except Exception: pass
 
 def camera(style, u):
@@ -319,7 +333,7 @@ def game_audio(shots, dur, out):
     args, filt = [], []
     for k, s in enumerate(shots):
         p = clip_path(s["clip"]); has_a = probe(p)[3]; d = s["t1"] - s["t0"]
-        if has_a:
+        if has_a and not p.lower().endswith(IMG_EXT):
             args += ["-ss", f"{s.get('in', 0):.3f}", "-t", f"{d:.3f}", "-i", p]
         else:
             args += ["-f", "lavfi", "-t", f"{d:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]

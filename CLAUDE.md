@@ -28,6 +28,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
    offizielle Kanäle, aktuelle Community-Themen (Reddit/Steam-Diskussionen/YouTube/TikTok-Trends zu ROB RUN), Updates, Events, Bugs/Meta.
    Aktualisiere `knowledge/robrun_facts.md` (Fakt · Quelle · Datum) und `knowledge/trends.md` (was gerade diskutiert/gesucht wird).
    Prüfe auch alte Fakten: durch Patches Veraltetes markieren (~~durchgestrichen~~ + Grund).
+2b. **Offizielles Material:** `python3 pipeline/fetch_official.py` (Steam-Screenshots + Trailer nach `official/`, nicht im Repo). Katalog und Regeln: `knowledge/official_media.md` – neue/geänderte Bilder dort ergänzen. Nur unterstützend (max. ~20 % pro Video), eigenes Gameplay hat Vorrang; Cinematic-Trailer nie als Beleg für Mechaniken.
 3. **Material sichten:** `python3 pipeline/index_clips.py` → neue Clips bekommen Contact-Sheets in `index/sheets/`.
    **Schau dir jedes neue Sheet an** (Read auf das JPG) und trage in `index/clips.json` ein: `tags`, `summary`, `moments`
    (`{"start","end","what","quality":A-E}`). Ältere Clips sind ausdrücklich wiederverwendbar (anderer Ausschnitt/Kontext).
