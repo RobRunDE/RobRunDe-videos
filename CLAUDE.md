@@ -20,7 +20,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 7. Max. 10 geplante Posts in Buffer (Free-Plan) – vorher Queue prüfen.
 
 ## Wochen-Ablauf (Schritt für Schritt)
-0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Den ElevenLabs-Schlüssel aus dem Auftrag der geplanten Aufgabe nach `~/.elevenlabs_key` schreiben (`umask 077`). **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
+0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Der ElevenLabs-Schlüssel kommt aus der Umgebungsvariable `ELEVENLABS_API_KEY` (oder `~/.elevenlabs_key`); Wert nie ausgeben. **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
 1. **Lernen aus Zahlen:** Buffer → `list_posts` (TikTok-Kanal, gesendete Posts, `includeMetrics`) bzw. `get_aggregated_post_metrics`.
    Notiere in `plan/learnings.md`: welche Formate/Hooks/Themen gut liefen (Views, Likes, Kommentare, Shares), was schwach war. Nutze das für die neue Woche.
 2. **Recherche (Pflicht, gründlich):** WebSearch/WebFetch zu ROB RUN: Steam-Store-Seite, Steam-News & Patch-Notes der letzten Wochen,
