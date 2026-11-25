@@ -11,5 +11,21 @@
     "queue": {"scheduled": 0, "drafts": 1, "draft_ids": ["6b055dfb93742f90a4dec257"], "queue_until": null},
     "videos": [],
     "notes": "Noch keine veröffentlichten Videos. Saves und Follower liefert Buffer nicht. 1 Entwurf (ROB_RUN_3_FEHLER_ARM_v04) ohne Termin."
+  },
+  {
+    "date": "2026-11-25T18:36:46+01:00",
+    "source": "Buffer (Org: My organization, TikTok @robrun_de)",
+    "metrics_updated_at": "2026-11-25T08:37:40.619Z",
+    "published_total": 2,
+    "new_since_last": 2,
+    "totals_7d": {"posts": 1, "views": 2, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "watch_time_min": 0.73, "avg_watch_time_s": 7.4},
+    "totals_30d": {"posts": 1, "views": 2, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "watch_time_min": 0.73, "avg_watch_time_s": 7.4},
+    "followers": null,
+    "queue": {"scheduled": 4, "drafts": 1, "draft_ids": ["6b055dfb93742f90a4dec257"], "pending_approval": 0, "queue_until": "2026-11-29T18:00:00+01:00"},
+    "videos": [
+      {"slug": "PATCH_17NOV", "post_id": "6b05e5202db23f32428d886f", "sent_at": "2026-11-24T19:46:47Z", "duration_s": 29.0, "views": 2, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "avg_watch_time_s": 7.4, "metrics_updated_at": "2026-11-25T08:37:40.619Z"},
+      {"slug": "GELD_WASCHEN", "post_id": "6b05e5206111797095d100d2", "sent_at": "2026-11-25T17:11:08Z", "duration_s": 25.9, "views": 0, "reach": 0, "likes": 0, "comments": 0, "shares": 0, "saves": null, "avg_watch_time_s": 0, "metrics_updated_at": null, "note": "erst ~1,5 h online, Metriken noch nicht abgerufen"}
+    ],
+    "notes": "Aggregat zählt nur PATCH_17NOV (GELD_WASCHEN noch ohne Metrik-Update). Ø Watchtime 7,4 s von 29 s (~25 %). Saves/Follower liefert Buffer nicht. Entwurf ROB_RUN_3_FEHLER_ARM_v04 weiterhin ohne Termin/Freigabe-Eintrag."
   }
 ]
