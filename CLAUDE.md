@@ -5,7 +5,7 @@ Das vollständige Briefing des Kanalbetreibers steht in `docs/BRIEFING.md` – l
 Sprache aller Videos, Texte und Berichte: **Deutsch**.
 
 ## Ziel
-Jede Woche **7 fertige Videos** (eins pro Tag, 18:00 Uhr Europe/Berlin) aus dem Gameplay-Archiv in `raw/` planen,
+Jede Woche **5 fertige Videos** (Mo, Mi, Fr, Sa, So jeweils 18:00 Uhr Europe/Berlin – Di und Do frei; Betreiber-Wunsch 27.11.2026, siehe `pipeline/config.json` → `buffer.post_days`) aus dem Gameplay-Archiv in `raw/` planen,
 produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Watchtime, Likes, Kommentare, Shares, Follows**.
 
 ## Harte Regeln
@@ -15,7 +15,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 2. **Inhalt zuerst, Gameplay als Hintergrund** (Betreiber-Wunsch 24.11.2026): Videos drehen sich um Tipps & Tricks (z. B. „5 Fehler, die Spieler häufig machen“). Was gesagt und eingeblendet wird (Header, Chips, Stempel, Item-Karten), trägt das Video. Das Gameplay darunter ist Hintergrund-Visualisierung und muss **nicht** zum Gesagten passen – nimm abwechslungsreiche, actionreiche Szenen (Fahrten, Schüsse, Flucht, Pool…), Menüs möglichst nicht. Themen nicht am vorhandenen Material ausrichten, sondern an Trends/Fakten. Kein Stock, keine KI-Bilder.
 3. **Kein Video sieht aus wie das davor.** Rotieren: `theme` (yellow, cyan, lime, orange, pink, white), `layout` (standard, tall, compact), Format, Hook-Typ, CTA-Typ. Nie zwei gleiche Formate hintereinander.
 4. **Jedes Video hat einen starken Hook (erste 1,5 s) und einen CTA am Ende.**
-5. Lieber weniger als 7 Videos als ein schlechtes. Füllmaterial (Relevanz D/E) nie posten.
+5. Lieber weniger als 5 Videos als ein schlechtes. Füllmaterial (Relevanz D/E) nie posten.
 6. Nichts löschen, was der Betreiber hochgeladen hat. Keine Posts löschen/ändern, die schon veröffentlicht sind.
 7. Max. 10 geplante Posts in Buffer (Free-Plan) – vorher Queue prüfen.
 
@@ -34,7 +34,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 3. **Material sichten:** `python3 pipeline/index_clips.py` → neue Clips bekommen Contact-Sheets in `index/sheets/`.
    **Schau dir jedes neue Sheet an** (Read auf das JPG) und trage in `index/clips.json` ein: `tags`, `summary`, `moments`
    (`{"start","end","what","quality":A-E}`). Ältere Clips sind ausdrücklich wiederverwendbar (anderer Ausschnitt/Kontext).
-4. **Wochenplan:** `plan/<JJJJ>-W<KW>/plan.md` mit 7 Ideen: Titel, Format, Hook, Kernaussagen (mit Verweis auf Fakten), Clips/Momente, CTA, Theme/Layout, Posting-Tag.
+4. **Wochenplan:** `plan/<JJJJ>-W<KW>/plan.md` mit 5 Ideen (Mo, Mi, Fr, Sa, So): Titel, Format, Hook, Kernaussagen (mit Verweis auf Fakten), Clips/Momente, CTA, Theme/Layout, Posting-Tag.
    Formate mischen, z. B.: Fehler-Liste · Pro-Tipps · „Wusstest du…?“ · Update/Patch-News · Mythos-Check · Ranking/Tierlist · Highlight/Story mit Lehre · Vergleich · Challenge · Anfänger-Guide in 30 s.
    Themenwahl nach Trends + Learnings + vorhandenem Material.
 5. **Skript & Spec je Video:** `plan/<woche>/<SLUG>.json` nach `plan/EXAMPLE_SPEC.json` (Felder siehe Kopf von `pipeline/build.py`).
@@ -45,7 +45,7 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
    - `git add videos/<datei>.mp4 plan/ knowledge/ index/ && git commit && git -c push.negotiate=true push origin main`
    - Link prüfen: `curl -sSIL -o /dev/null -w "%{http_code}" <raw_url_base><videos/datei.mp4>` muss 200 sein.
    - Buffer `create_post`: channelId aus `pipeline/config.json`, `schedulingType: automatic`, `mode: customScheduled`,
-     `dueAt` = jeweiliger Tag 18:00 mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
+     `dueAt` = jeweiliger Posting-Tag (Mo/Mi/Fr/Sa/So) 18:00 mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
      `metadata.tiktok.title` = Titel, `metadata.tiktok.isAiGenerated: true` (die Stimme ist KI), `text` = Caption + Hashtags.
    - Eintrag in `plan/posted.json` (Datum, Slug, Post-ID, Format, Hook, Theme) und `used_in` in `index/clips.json`. Committen & pushen.
 8. **Bericht:** Kurze Zusammenfassung an den Betreiber per Telegram (`telegram.py send`) und SendUserMessage: Wochenplan, was eingeplant ist, Quellen der Fakten, Probleme.
@@ -57,7 +57,7 @@ Kommunikation mit dem Betreiber läuft über Telegram: `pipeline/telegram.py` (T
      `{"<SLUG>": {"status": "pending", "post_id": "...", "due_at": "...", "video": "videos/...mp4", "title": "...", "feedback": []}}`.
   2. Jedes Video per `python3 pipeline/telegram.py video <mp4> "<b>Tag, Datum 18:00</b>\n<Titel>\n<Caption>" <SLUG>` mit Buttons schicken.
   3. Erst nach **✅ Freigeben** (Inbox-Lauf) den Entwurf mit `edit_post` (`saveToDraft: false`, `mode: customScheduled`, `dueAt`) einplanen.
-     Liegt der Termin schon in der Vergangenheit, den nächsten freien 18:00-Slot nehmen.
+     Liegt der Termin schon in der Vergangenheit, den nächsten freien 18:00-Slot an einem Posting-Tag (Mo/Mi/Fr/Sa/So) nehmen.
   - Beim ersten Versand `approval.trial_started` auf das Datum setzen. Nach `trial_days` per Telegram fragen:
     „Testphase vorbei – darf ich ab jetzt selbstständig posten? Antworte mit JA oder VERLÄNGERN.“ Gab es viele Änderungswünsche, die Verlängerung empfehlen.
     Erst nach „JA“ `approval.required` auf `false` setzen (dann gilt Schritt 7 normal, plus Info-Nachricht mit Video an Telegram).

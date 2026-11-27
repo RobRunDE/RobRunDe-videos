@@ -29,7 +29,15 @@
   "tiktok_channel_id": "6b055aae8541f09ecb873451",
   "post_time": "18:00",
   "timezone": "Europe/Berlin",
-  "max_scheduled": 10
+  "max_scheduled": 10,
+  "post_days": [
+   "mon",
+   "wed",
+   "fri",
+   "sat",
+   "sun"
+  ],
+  "videos_per_week": 5
  },
  "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/",
  "approval": {
