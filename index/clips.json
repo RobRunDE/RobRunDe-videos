@@ -361,5 +361,139 @@
   "used_in": [],
   "voices_removed": true,
   "voice_db": -33.9
+ },
+ "m3_fahrt_strand_tausch_p1.mp4": {
+  "voices_removed": true,
+  "voice_db": -33.8,
+  "tags": [
+   "fahrt",
+   "auto",
+   "strand",
+   "stadt",
+   "garage",
+   "hintergrund"
+  ],
+  "summary": "Lange Autofahrt durch Looty Bay: Strandpromenade, Riesenrad, Hauptstraßen, dunkle Garage/Tunnel. Super als ruhiger Action-Hintergrund.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 20,
+    "what": "Fahrt an der Strandpromenade, Riesenrad im Hintergrund",
+    "quality": "A"
+   },
+   {
+    "start": 20,
+    "end": 68,
+    "what": "Fahrt über Hauptstraßen und Brücke Richtung Downtown",
+    "quality": "A"
+   },
+   {
+    "start": 70,
+    "end": 85,
+    "what": "Auto in dunkler Garage/Tunnel",
+    "quality": "B"
+   },
+   {
+    "start": 86,
+    "end": 97,
+    "what": "Fahrt vor Backsteingebäude",
+    "quality": "B"
+   }
+  ]
+ },
+ "m3_fahrt_strand_tausch_p2.mp4": {
+  "voices_removed": true,
+  "voice_db": -27.4,
+  "tags": [
+   "fahrt",
+   "karte",
+   "wiese",
+   "bag",
+   "tausch",
+   "inventar"
+  ],
+  "summary": "Garage-Ausfahrt, Highway-Fahrt, Haus mit rotem Dach, kurz Stadtkarte, Wiese, zu Fuß mit Tasche, danach Inventar-Tausch.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 8,
+    "what": "Ausfahrt aus Parkhaus",
+    "quality": "B"
+   },
+   {
+    "start": 8,
+    "end": 28,
+    "what": "Highway-Fahrt am Meer",
+    "quality": "A"
+   },
+   {
+    "start": 28,
+    "end": 33,
+    "what": "Auto auf Wiese neben Haus",
+    "quality": "B"
+   },
+   {
+    "start": 33,
+    "end": 38,
+    "what": "Stadtkarte (Menü)",
+    "quality": "D"
+   },
+   {
+    "start": 38,
+    "end": 52,
+    "what": "Wiese, Straße, zu Fuß mit Tasche",
+    "quality": "B"
+   },
+   {
+    "start": 55,
+    "end": 97,
+    "what": "Inventar/Tausch mit Spieler (Menü)",
+    "quality": "D"
+   }
+  ]
+ },
+ "m3_fahrt_strand_tausch_p3.mp4": {
+  "voices_removed": true,
+  "voice_db": -27.0,
+  "tags": [
+   "inventar",
+   "zu fuß",
+   "auto",
+   "strand",
+   "menü"
+  ],
+  "summary": "Weitere Inventar-Menüs, dann zu Fuß mit Tasche, Auto auf Wiese, Strandfahrt, am Ende Gebietskarte.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 20,
+    "what": "Inventar-Menüs",
+    "quality": "D"
+   },
+   {
+    "start": 20,
+    "end": 26,
+    "what": "Zu Fuß mit Tasche über Straße",
+    "quality": "B"
+   },
+   {
+    "start": 26,
+    "end": 45,
+    "what": "Auto auf Wiese, Spieler steigt ein, Straße",
+    "quality": "B"
+   },
+   {
+    "start": 45,
+    "end": 60,
+    "what": "Fahrt über Wiese zum Strand/Brücke",
+    "quality": "A"
+   },
+   {
+    "start": 60,
+    "end": 97,
+    "what": "Rest/Karte – meiden",
+    "quality": "D"
+   }
+  ]
  }
 }
