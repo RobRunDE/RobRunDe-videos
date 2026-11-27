@@ -410,7 +410,10 @@
    "wiese",
    "bag",
    "tausch",
-   "inventar"
+   "inventar",
+   "loot",
+   "gold",
+   "highlight"
   ],
   "summary": "Garage-Ausfahrt, Highway-Fahrt, Haus mit rotem Dach, kurz Stadtkarte, Wiese, zu Fuß mit Tasche, danach Inventar-Tausch.",
   "moments": [
@@ -447,8 +450,8 @@
    {
     "start": 55,
     "end": 97,
-    "what": "Inventar/Tausch mit Spieler (Menü)",
-    "quality": "D"
+    "what": "LOOT-HIGHLIGHT (Betreiber): Tasche eines toten Spielers plündern, viele goldene (seltene) Items, Inventar füllt sich – mit zoom+fx/fy auf goldene Items fahren; ideal für Loot-/Highlight-Videos",
+    "quality": "A"
    }
   ]
  },
@@ -467,8 +470,8 @@
    {
     "start": 0,
     "end": 20,
-    "what": "Inventar-Menüs",
-    "quality": "D"
+    "what": "LOOT-HIGHLIGHT Fortsetzung: Inventar voller goldener Items",
+    "quality": "A"
    },
    {
     "start": 20,
