@@ -45,12 +45,33 @@
   "layout": "tall"
  },
  {
-  "date": "2026-11-29T18:00:00+01:00",
+  "date": "2026-11-29T18:04:00+01:00",
   "slug": "ANFAENGER_30S",
   "post_id": "6b05e5244148285e965e0df3",
   "format": "Anfänger-Guide",
   "hook": "NEU IN ROB RUN? DAS SPART DIR STUNDEN",
   "theme": "cyan",
-  "layout": "compact"
+  "layout": "compact",
+  "note": "verschoben von 18:00 auf 18:04 (neuer Slot-Plan)"
+ },
+ {
+  "date": "2026-11-28T15:58:00+01:00",
+  "slug": "SCHLUESSEL_33",
+  "post_id": "6b0a36c623fb5b77000ecd10",
+  "format": "Wusstest du / Geheimnis",
+  "hook": "33 SCHLÜSSEL. KEINER ERKLÄRT SIE DIR",
+  "theme": "cyan",
+  "layout": "standard",
+  "music": "m03_geheimnisvoll"
+ },
+ {
+  "date": "2026-11-28T21:07:00+01:00",
+  "slug": "BASIS_RAIDER",
+  "post_id": "6b0a36c7eada83daa6b87f86",
+  "format": "Pro-Tipp / Zwei Lager",
+  "hook": "DEINE BASIS ZIEHT RAIDER AN",
+  "theme": "lime",
+  "layout": "compact",
+  "music": "m06_spannung"
  }
 ]
