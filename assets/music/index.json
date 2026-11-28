@@ -1,0 +1,72 @@
+[
+ {
+  "id": "m01_energisch",
+  "datei": "assets/music/m01_energisch.mp3",
+  "stimmung": "energisch",
+  "prompt": "Upbeat energetic short-video background music, punchy drums, bright synth plucks, claps, confident and curious, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m02_verspielt",
+  "datei": "assets/music/m02_verspielt.mp3",
+  "stimmung": "verspielt",
+  "prompt": "Playful bouncy quirky background music, pizzicato strings, marimba, ukulele, light percussion, funny and cheeky, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m03_geheimnisvoll",
+  "datei": "assets/music/m03_geheimnisvoll.mp3",
+  "stimmung": "geheimnisvoll",
+  "prompt": "Mysterious curious background music, soft pulsing synth, ticking percussion, celesta, investigative documentary feel, building intrigue, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m04_ernst",
+  "datei": "assets/music/m04_ernst.mp3",
+  "stimmung": "ernst",
+  "prompt": "Calm serious background music, warm piano, soft strings, slow steady pulse, trustworthy health explainer tone, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m05_gemuetlich",
+  "datei": "assets/music/m05_gemuetlich.mp3",
+  "stimmung": "gemuetlich",
+  "prompt": "Cozy warm winter background music, acoustic guitar, soft bells, gentle shaker, hot chocolate feeling, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m06_spannung",
+  "datei": "assets/music/m06_spannung.mp3",
+  "stimmung": "spannung",
+  "prompt": "Suspenseful countdown background music, driving low strings, ticking clock, rising tension, quiz show reveal feel, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m07_lofi",
+  "datei": "assets/music/m07_lofi.mp3",
+  "stimmung": "lofi",
+  "prompt": "Chill lo-fi hip hop background beat, dusty drums, mellow keys, vinyl crackle, relaxed but catchy, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m08_wissenschaft",
+  "datei": "assets/music/m08_wissenschaft.mp3",
+  "stimmung": "wissenschaft",
+  "prompt": "Bright modern science explainer background music, arpeggiated synths, light electronic drums, wonder and discovery, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m09_episch",
+  "datei": "assets/music/m09_episch.mp3",
+  "stimmung": "episch",
+  "prompt": "Epic cinematic reveal background music, big drums, brass hits, heroic strings, short dramatic build, loopable, no vocals",
+  "laenge_s": 60
+ },
+ {
+  "id": "m10_morgen",
+  "datei": "assets/music/m10_morgen.mp3",
+  "stimmung": "morgen",
+  "prompt": "Fresh happy morning background music, whistling melody, acoustic guitar strum, light claps, sunny and positive, loopable, no vocals",
+  "laenge_s": 60
+ }
+]

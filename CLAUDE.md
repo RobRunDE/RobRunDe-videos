@@ -5,8 +5,8 @@ Das vollständige Briefing des Kanalbetreibers steht in `docs/BRIEFING.md` – l
 Sprache aller Videos, Texte und Berichte: **Deutsch**.
 
 ## Ziel
-Jede Woche **5 fertige Videos** (Mo, Mi, Fr, Sa, So jeweils 18:00 Uhr Europe/Berlin – Di und Do frei; Betreiber-Wunsch 27.11.2026, siehe `pipeline/config.json` → `buffer.post_days`) aus dem Gameplay-Archiv in `raw/` planen,
-produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Watchtime, Likes, Kommentare, Shares, Follows**.
+**Plan seit 28.11.2026 (hat Vorrang vor allem Älteren):** Jeden Tag **3 Videos** um **15:58, 18:04 und 21:07 Uhr** (Europe/Berlin, `pipeline/config.json` → `buffer.post_times`).
+Der tägliche Lauf (9:38) baut die 3 Videos für **morgen** aus dem Gameplay-Archiv in `raw/` und plant sie über Buffer direkt ein – ohne Rückfragen, **ohne Freigabe** (`approval.required: false`). Optimiert auf **Watchtime, Likes, Kommentare, Shares, Follows**.
 
 ## Harte Regeln
 1. **Keine Fehlinformationen.** Jede Aussage über ROB RUN muss vorher in `knowledge/robrun_facts.md` mit Quelle (URL) und Prüfdatum stehen.
@@ -15,14 +15,18 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 2. **Inhalt zuerst, Gameplay als Hintergrund** (Betreiber-Wunsch 24.11.2026): Videos drehen sich um Tipps & Tricks (z. B. „5 Fehler, die Spieler häufig machen“). Was gesagt und eingeblendet wird (Header, Chips, Stempel, Item-Karten), trägt das Video. Das Gameplay darunter ist Hintergrund-Visualisierung und muss **nicht** zum Gesagten passen – nimm abwechslungsreiche, actionreiche Szenen (Fahrten, Schüsse, Flucht, Pool…), Menüs möglichst nicht. Themen nicht am vorhandenen Material ausrichten, sondern an Trends/Fakten. Kein Stock, keine KI-Bilder.
 3. **Kein Video sieht aus wie das davor.** Rotieren: `theme` (yellow, cyan, lime, orange, pink, white), `layout` (standard, tall, compact), Format, Hook-Typ, CTA-Typ. Nie zwei gleiche Formate hintereinander.
 4. **Jedes Video hat einen starken Hook (erste 1,5 s) und einen CTA am Ende.**
-5. Lieber weniger als 5 Videos als ein schlechtes. Füllmaterial (Relevanz D/E) nie posten.
+5. Lieber weniger als 3 Videos am Tag als ein schlechtes. Füllmaterial (Relevanz D/E) nie posten.
 6. Nichts löschen, was der Betreiber hochgeladen hat. Keine Posts löschen/ändern, die schon veröffentlicht sind.
-7. Max. 10 geplante Posts in Buffer (Free-Plan) – vorher Queue prüfen.
+7. Buffer ist hochgestuft (bis 5.000 geplante Posts, 2 Kanäle) – kein 10er-Limit mehr. Trotzdem vor jedem Einplanen die Queue prüfen: keine Doppelbelegung eines Slots.
+8. **Nur Kanal robrun_de anfassen:** Kanal-ID `6b055aae8541f09ecb873451` – vor **jedem** Post per `list_channels` bestätigen, nie raten.
+   In derselben Organisation läuft **@stimmtdas_de** (ID `6b09e2268541f09ecbc72994`, Repo RobRunDE/alltagsmythen-videos, Slots 07:34/12:33/19:03): diesen Kanal und seine Posts **nie** anfassen, nie bearbeiten, nie löschen. Dessen Telegram-Bot (`MYTHEN_TELEGRAM_BOT_TOKEN`) nie verwenden.
+9. **ElevenLabs-Kontingent wird mit @stimmtdas_de geteilt:** Skripte knapp (≈ 25–35 s, ~400–550 Zeichen). Meldet ElevenLabs ein erschöpftes Kontingent: auf Piper ausweichen (macht `tts.py` automatisch) und per Telegram melden.
 
-## Wochen-Ablauf (Schritt für Schritt)
+## Tages-Ablauf (Schritt für Schritt, täglich 9:38 für die 3 Slots von morgen)
 0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Der ElevenLabs-Schlüssel kommt aus der Umgebungsvariable `ELEVENLABS_API_KEY` (oder `~/.elevenlabs_key`); Wert nie ausgeben. **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
+0b. **Feedback abholen:** `python3 pipeline/telegram.py inbox` – Nachrichten des Betreibers als Feedback in `plan/feedback.md` übernehmen (Datum + Wunsch), Regeln ggf. anpassen, kurz per Telegram bestätigen.
 1. **Lernen aus Zahlen:** Buffer → `list_posts` (TikTok-Kanal, gesendete Posts, `includeMetrics`) bzw. `get_aggregated_post_metrics`.
-   Notiere in `plan/learnings.md`: welche Formate/Hooks/Themen gut liefen (Views, Likes, Kommentare, Shares), was schwach war. Nutze das für die neue Woche.
+   Notiere in `plan/learnings.md`: welche Formate/Hooks/Themen gut liefen (Views, Likes, Kommentare, Shares), was schwach war. Nutze das für die nächsten Videos (Statistik hinkt ~24 h nach).
 1b. **Wünsche des Betreibers (Dashboard):** Mit den Artifact-Datenbank-Tools (`db_list`, falls verfügbar; per ToolSearch „db_list“ suchen) die Sammlung `wishes` des Dashboards lesen: slug `1262dd7f-9021-4917-b768-243ffdf7cb34`. Offene Wünsche (`status: "offen"`) haben Vorrang bei der Themen- und Formatwahl. Nach der Umsetzung mit `db_write` (op `merge`, `ifVersion` aus dem Lesen) `status: "erledigt"` setzen. Follower-Verlauf steht in `followers` (vom Betreiber eingetragen) – für Learnings nutzen. Sind die Tools nicht verfügbar: im Bericht erwähnen.
 2. **Recherche (Pflicht, gründlich):** WebSearch/WebFetch zu ROB RUN: Steam-Store-Seite, Steam-News & Patch-Notes der letzten Wochen,
    offizielle Kanäle, aktuelle Community-Themen (Reddit/Steam-Diskussionen/YouTube/TikTok-Trends zu ROB RUN), Updates, Events, Bugs/Meta.
@@ -34,45 +38,39 @@ produzieren und über Buffer einplanen – ohne Rückfragen. Optimiert auf **Wat
 3. **Material sichten:** `python3 pipeline/index_clips.py` → neue Clips bekommen Contact-Sheets in `index/sheets/`.
    **Schau dir jedes neue Sheet an** (Read auf das JPG) und trage in `index/clips.json` ein: `tags`, `summary`, `moments`
    (`{"start","end","what","quality":A-E}`). Ältere Clips sind ausdrücklich wiederverwendbar (anderer Ausschnitt/Kontext).
-4. **Wochenplan:** `plan/<JJJJ>-W<KW>/plan.md` mit 5 Ideen (Mo, Mi, Fr, Sa, So): Titel, Format, Hook, Kernaussagen (mit Verweis auf Fakten), Clips/Momente, CTA, Theme/Layout, Posting-Tag.
+4. **Tagesplan:** `plan/<JJJJ-MM-TT>/plan.md` (Datum = Posting-Tag) mit 3 Ideen (15:58, 18:04, 21:07) – drei **verschiedene** Formate pro Tag, und keins wie das letzte Video vom Vortag. Rechercheaufwand: einmal gründlich pro Tag, Fakten wiederverwenden; Themen-Backlog in `plan/backlog.md` (≥ 30 belegte Ideen) pflegen. Felder je Idee: Titel, Format, Hook, Kernaussagen (mit Verweis auf Fakten), Clips/Momente, CTA, Theme/Layout, Posting-Tag.
    Formate mischen, z. B.: Fehler-Liste · Pro-Tipps · „Wusstest du…?“ · Update/Patch-News · Mythos-Check · Ranking/Tierlist · Highlight/Story mit Lehre · Vergleich · Challenge · Anfänger-Guide in 30 s.
    Themenwahl nach Trends + Learnings + vorhandenem Material.
-5. **Skript & Spec je Video:** `plan/<woche>/<SLUG>.json` nach `plan/EXAMPLE_SPEC.json` (Felder siehe Kopf von `pipeline/build.py`).
+5. **Skript & Spec je Video:** `plan/<JJJJ-MM-TT>/<SLUG>.json` nach `plan/EXAMPLE_SPEC.json` (Felder siehe Kopf von `pipeline/build.py`).
 6. **Bauen & prüfen:** erst `python3 pipeline/build.py <spec> --preview <zeiten>` und die Stills ansehen (Hook, dichteste Momente, CTA),
    dann `python3 pipeline/build.py <spec>`. QC laut Briefing §30: 1080×1920, Lautheit ≈ −14 LUFS (`ffmpeg -af ebur128`), Untertitel lesbar,
    Clips passen zum Gesagten, keine falschen Fakten. Selbstkritik §31: jede Kategorie ≥ 8/10, sonst überarbeiten.
-7. **Veröffentlichen planen** (im Freigabe-Modus: siehe „Freigabe & Telegram“ – nur Entwurf + Telegram, nicht direkt einplanen):
+7. **Einplanen (ohne Freigabe):** nur Videos, die die QC bestehen und ausschließlich belegte Aussagen enthalten. Sonst **nicht** einplanen und kurz per Telegram melden (was, warum).
    - `git add videos/<datei>.mp4 plan/ knowledge/ index/ && git commit && git -c push.negotiate=true push origin main`
    - Link prüfen: `curl -sSIL -o /dev/null -w "%{http_code}" <raw_url_base><videos/datei.mp4>` muss 200 sein.
    - Buffer `create_post`: channelId aus `pipeline/config.json`, `schedulingType: automatic`, `mode: customScheduled`,
-     `dueAt` = jeweiliger Posting-Tag (Mo/Mi/Fr/Sa/So) 18:00 mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
+     Kanal-ID vorher per `list_channels` bestätigen (robrun_de = `6b055aae8541f09ecb873451`), `dueAt` = Slot (15:58 / 18:04 / 21:07) am Folgetag mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
      `metadata.tiktok.title` = Titel, `metadata.tiktok.isAiGenerated: true` (die Stimme ist KI), `text` = Caption + Hashtags.
    - Eintrag in `plan/posted.json` (Datum, Slug, Post-ID, Format, Hook, Theme) und `used_in` in `index/clips.json`. Committen & pushen.
-8. **Bericht:** Kurze Zusammenfassung an den Betreiber per Telegram (`telegram.py send`) und SendUserMessage: Wochenplan, was eingeplant ist, Quellen der Fakten, Probleme.
+   - Danach jedes eingeplante Video zur Info per Telegram schicken: `python3 pipeline/telegram.py video <mp4> "<b>Datum, Uhrzeit</b>\n<Titel>"` (ohne Slug → keine Buttons).
+8. **Bericht:** Kurze Zusammenfassung per Telegram (`telegram.py send`) und SendUserMessage: die 3 Videos von morgen (Uhrzeit, Titel, Hook, Musiktrack), Quellen der Fakten, ElevenLabs oder Piper, Probleme (v. a. fehlendes Rohmaterial).
 
-## Freigabe & Telegram (Testphase)
-Kommunikation mit dem Betreiber läuft über Telegram: `pipeline/telegram.py` (Token/Chat-ID nur aus `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID`, nie ausgeben oder speichern).
-- **Freigabe-Modus** steht in `pipeline/config.json` → `approval`. Solange `required: true`:
-  1. Fertige Videos in Buffer **nur als Entwurf** anlegen (`saveToDraft: true`), geplanten Termin in `plan/approvals.json` notieren:
-     `{"<SLUG>": {"status": "pending", "post_id": "...", "due_at": "...", "video": "videos/...mp4", "title": "...", "feedback": []}}`.
-  2. Jedes Video per `python3 pipeline/telegram.py video <mp4> "<b>Tag, Datum 18:00</b>\n<Titel>\n<Caption>" <SLUG>` mit Buttons schicken.
-  3. Erst nach **✅ Freigeben** (Inbox-Lauf) den Entwurf mit `edit_post` (`saveToDraft: false`, `mode: customScheduled`, `dueAt`) einplanen.
-     Liegt der Termin schon in der Vergangenheit, den nächsten freien 18:00-Slot an einem Posting-Tag (Mo/Mi/Fr/Sa/So) nehmen.
-  - Beim ersten Versand `approval.trial_started` auf das Datum setzen. Nach `trial_days` per Telegram fragen:
-    „Testphase vorbei – darf ich ab jetzt selbstständig posten? Antworte mit JA oder VERLÄNGERN.“ Gab es viele Änderungswünsche, die Verlängerung empfehlen.
-    Erst nach „JA“ `approval.required` auf `false` setzen (dann gilt Schritt 7 normal, plus Info-Nachricht mit Video an Telegram).
-- **Inbox-Lauf** (eigene geplante Aufgabe, mehrmals täglich): `python3 pipeline/telegram.py inbox` und für jeden Eintrag:
-  - `approve` → einplanen (s. o.), `ack` „✅ Eingeplant für …“, Status `approved`.
-  - `reject` → Entwurf in Buffer lassen, Status `rejected`, `ack` + kurz fragen, was nicht gepasst hat.
-  - `feedback` → `ack`, dann per `send` fragen: „Was soll ich an <Titel> ändern?“ und Status `waiting_feedback`.
-  - Freitext-Nachrichten: Ist ein Video im Status `waiting_feedback` (oder antwortet die Nachricht auf ein Video), gilt der Text als Änderungswunsch:
-    Spec anpassen, neu bauen (`version` +1), Buffer-Entwurf mit neuem Asset aktualisieren, Video erneut zur Freigabe schicken.
-    Allgemeine Hinweise („weniger Menüs“, „Stimme schneller“, neue Themenideen) dauerhaft in `plan/feedback.md` (Datum + Wunsch) eintragen
-    und – wenn sie die Regeln betreffen – diese `CLAUDE.md` bzw. `pipeline/config.json` anpassen. Kurz per Telegram bestätigen, was übernommen wurde.
-  - „JA“/„VERLÄNGERN“ auf die Testphasen-Frage entsprechend umsetzen. „STATUS“ → kurze Übersicht der Queue.
-  - Alles committen & pushen.
-- **Statistik-Updates** (Mi/Sa) gehen zusätzlich per Telegram raus (`send`).
-- `plan/feedback.md` vor jeder Wochenplanung lesen – Betreiber-Feedback hat Vorrang vor eigenen Ideen.
+## Telegram (Info & Feedback – keine Freigabe mehr)
+Seit 28.11.2026: `approval.required: false` – der Betreiber hat entschieden, dass QC-bestandene Videos direkt eingeplant und veröffentlicht werden.
+- `pipeline/telegram.py` nutzt nur `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_ID` (nie ausgeben/speichern). **Nie** `MYTHEN_TELEGRAM_BOT_TOKEN` verwenden (gehört zu @stimmtdas_de).
+- Eingeplante Videos gehen zur Info per Telegram raus (ohne Buttons). Nicht eingeplante (QC/Fakten) → kurze Info mit Grund.
+- **Feedback:** Der Tageslauf holt vorher `telegram.py inbox` ab; zusätzlich prüft der Inbox-Lauf alle 2 Std. Freitext-Nachrichten = Feedback → `plan/feedback.md` (Datum + Wunsch), betrifft es Regeln → diese CLAUDE.md bzw. `pipeline/config.json` anpassen, kurz per Telegram bestätigen.
+  Bezieht sich Feedback auf ein konkretes, noch nicht veröffentlichtes Video: Spec anpassen, neu bauen (`version` +1), pushen, den geplanten Buffer-Post mit `edit_post` (nur `assets`) auf das neue Video umstellen. Veröffentlichte Posts nie ändern.
+  Alte Buttons (✅/❌/✏️) von früher: nur bestätigen, nichts mehr einplanen.
+- „STATUS“ → kurze Übersicht der Queue (nur robrun_de).
+- **Statistik-Updates** (Mi/Sa) gehen per Telegram raus (`send`).
+- `plan/feedback.md` vor jeder Planung lesen – Betreiber-Feedback hat Vorrang vor eigenen Ideen.
+
+## Musik & Soundeffekte (gemeinsame Bibliothek)
+- **Keine neue Musik erzeugen.** Bibliothek liegt im Repo: `assets/music/` (10 Tracks à 60 s, Liste mit Stimmung in `assets/music/index.json`: energisch, verspielt, geheimnisvoll, ernst, gemütlich, spannung, lofi, wissenschaft, episch, morgen) und `assets/sfx/` (40 Effekte, Tags in `assets/sfx/index.json`). Quelle: öffentliches Repo RobRunDE/alltagsmythen-videos – bei Bedarf von dort aktualisieren.
+- Spec-Feld `"music": "<id>"` (z. B. `m06_spannung`) legt einen Track unter das Video (geloopt, weich ausgeblendet, unter der Stimme geduckt; `music_volume` Standard 0,25). Track passend zum Thema wählen und rotieren – nicht zweimal hintereinander derselbe.
+- SFX kommen automatisch aus der Bibliothek (whoosh bei Headern, pop bei Chips, stempel bei Stempeln, ding beim CTA). Anpassbar per `"sfx_map": {"stamp": ["impact", 0.5, 0.0]}`. Fehlt die Bibliothek, synthetisiert `build.py` Ersatz-Sounds.
+- Gameplay-Sound bleibt (ohne Stimmen) leise darunter.
 
 ## Hooks (erste 1–1,5 s – entscheidet über alles)
 - Sofort Bewegung/Action im Bild + großer Hook-Titel (`hook.lines`), gesprochen ab Frame 1. Kein Intro, kein „Hey Leute“.
@@ -129,5 +127,5 @@ oder in Teile schneiden (`<name>_p1.mp4` …). Sinnvolle Dateinamen. Danach **im
 - Pipeline: `pipeline/build.py` (Render), `pipeline/tts.py` (Stimme), `pipeline/index_clips.py` (Archiv), `pipeline/motion.py` (Grafik).
 - Stimme: `pipeline/config.json` → `engine: elevenlabs`, `elevenlabs.voice_id` (Starter-Tarif ≈ 30.000 Zeichen/Monat – sparsam: nur fertige Skripte vertonen, Vorschau-Renders nutzen die gecachte `work/<slug>/vo.wav` nicht neu, wenn Text gleich). Ohne Schlüssel/bei Fehler fällt `tts.py` automatisch auf Piper zurück (`voice`, `length_scale`, `pitch`). Im Bericht melden, falls Piper benutzt wurde.
 - ElevenLabs liefert exakte Wort-Zeitstempel → Untertitel sitzen wortgenau.
-- Bezahlte Dienste: nur ElevenLabs (Starter). Kein Higgsfield. Sounds werden synthetisch erzeugt.
+- Bezahlte Dienste: nur ElevenLabs (Starter, Kontingent mit @stimmtdas_de geteilt). Kein Higgsfield. Musik/SFX aus der gemeinsamen Bibliothek (`assets/`).
 - `work/` und `pipeline/voices/` sind nicht im Git.

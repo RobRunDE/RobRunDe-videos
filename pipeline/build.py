@@ -8,6 +8,8 @@ Spec (see plan/EXAMPLE_SPEC.json):
   "slug": "LOOT_VERLIEREN", "version": 1,
   "hook": {"lines": ["3 FEHLER,", "DIE DICH ARM MACHEN"], "accent": ["ARM"]},
   "keywords": {"GELD": "green", "ARM": "red"},          # caption word colours
+  "music": "m06_spannung", "music_volume": 0.25,         # optional: Track-ID aus assets/music/index.json (gemeinsame Bibliothek)
+  "sfx_map": {"stamp": ["impact", 0.5, 0.0]},           # optional: Event -> [assets/sfx-Name, Lautstärke, Versatz s]
   "beats": [
     {"text": "Spoken sentence(s).",                     # voice-over for this beat
      "header": "FEHLER 1", "progress": [1, 3],          # optional: new top title (+ progress pips)
@@ -420,6 +422,38 @@ def synth_sfx(events, dur, out):
     with wave.open(out, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(srate); w.writeframes((np.clip(bus, -1, 1) * 32767).astype(np.int16).tobytes())
 
+
+# Gemeinsame Sound-Bibliothek (assets/sfx, assets/music – aus RobRunDE/alltagsmythen-videos übernommen)
+SFX_MAP = {"whoosh": ("whoosh_3", 0.30, -0.15), "pop": ("pop_2", 0.45, 0.0), "pop_good": ("pop_1", 0.40, 0.0),
+           "stamp": ("stempel", 0.55, 0.0), "cta": ("ding_richtig", 0.40, 0.0)}
+
+def lib_sfx(events, dur, out, overrides=None):
+    """SFX aus assets/sfx statt Synthese. Gibt False zurück, wenn die Bibliothek fehlt."""
+    d = os.path.join(ROOT, "assets", "sfx")
+    if not os.path.isdir(d): return False
+    m = dict(SFX_MAP); m.update(overrides or {})
+    args, filt, labels = [], [], []
+    for kind, t in events:
+        if kind not in m: continue
+        name, vol, off = m[kind]; f = os.path.join(d, name + ".mp3")
+        if not os.path.exists(f): continue
+        k = len(labels); args += ["-i", f]
+        ms = max(0, int((t + off) * 1000))
+        filt.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,volume={vol},adelay={ms}|{ms}[s{k}]"); labels.append(f"[s{k}]")
+    if not labels:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-t", f"{dur:.3f}", "-i", "anullsrc=r=48000:cl=stereo", out], check=True); return True
+    filt.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0,apad=whole_dur={dur:.3f},atrim=0:{dur:.3f}[o]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", ";".join(filt), "-map", "[o]", out], check=True)
+    return True
+
+def music_bed(track, dur, out):
+    """Musik aus assets/music (id wie in index.json, z. B. m06_spannung), geloopt/gekürzt, weich ein-/ausgeblendet."""
+    f = os.path.join(ROOT, "assets", "music", track + ".mp3")
+    if not track or not os.path.exists(f): return False
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", f, "-t", f"{dur:.3f}", "-af",
+                    f"aresample=48000,aformat=channel_layouts=stereo,afade=t=in:d=0.4,afade=t=out:st={max(0, dur - 1.2):.3f}:d=1.2", out], check=True)
+    return True
+
 def game_audio(shots, dur, out):
     """Gameplay sound under the voice, from the same moments that are on screen."""
     args, filt = [], []
@@ -484,12 +518,20 @@ def build(spec_path, preview=None):
     # audio: voice + quiet gameplay + soft sfx
     ev = [("whoosh", h[0]) for h in ov.headers[1:]] + [("pop" if c[1] == "bad" else "pop_good", c[2]) for c in ov.chips] + [("stamp", s[1]) for s in ov.stamps]
     if ov.cta_t is not None: ev.append(("cta", ov.cta_t + 0.25))
-    synth_sfx(ev, dur, os.path.join(wd, "sfx.wav")); game_audio(shots, dur, os.path.join(wd, "game.wav"))
+    sfx_wav = os.path.join(wd, "sfx.wav")
+    if not lib_sfx(ev, dur, sfx_wav, spec.get("sfx_map")): synth_sfx(ev, dur, sfx_wav)
+    game_audio(shots, dur, os.path.join(wd, "game.wav"))
+    mus_wav = os.path.join(wd, "music.wav")
+    has_mus = music_bed(spec.get("music"), dur, mus_wav)
+    if not has_mus:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-t", f"{dur:.3f}", "-i", "anullsrc=r=48000:cl=stereo", mus_wav], check=True)
+    mvol = float(spec.get("music_volume", 0.25))
     mix = os.path.join(wd, "mix.wav")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(wd, "vo.wav"), "-i", os.path.join(wd, "game.wav"), "-i", os.path.join(wd, "sfx.wav"),
-                    "-filter_complex", "[0:a]aresample=48000,aformat=channel_layouts=stereo,apad,asplit=2[v][vk];[1:a]volume=0.42[g0];"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(wd, "vo.wav"), "-i", os.path.join(wd, "game.wav"), "-i", sfx_wav, "-i", mus_wav,
+                    "-filter_complex", "[0:a]aresample=48000,aformat=channel_layouts=stereo,apad,asplit=3[v][vk][vk2];[1:a]volume=0.42[g0];"
                     "[g0][vk]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=350:makeup=1[g];[2:a]aformat=channel_layouts=stereo[s];"
-                    "[v][g][s]amix=inputs=3:normalize=0:duration=first,loudnorm=I=-14:TP=-2:LRA=11,aresample=48000[a]",
+                    f"[3:a]aformat=channel_layouts=stereo,volume={mvol}[m0];[m0][vk2]sidechaincompress=threshold=0.02:ratio=6:attack=30:release=400:makeup=1[m];"
+                    "[v][g][s][m]amix=inputs=4:normalize=0:duration=first,loudnorm=I=-14:TP=-2:LRA=11,aresample=48000[a]",
                     "-map", "[a]", "-t", f"{dur:.3f}", mix], check=True)
     os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
     final = os.path.join(ROOT, "videos", f"ROB_RUN_{slug}_v{ver:02d}.mp4")

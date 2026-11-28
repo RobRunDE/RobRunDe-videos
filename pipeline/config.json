@@ -27,23 +27,33 @@
  "buffer": {
   "organization_id": "6b0556fca46aa1f543e2ac00",
   "tiktok_channel_id": "6b055aae8541f09ecb873451",
-  "post_time": "18:00",
   "timezone": "Europe/Berlin",
-  "max_scheduled": 10,
-  "post_days": [
-   "mon",
-   "wed",
-   "fri",
-   "sat",
-   "sun"
+  "max_scheduled": 5000,
+  "post_times": [
+   "15:58",
+   "18:04",
+   "21:07"
   ],
-  "videos_per_week": 5
+  "videos_per_day": 3,
+  "channel_name": "robrun_de",
+  "do_not_touch": {
+   "channel_id": "6b09e2268541f09ecbc72994",
+   "name": "stimmtdas_de",
+   "note": "Anderer Kanal (Repo RobRunDE/alltagsmythen-videos, Slots 07:34/12:33/19:03) – nie anfassen"
+  }
  },
  "raw_url_base": "https://raw.githubusercontent.com/RobRunDE/RobRunDe-videos/main/",
  "approval": {
-  "required": true,
+  "required": false,
   "trial_days": 7,
   "trial_started": "2026-11-24",
-  "note": "Testphase: Videos erst nach ✅ in Telegram einplanen. Nach Ablauf fragt der Autopilot per Telegram, ob er selbststaendig posten darf oder die Testphase verlaengert wird."
+  "note": "Testphase: Videos erst nach ✅ in Telegram einplanen. Nach Ablauf fragt der Autopilot per Telegram, ob er selbststaendig posten darf oder die Testphase verlaengert wird.",
+  "decided": "2026-11-28: Betreiber hat Freigabe abgeschaltet – QC-bestandene Videos direkt einplanen"
+ },
+ "audio_library": {
+  "music_dir": "assets/music",
+  "sfx_dir": "assets/sfx",
+  "source": "RobRunDE/alltagsmythen-videos (gemeinsame Bibliothek, keine neue Musik erzeugen)",
+  "music_volume": 0.25
  }
 }

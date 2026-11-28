@@ -1,0 +1,282 @@
+[
+ {
+  "name": "whoosh_1",
+  "datei": "assets/sfx/whoosh_1.mp3",
+  "tags": "whoosh, übergang",
+  "beschreibung": "fast clean whoosh transition swoosh",
+  "laenge_s": 0.8
+ },
+ {
+  "name": "whoosh_2",
+  "datei": "assets/sfx/whoosh_2.mp3",
+  "tags": "whoosh, übergang",
+  "beschreibung": "deep cinematic whoosh pass by",
+  "laenge_s": 1.2
+ },
+ {
+  "name": "whoosh_3",
+  "datei": "assets/sfx/whoosh_3.mp3",
+  "tags": "whoosh, übergang",
+  "beschreibung": "short airy swish",
+  "laenge_s": 0.5
+ },
+ {
+  "name": "pop_1",
+  "datei": "assets/sfx/pop_1.mp3",
+  "tags": "pop, einblenden",
+  "beschreibung": "cartoon bubble pop",
+  "laenge_s": 0.4
+ },
+ {
+  "name": "pop_2",
+  "datei": "assets/sfx/pop_2.mp3",
+  "tags": "pop, einblenden",
+  "beschreibung": "soft UI pop click",
+  "laenge_s": 0.3
+ },
+ {
+  "name": "boing",
+  "datei": "assets/sfx/boing.mp3",
+  "tags": "lustig",
+  "beschreibung": "cartoon spring boing",
+  "laenge_s": 0.8
+ },
+ {
+  "name": "ding_richtig",
+  "datei": "assets/sfx/ding_richtig.mp3",
+  "tags": "richtig, fakt",
+  "beschreibung": "bright correct answer ding chime",
+  "laenge_s": 1.0
+ },
+ {
+  "name": "buzzer_falsch",
+  "datei": "assets/sfx/buzzer_falsch.mp3",
+  "tags": "falsch, mythos",
+  "beschreibung": "game show wrong answer buzzer",
+  "laenge_s": 1.0
+ },
+ {
+  "name": "stempel",
+  "datei": "assets/sfx/stempel.mp3",
+  "tags": "stempel, urteil",
+  "beschreibung": "heavy rubber stamp thump on paper",
+  "laenge_s": 0.6
+ },
+ {
+  "name": "impact",
+  "datei": "assets/sfx/impact.mp3",
+  "tags": "impact, reveal",
+  "beschreibung": "deep cinematic impact boom hit",
+  "laenge_s": 1.5
+ },
+ {
+  "name": "riser",
+  "datei": "assets/sfx/riser.mp3",
+  "tags": "spannung",
+  "beschreibung": "short tension riser build up",
+  "laenge_s": 2.0
+ },
+ {
+  "name": "scratch",
+  "datei": "assets/sfx/scratch.mp3",
+  "tags": "überraschung",
+  "beschreibung": "vinyl record scratch stop",
+  "laenge_s": 0.8
+ },
+ {
+  "name": "sparkle",
+  "datei": "assets/sfx/sparkle.mp3",
+  "tags": "magie, idee",
+  "beschreibung": "magical sparkle twinkle shimmer",
+  "laenge_s": 1.2
+ },
+ {
+  "name": "drumroll",
+  "datei": "assets/sfx/drumroll.mp3",
+  "tags": "spannung, reveal",
+  "beschreibung": "short snare drum roll ending with cymbal crash",
+  "laenge_s": 2.5
+ },
+ {
+  "name": "tick_tock",
+  "datei": "assets/sfx/tick_tock.mp3",
+  "tags": "zeit",
+  "beschreibung": "clock ticking tick tock",
+  "laenge_s": 3.0
+ },
+ {
+  "name": "heartbeat",
+  "datei": "assets/sfx/heartbeat.mp3",
+  "tags": "spannung, horror",
+  "beschreibung": "slow heavy heartbeat",
+  "laenge_s": 3.0
+ },
+ {
+  "name": "gulp",
+  "datei": "assets/sfx/gulp.mp3",
+  "tags": "schlucken, körper",
+  "beschreibung": "cartoon gulp swallow sound",
+  "laenge_s": 0.6
+ },
+ {
+  "name": "splash",
+  "datei": "assets/sfx/splash.mp3",
+  "tags": "wasser",
+  "beschreibung": "water splash",
+  "laenge_s": 1.2
+ },
+ {
+  "name": "bubbles",
+  "datei": "assets/sfx/bubbles.mp3",
+  "tags": "wasser, magen",
+  "beschreibung": "underwater bubbles gurgle",
+  "laenge_s": 2.0
+ },
+ {
+  "name": "stomach_growl",
+  "datei": "assets/sfx/stomach_growl.mp3",
+  "tags": "magen, körper",
+  "beschreibung": "funny stomach growl rumble",
+  "laenge_s": 1.5
+ },
+ {
+  "name": "knuckle_crack",
+  "datei": "assets/sfx/knuckle_crack.mp3",
+  "tags": "körper",
+  "beschreibung": "finger knuckle crack",
+  "laenge_s": 0.6
+ },
+ {
+  "name": "sneeze",
+  "datei": "assets/sfx/sneeze.mp3",
+  "tags": "körper",
+  "beschreibung": "cartoon sneeze achoo",
+  "laenge_s": 1.0
+ },
+ {
+  "name": "camera",
+  "datei": "assets/sfx/camera.mp3",
+  "tags": "foto",
+  "beschreibung": "camera shutter click",
+  "laenge_s": 0.5
+ },
+ {
+  "name": "typing",
+  "datei": "assets/sfx/typing.mp3",
+  "tags": "tastatur",
+  "beschreibung": "fast keyboard typing",
+  "laenge_s": 2.0
+ },
+ {
+  "name": "phone_buzz",
+  "datei": "assets/sfx/phone_buzz.mp3",
+  "tags": "handy",
+  "beschreibung": "phone vibration buzz",
+  "laenge_s": 1.0
+ },
+ {
+  "name": "notification",
+  "datei": "assets/sfx/notification.mp3",
+  "tags": "handy",
+  "beschreibung": "smartphone message notification ping",
+  "laenge_s": 0.6
+ },
+ {
+  "name": "page_flip",
+  "datei": "assets/sfx/page_flip.mp3",
+  "tags": "buch, kalender",
+  "beschreibung": "paper page flip",
+  "laenge_s": 0.6
+ },
+ {
+  "name": "cash",
+  "datei": "assets/sfx/cash.mp3",
+  "tags": "geld",
+  "beschreibung": "cash register cha-ching",
+  "laenge_s": 1.0
+ },
+ {
+  "name": "crowd_gasp",
+  "datei": "assets/sfx/crowd_gasp.mp3",
+  "tags": "überraschung",
+  "beschreibung": "small crowd gasp ooh",
+  "laenge_s": 1.5
+ },
+ {
+  "name": "crowd_laugh",
+  "datei": "assets/sfx/crowd_laugh.mp3",
+  "tags": "lustig",
+  "beschreibung": "short audience laughter",
+  "laenge_s": 2.0
+ },
+ {
+  "name": "slide_whistle",
+  "datei": "assets/sfx/slide_whistle.mp3",
+  "tags": "lustig, fallen",
+  "beschreibung": "cartoon slide whistle down",
+  "laenge_s": 1.2
+ },
+ {
+  "name": "door_creak",
+  "datei": "assets/sfx/door_creak.mp3",
+  "tags": "horror, tür",
+  "beschreibung": "old wooden door creak",
+  "laenge_s": 2.0
+ },
+ {
+  "name": "footsteps",
+  "datei": "assets/sfx/footsteps.mp3",
+  "tags": "schritte",
+  "beschreibung": "footsteps on wooden floor",
+  "laenge_s": 2.5
+ },
+ {
+  "name": "wind",
+  "datei": "assets/sfx/wind.mp3",
+  "tags": "atmo, winter",
+  "beschreibung": "cold winter wind ambience",
+  "laenge_s": 8.0
+ },
+ {
+  "name": "ocean",
+  "datei": "assets/sfx/ocean.mp3",
+  "tags": "atmo, meer",
+  "beschreibung": "calm ocean waves ambience",
+  "laenge_s": 8.0
+ },
+ {
+  "name": "rain",
+  "datei": "assets/sfx/rain.mp3",
+  "tags": "atmo",
+  "beschreibung": "gentle rain ambience",
+  "laenge_s": 8.0
+ },
+ {
+  "name": "glass_clink",
+  "datei": "assets/sfx/glass_clink.mp3",
+  "tags": "essen, trinken",
+  "beschreibung": "glass clink cheers",
+  "laenge_s": 0.8
+ },
+ {
+  "name": "zap",
+  "datei": "assets/sfx/zap.mp3",
+  "tags": "technik, strom",
+  "beschreibung": "electric zap spark",
+  "laenge_s": 0.7
+ },
+ {
+  "name": "level_up",
+  "datei": "assets/sfx/level_up.mp3",
+  "tags": "erfolg",
+  "beschreibung": "video game level up jingle",
+  "laenge_s": 1.5
+ },
+ {
+  "name": "fail_trombone",
+  "datei": "assets/sfx/fail_trombone.mp3",
+  "tags": "fail, lustig",
+  "beschreibung": "sad trombone wah wah",
+  "laenge_s": 2.0
+ }
+]
