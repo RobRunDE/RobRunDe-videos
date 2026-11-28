@@ -52,6 +52,7 @@ Der tägliche Lauf (9:38) baut die 3 Videos für **morgen** aus dem Gameplay-Arc
      Kanal-ID vorher per `list_channels` bestätigen (robrun_de = `6b055aae8541f09ecb873451`), `dueAt` = Slot (15:58 / 18:04 / 21:07) am Folgetag mit korrektem Offset (`get_account` → currentTime/Zeitzone), `assets: [{video:{url}}]`,
      `metadata.tiktok.title` = Titel, `metadata.tiktok.isAiGenerated: true` (die Stimme ist KI), `text` = Caption + Hashtags.
    - Eintrag in `plan/posted.json` (Datum, Slug, Post-ID, Format, Hook, Theme) und `used_in` in `index/clips.json`. Committen & pushen.
+   - Übergang: Liegt schon ein älterer robrun_de-Post (z. B. alter 18:00-Termin) innerhalb von 30 Min. um einen Slot, diesen Slot an dem Tag auslassen.
    - Danach jedes eingeplante Video zur Info per Telegram schicken: `python3 pipeline/telegram.py video <mp4> "<b>Datum, Uhrzeit</b>\n<Titel>"` (ohne Slug → keine Buttons).
 8. **Bericht:** Kurze Zusammenfassung per Telegram (`telegram.py send`) und SendUserMessage: die 3 Videos von morgen (Uhrzeit, Titel, Hook, Musiktrack), Quellen der Fakten, ElevenLabs oder Piper, Probleme (v. a. fehlendes Rohmaterial).
 
