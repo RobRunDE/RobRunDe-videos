@@ -14,4 +14,4 @@ CTA: Zwei Lager „Gute Idee oder Pay-to-Enter?“ (Kommentar). Clips: m2 p2 0.5
 Kernaussagen: Maske ab ≠ Zivilist, Status endet erst nach Verlassen von Looty Bay · Bargeld nach Verkauf sofort vom Tresen nehmen · Lenny lagert Bargeld, aber kein Diebesgut (boostroom.com + gamerblurb.com).
 CTA: „Welcher war neu für dich? Schick das deinem Squad“ (Kommentar + Share). Clips: m2 p1 4 (Lobby), m2 p1 74 (Wiese), m1 p2 64 + m2 p2 60 (Hehler), m2 p2 78, m1 p2 16 (CTA).
 
-Stimme: Piper (in diesem Lauf kein ELEVENLABS_API_KEY in der Umgebung).
+Stimme: ElevenLabs (v02, nach Eintrag des Schlüssels neu vertont; v01 war Piper).

@@ -87,7 +87,8 @@ def plan_timeline(spec, workdir):
                                   [TCFG.get("engine"), TCFG.get("elevenlabs", {}).get("voice_id"), TCFG.get("voice")]).encode()).hexdigest()
     vj, vw = os.path.join(workdir, "vo.json"), os.path.join(workdir, "vo.wav")
     vo = json.load(open(vj)) if os.path.exists(vj) and os.path.exists(vw) else None
-    if not vo or vo.get("cache_key") != key:
+    # also re-voice when an earlier run fell back to Piper but the configured engine is ElevenLabs
+    if not vo or vo.get("cache_key") != key or (vo.get("engine") and vo.get("engine") != TCFG.get("engine")):
         vo = make_voiceover([b["text"] for b in spec["beats"]], vw, pauses=[b.get("pause_after", 0) for b in spec["beats"]])
         vo["cache_key"] = key; json.dump(vo, open(vj, "w"), ensure_ascii=False, indent=1)
     dur = vo["duration"] + 0.6

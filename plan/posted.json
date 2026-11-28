@@ -83,7 +83,8 @@
   "theme": "yellow",
   "layout": "tall",
   "music": "m01_energisch",
-  "voice": "piper"
+  "voice": "elevenlabs",
+  "version": 2
  },
  {
   "date": "2026-11-29T21:07:00+01:00",
@@ -94,6 +95,7 @@
   "theme": "orange",
   "layout": "standard",
   "music": "m02_verspielt",
-  "voice": "piper"
+  "voice": "elevenlabs",
+  "version": 2
  }
 ]
