@@ -20,7 +20,7 @@ Der tägliche Lauf (9:38) baut die 3 Videos für **morgen** aus dem Gameplay-Arc
 7. Buffer ist hochgestuft (bis 5.000 geplante Posts, 2 Kanäle) – kein 10er-Limit mehr. Trotzdem vor jedem Einplanen die Queue prüfen: keine Doppelbelegung eines Slots.
 8. **Nur Kanal robrun_de anfassen:** Kanal-ID `6b055aae8541f09ecb873451` – vor **jedem** Post per `list_channels` bestätigen, nie raten.
    In derselben Organisation läuft **@stimmtdas_de** (ID `6b09e2268541f09ecbc72994`, Repo RobRunDE/alltagsmythen-videos, Slots 07:34/12:33/19:03): diesen Kanal und seine Posts **nie** anfassen, nie bearbeiten, nie löschen. Dessen Telegram-Bot (`MYTHEN_TELEGRAM_BOT_TOKEN`) nie verwenden.
-9. **ElevenLabs-Kontingent wird mit @stimmtdas_de geteilt:** Skripte knapp (≈ 25–35 s, ~400–550 Zeichen). Meldet ElevenLabs ein erschöpftes Kontingent: auf Piper ausweichen (macht `tts.py` automatisch) und per Telegram melden.
+9. **ElevenLabs-Kontingent (Creator-Tarif seit 28.11.2026, ≈ 138.000 Zeichen/Monat, Reset am 28.) wird mit @stimmtdas_de geteilt:** Skripte knapp (≈ 25–35 s, ~400–550 Zeichen). Richtwert robrun: max. ~1.700 Zeichen/Tag (~50.000/Monat). Meldet ElevenLabs ein erschöpftes Kontingent: auf Piper ausweichen (macht `tts.py` automatisch) und per Telegram melden.
 
 ## Tages-Ablauf (Schritt für Schritt, täglich 9:38 für die 3 Slots von morgen)
 0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Der ElevenLabs-Schlüssel kommt aus der Umgebungsvariable `ELEVENLABS_API_KEY` (oder `~/.elevenlabs_key`); Wert nie ausgeben. **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
@@ -126,7 +126,7 @@ oder in Teile schneiden (`<name>_p1.mp4` …). Sinnvolle Dateinamen. Danach **im
 
 ## Technik
 - Pipeline: `pipeline/build.py` (Render), `pipeline/tts.py` (Stimme), `pipeline/index_clips.py` (Archiv), `pipeline/motion.py` (Grafik).
-- Stimme: `pipeline/config.json` → `engine: elevenlabs`, `elevenlabs.voice_id` (Starter-Tarif ≈ 30.000 Zeichen/Monat – sparsam: nur fertige Skripte vertonen, Vorschau-Renders nutzen die gecachte `work/<slug>/vo.wav` nicht neu, wenn Text gleich). Ohne Schlüssel/bei Fehler fällt `tts.py` automatisch auf Piper zurück (`voice`, `length_scale`, `pitch`). Im Bericht melden, falls Piper benutzt wurde.
+- Stimme: `pipeline/config.json` → `engine: elevenlabs`, `elevenlabs.voice_id` (Creator-Tarif ≈ 138.000 Zeichen/Monat, geteilt mit @stimmtdas_de – sparsam: nur fertige Skripte vertonen, Vorschau-Renders nutzen die gecachte `work/<slug>/vo.wav` nicht neu, wenn Text gleich). Ohne Schlüssel/bei Fehler fällt `tts.py` automatisch auf Piper zurück (`voice`, `length_scale`, `pitch`). Im Bericht melden, falls Piper benutzt wurde.
 - ElevenLabs liefert exakte Wort-Zeitstempel → Untertitel sitzen wortgenau.
-- Bezahlte Dienste: nur ElevenLabs (Starter, Kontingent mit @stimmtdas_de geteilt). Kein Higgsfield. Musik/SFX aus der gemeinsamen Bibliothek (`assets/`).
+- Bezahlte Dienste: nur ElevenLabs (Creator, Kontingent mit @stimmtdas_de geteilt). Kein Higgsfield. Musik/SFX aus der gemeinsamen Bibliothek (`assets/`).
 - `work/` und `pipeline/voices/` sind nicht im Git.
