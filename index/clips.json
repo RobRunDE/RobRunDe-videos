@@ -135,7 +135,8 @@
    }
   ],
   "used_in": [
-   "JUWELIER_AUTO"
+   "JUWELIER_AUTO",
+   "CHEATER_WELLE"
   ],
   "voices_removed": true,
   "voice_db": -29.5
@@ -215,7 +216,8 @@
    }
   ],
   "used_in": [
-   "JUWELIER_AUTO"
+   "JUWELIER_AUTO",
+   "DREI_IRRTUEMER"
   ],
   "voices_removed": true,
   "voice_db": -36.7
@@ -296,7 +298,10 @@
     "quality": "A"
    }
   ],
-  "used_in": [],
+  "used_in": [
+   "CHEATER_WELLE",
+   "DREI_IRRTUEMER"
+  ],
   "voices_removed": true,
   "voice_db": -34.1
  },
@@ -395,7 +400,10 @@
     "quality": "A"
    }
   ],
-  "used_in": [],
+  "used_in": [
+   "CHEATER_WELLE",
+   "DREI_IRRTUEMER"
+  ],
   "voices_removed": true,
   "voice_db": -35.6
  },
@@ -487,7 +495,9 @@
     "quality": "E"
    }
   ],
-  "used_in": [],
+  "used_in": [
+   "CHEATER_WELLE"
+  ],
   "voices_removed": true,
   "voice_db": -33.9
  },

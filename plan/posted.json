@@ -73,5 +73,27 @@
   "theme": "lime",
   "layout": "compact",
   "music": "m06_spannung"
+ },
+ {
+  "date": "2026-11-29T15:58:00+01:00",
+  "slug": "CHEATER_WELLE",
+  "post_id": "6b0a9616c84d4c572b4a792b",
+  "format": "Update-News",
+  "hook": "200.000 ACCOUNTS GESPERRT",
+  "theme": "yellow",
+  "layout": "tall",
+  "music": "m01_energisch",
+  "voice": "piper"
+ },
+ {
+  "date": "2026-11-29T21:07:00+01:00",
+  "slug": "DREI_IRRTUEMER",
+  "post_id": "6b0a96176f5b4d9c17ccf563",
+  "format": "Irrtümer-Liste",
+  "hook": "MASKE AB = WIEDER ZIVILIST?",
+  "theme": "orange",
+  "layout": "standard",
+  "music": "m02_verspielt",
+  "voice": "piper"
  }
 ]
