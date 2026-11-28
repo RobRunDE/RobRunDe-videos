@@ -99,3 +99,17 @@ Texte von robrun.info nie wörtlich übernehmen, nur Fakten in eigenen Worten.
 - „33 Schlüssel – und warum du keinen verkaufen solltest“
 - „Die Polizei gibt's nur in Looty Bay – aber da draußen ist es schlimmer“
 - „Warum dein Server nach einer Woche gelöscht wird“
+
+### Nachtrag Recherche 2026-11-28 (geprüft 28.11.2026)
+- ✅ Patch 20.11.2026 (offiziell, Steam-News): mehr Methoden zur Cheater-Erkennung; online befindliche Freunde werden in der Serverliste angezeigt; das Spiel prüft vor dem Ausrüstungs-Fenster, ob ein Cop-Platz frei ist; Netzwerk optimiert. — store.steampowered.com/news/app/4262460/view/712292668328116976 (Steam-Ankündigung 20.11.); robrun.fyi/patch-notes; robrunstatus.com/patch-notes/
+- ✅ Patch 20.11.: Warnung, wenn ein Spieler ohne Wohnsitz (home location) Schmuggelware kaufen will; Anpassung (Customization) übersichtlicher, mehr Sets. — robrun.fyi/patch-notes; robrunstatus.com/patch-notes/ (beide: Kefir-Discord 20.11.)
+- ✅ 23.11.2026: neue Bannwelle, insgesamt über 200.000 gesperrte Accounts; Anti-Cheat hat Top-Priorität, einige kommende Mechaniken verschieben sich. — robrun.fyi/patch-notes; robrunstatus.com/patch-notes/ (beide: Kefir-Discord „Anti-Cheat Measures and Servers“ 23.11.)
+- ✅ 23.11.: GEPLANT (nicht live): Server mit Zugangsbedingung – Mindest-Jail-Time oder Summe an Käufen; Schwellen nicht genannt. Hardware-Banns werden geprüft. — robrun.fyi; robrunstatus.com (beide Discord 23.11.)
+- ⚠️ 23.11. Small Update: Laptop während eines Raids nutzbar. — nur robrun.fyi
+- ⚠️ 25.11.: Anti-Cheat prüft Aktivität rückwirkend, frühere Cheater können noch gebannt werden. — nur robrun.fyi
+- ✅ Maske abnehmen macht dich NICHT wieder zum Zivilisten; der Kriminellen-Status endet erst, wenn du Looty Bay verlässt und zurückkommst (dann Rolle neu wählen). — boostroom.com/blog/rob-run-heist-guide-best-robbery-strategies-and-loot-tips; gamerblurb.com/articles/rob-run-tips-and-tricks
+- ✅ Nach dem Verkauf beim Hehler das Bargeld vom Tresen nehmen – liegengelassenes Geld kann gestohlen oder beschlagnahmt werden. — boostroom.com (Heist-Guide); gamerblurb.com (Tips and Tricks)
+- ✅ Lenny bewahrt Bargeld auf, aber kein Diebesgut. — boostroom.com; gamerblurb.com
+- ✅ Hehler-Vans sind auf der Karte mit Dollar-Zeichen markiert. — boostroom.com; gamerblurb.com
+- ⚠️ Solo startet auf Bekanntheit 4 (Dev-Q&A 13.11. laut boostroom) – widerspricht RRI („Duo Stufe 2“) → nicht verwenden.
+- ⚠️ Goldbarren ~52.000 $ (Community-Guides) — nur boostroom → nicht verwenden.

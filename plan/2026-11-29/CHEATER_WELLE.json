@@ -1,0 +1,116 @@
+{
+ "slug": "CHEATER_WELLE",
+ "version": 1,
+ "theme": "yellow",
+ "layout": "tall",
+ "music": "m01_energisch",
+ "hook": {
+  "lines": [
+   "200.000 ACCOUNTS",
+   "GESPERRT"
+  ],
+  "accent": [
+   "GESPERRT"
+  ]
+ },
+ "keywords": {
+  "200.000": "red",
+  "GESPERRT": "red",
+  "ANTI-CHEAT": "accent",
+  "FREUNDE": "green",
+  "COP-PLATZ": "green",
+  "JAIL": "accent",
+  "TIME": "accent",
+  "LIVE": "red"
+ },
+ "cta_title": "FAIR ODER PAY-TO-ENTER?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "A = GUTE IDEE · B = UNFAIR",
+ "beats": [
+  {
+   "text": "Über 200.000 Accounts gesperrt. ROB RUN räumt gerade richtig auf.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Kefir sagt: Anti-Cheat hat jetzt Top-Priorität. Manche neuen Mechaniken kommen dafür später.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 10.0,
+     "zoom": 1.15,
+     "fx": 0.6,
+     "fy": 0.5
+    }
+   ],
+   "header": "WAS LÄUFT",
+   "chip": {
+    "text": "ANTI-CHEAT ZUERST",
+    "kind": "info",
+    "at": 1.2
+   }
+  },
+  {
+   "text": "Seit dem Patch vom 20. November siehst du in der Serverliste, welche Freunde online sind.",
+   "shots": [
+    {
+     "clip": "raw/m1_juwelier_duo_p1.mp4",
+     "in": 14.0
+    }
+   ],
+   "header": "NEU SEIT 20.11.",
+   "chip": {
+    "text": "FREUNDE IN DER SERVERLISTE",
+    "kind": "good",
+    "at": 1.6
+   }
+  },
+  {
+   "text": "Und das Spiel checkt vorher, ob überhaupt ein Cop-Platz frei ist.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p1.mp4",
+     "in": 60.0
+    }
+   ],
+   "chip": {
+    "text": "COP-PLATZ-CHECK",
+    "kind": "good",
+    "at": 1.0
+   }
+  },
+  {
+   "text": "Geplant, aber noch nicht live: Server nur für Spieler mit genug Jail Time. Oder mit genug Käufen im Spiel.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 24.0
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 40.0
+    }
+   ],
+   "header": "GEPLANT",
+   "stamp": {
+    "text": "NOCH NICHT LIVE",
+    "at": 1.2
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Gute Idee gegen Cheater, oder Pay-to-Enter? Schreib's rein.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 0.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

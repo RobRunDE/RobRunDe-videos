@@ -249,14 +249,53 @@
   "sheet": "index/sheets/m2_hotel_flucht_duo_p1.mp4.jpg",
   "sheet_step_s": 2.0,
   "tags": [
+   "hotel",
    "lobby",
-   "polizeiauto",
+   "police",
+   "car",
    "pool",
-   "fahrt",
-   "duo"
+   "escape",
+   "bag"
   ],
-  "summary": "Luxus-Lobby, Polizeiauto, Auto im Pool, Fahrt am Strand. Noch nicht im Detail gesichtet.",
-  "moments": [],
+  "summary": "Grand-Hotel-Lobby mit Ausstellungs-Sportwagen und Polizeiautos, Duo mit Tasche, Vitrinen, dann Polizeiauto die Treppe runter in den Pool und Flucht über Wiese.",
+  "moments": [
+   {
+    "start": 2,
+    "end": 10,
+    "what": "Lobby mit Sportwagen + Polizeiautos, Spieler mit Tasche hinter Säule",
+    "quality": "A"
+   },
+   {
+    "start": 20,
+    "end": 24,
+    "what": "Sportwagen-Ausstellung nah, Polizeiauto daneben",
+    "quality": "A"
+   },
+   {
+    "start": 36,
+    "end": 38,
+    "what": "Auto steht in der Lobby",
+    "quality": "B"
+   },
+   {
+    "start": 38,
+    "end": 46,
+    "what": "Vitrinen-Tresen plündern",
+    "quality": "B"
+   },
+   {
+    "start": 60,
+    "end": 72,
+    "what": "Polizeiauto fährt Treppe runter in den Pool",
+    "quality": "A"
+   },
+   {
+    "start": 72,
+    "end": 100,
+    "what": "Fahrt aus dem Pool über Wiese/Strandweg",
+    "quality": "A"
+   }
+  ],
   "used_in": [],
   "voices_removed": true,
   "voice_db": -34.1
@@ -297,13 +336,65 @@
   "sheet": "index/sheets/m2_hotel_flucht_duo_p2.mp4.jpg",
   "sheet_step_s": 2.0,
   "tags": [
-   "schusswechsel",
-   "fahrt",
-   "inventar",
-   "duo"
+   "shootout",
+   "police",
+   "car",
+   "beach",
+   "fence",
+   "sell",
+   "drive"
   ],
-  "summary": "Schaden/Schusswechsel im Gras, Polizeiauto im Busch, Inventar-Menüs. Noch nicht im Detail gesichtet.",
-  "moments": [],
+  "summary": "Schusswechsel auf der Straße neben Polizeiauto, Fahrt über Wiese, Schüsse im Gras, verletzt im Busch, Strand, Hehler-Truck-Verkauf, Stadtfahrt.",
+  "moments": [
+   {
+    "start": 0,
+    "end": 10,
+    "what": "Schusswechsel auf Straße neben Polizeiauto",
+    "quality": "A"
+   },
+   {
+    "start": 10,
+    "end": 24,
+    "what": "Fahrt über Wiese/Park",
+    "quality": "B"
+   },
+   {
+    "start": 24,
+    "end": 28,
+    "what": "Schießen im Gras",
+    "quality": "A"
+   },
+   {
+    "start": 28,
+    "end": 34,
+    "what": "Verletzt im Busch (roter Rand)",
+    "quality": "B"
+   },
+   {
+    "start": 48,
+    "end": 54,
+    "what": "Fahrt zum Strand, Hehler-Truck",
+    "quality": "B"
+   },
+   {
+    "start": 60,
+    "end": 70,
+    "what": "Verkauf am Hehler-Truck, Partner",
+    "quality": "B"
+   },
+   {
+    "start": 78,
+    "end": 84,
+    "what": "Fahrt über Platz/Wiese",
+    "quality": "A"
+   },
+   {
+    "start": 96,
+    "end": 100,
+    "what": "Fahrt durch Stadtstraße",
+    "quality": "A"
+   }
+  ],
   "used_in": [],
   "voices_removed": true,
   "voice_db": -35.6
@@ -350,14 +441,52 @@
   "sheet": "index/sheets/m2_hotel_flucht_duo_p3.mp4.jpg",
   "sheet_step_s": 2.0,
   "tags": [
-   "parkhaus",
-   "menü",
-   "transporter",
-   "inventar",
-   "brücke"
+   "downtown",
+   "garage",
+   "truck",
+   "shootout",
+   "bridge",
+   "drive"
   ],
-  "summary": "Parkhaus, Spielmenü, Transporter, Inventar, Brückenfahrt. Noch nicht im Detail gesichtet.",
-  "moments": [],
+  "summary": "Stadtfahrt, Parkhaus mit Transporter und Schüssen, Gassenkampf, Inventar, Brückenfahrt; Ende Karte+Ladebild (meiden).",
+  "moments": [
+   {
+    "start": 0,
+    "end": 8,
+    "what": "Stadtfahrt Downtown",
+    "quality": "A"
+   },
+   {
+    "start": 10,
+    "end": 18,
+    "what": "Parkhaus, Transporter, Schuss",
+    "quality": "A"
+   },
+   {
+    "start": 40,
+    "end": 52,
+    "what": "Kampf in der Gasse (roter Rand), Rennen mit Tasche",
+    "quality": "B"
+   },
+   {
+    "start": 80,
+    "end": 84,
+    "what": "Fahrt Strandstraße",
+    "quality": "A"
+   },
+   {
+    "start": 88,
+    "end": 92,
+    "what": "Brückenfahrt",
+    "quality": "A"
+   },
+   {
+    "start": 94,
+    "end": 100,
+    "what": "Karte + Ladebildschirm – nie verwenden",
+    "quality": "E"
+   }
+  ],
   "used_in": [],
   "voices_removed": true,
   "voice_db": -33.9
