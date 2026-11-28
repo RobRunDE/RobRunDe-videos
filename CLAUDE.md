@@ -65,6 +65,7 @@ Seit 28.11.2026: `approval.required: false` – der Betreiber hat entschieden, d
   Alte Buttons (✅/❌/✏️) von früher: nur bestätigen, nichts mehr einplanen.
 - „STATUS“ → kurze Übersicht der Queue (nur robrun_de).
 - **Statistik-Updates** (Mi/Sa) gehen per Telegram raus (`send`).
+- **Posting-Meldung (veröffentlicht):** macht die geplante Aufgabe „Posting-Meldung (beide Kanäle)“ aus dem Repo RobRunDE/alltagsmythen-videos (`pipeline/notify_posted.py`, `plan/notified.json`) – dort nichts ändern und **keine eigene Veröffentlichungs-Meldung bauen** (sonst doppelt). Die Info-Nachricht beim Einplanen bleibt.
 - `plan/feedback.md` vor jeder Planung lesen – Betreiber-Feedback hat Vorrang vor eigenen Ideen.
 
 ## Musik & Soundeffekte (gemeinsame Bibliothek)
@@ -118,6 +119,7 @@ Daraus folgt für jedes Video:
 - Untertitel entstehen aus dem Skripttext – also Rechtschreibung korrekt schreiben.
 
 ## Caption & Hashtags
+- **Erste Caption-Zeile = Titel vor dem ersten Emoji** (z. B. „ROB RUN: Erwischt? So verlierst du am wenigsten 🚔 …“) – daraus liest die Posting-Meldung den Titel. Jeder Buffer-Post braucht ein Video-Asset.
 - Caption: 1 Satz Neugier + Kommentar-Frage + 1–2 Emojis. Danach 5–8 Hashtags: immer `#robrun #robrungame`, dazu passend `#steam #gaming #gamingtipps #fyp #deutsch` + themenspezifische.
 
 ## Neues Rohmaterial (wenn der Betreiber im Chat Clips hochlädt)

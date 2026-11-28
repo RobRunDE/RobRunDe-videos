@@ -10,3 +10,4 @@ Datum · Wunsch · umgesetzt?
 - 2026-11-27 · Nur noch 5 Videos pro Woche: Mo, Mi, Fr, Sa, So um 18:00 (Di + Do frei, so auch im Buffer-Posting-Plan). · ✅ CLAUDE.md, config.json, Wochen-Aufgabe angepasst
 - 2026-11-28 · NEUER PLAN: 3 Videos/Tag (15:58, 18:04, 21:07), keine Freigabe mehr (QC-bestanden → direkt einplanen), Buffer bis 5.000 Posts, zweiter Kanal @stimmtdas_de nie anfassen, ElevenLabs-Kontingent geteilt (knappe Skripte), Musik/SFX nur aus gemeinsamer Bibliothek. · ✅ CLAUDE.md, BRIEFING, config.json, build.py (Bibliothek), assets/ übernommen
 - 2026-11-28 · ElevenLabs auf Creator erhöht (≈ 138.000 Zeichen/Monat, geteilt). · ✅ CLAUDE.md
+- 2026-11-28 · Posting-Meldung läuft zentral über „Posting-Meldung (beide Kanäle)“ – keine eigene bauen; erste Caption-Zeile = Titel vor dem ersten Emoji, jeder Post mit Video-Asset. · ✅ CLAUDE.md
