@@ -377,6 +377,12 @@
   "moments": [
    {
     "start": 0,
+    "end": 1.4,
+    "what": "Ladebildschirm mit offiziellem Cover – nie verwenden",
+    "quality": "E"
+   },
+   {
+    "start": 1.5,
     "end": 20,
     "what": "Fahrt an der Strandpromenade, Riesenrad im Hintergrund",
     "quality": "A"

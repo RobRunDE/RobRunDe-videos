@@ -1,0 +1,101 @@
+{
+ "slug": "BASIS_RAIDER",
+ "version": 1,
+ "theme": "lime",
+ "layout": "compact",
+ "music": "m06_spannung",
+ "hook": {
+  "lines": [
+   "DEINE BASIS",
+   "ZIEHT RAIDER AN"
+  ],
+  "accent": [
+   "RAIDER"
+  ]
+ },
+ "keywords": {
+  "RAIDER": "red",
+  "REICHER": "accent",
+  "FARMEN": "green",
+  "LABORE": "green",
+  "SCHMUGGEL": "green",
+  "FEDERAL": "red",
+  "RAID": "red"
+ },
+ "cta_title": "BAUEN ODER MOBIL?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "A = AUSBAUEN · B = MOBIL BLEIBEN",
+ "beats": [
+  {
+   "text": "Deine Basis macht dich reich. Und genau das lockt Raider an.",
+   "shots": [
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p2.mp4",
+     "in": 0.0
+    }
+   ]
+  },
+  {
+   "text": "Je reicher deine Basis, desto mehr Spieler wollen sie ausräumen. Und alles darin kann man dir nehmen.",
+   "shots": [
+    {
+     "clip": "raw/w1_garage_lager.mp4",
+     "in": 111.0,
+     "zoom": 1.2,
+     "fx": 0.55,
+     "fy": 0.45
+    },
+    {
+     "clip": "raw/m2_hotel_flucht_duo_p3.mp4",
+     "in": 8.0
+    }
+   ],
+   "header": "WARUM",
+   "chip": {
+    "text": "REICH = ZIELSCHEIBE",
+    "kind": "bad",
+    "at": 1.4
+   }
+  },
+  {
+   "text": "Lohnt sich trotzdem. Farmen, Labore und Schmuggel zahlen seit dem Launch-Patch ein Vielfaches.",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p1.mp4",
+     "in": 72.0
+    }
+   ],
+   "header": "TROTZDEM BAUEN",
+   "chip": {
+    "text": "GESCHÄFTE ZAHLEN MEHR",
+    "kind": "good",
+    "at": 1.8
+   }
+  },
+  {
+   "text": "Und denk dran: Nach 7 Tagen kommt der Federal Raid. Dann ist die Basis sowieso weg.",
+   "shots": [
+    {
+     "clip": "raw/w1_garage_lager.mp4",
+     "in": 128.0
+    }
+   ],
+   "header": "DIE UHR TICKT",
+   "stamp": {
+    "text": "7 TAGE",
+    "at": 1.8
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Also: Basis voll ausbauen, oder lieber mobil bleiben? Team A oder B?",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p2.mp4",
+     "in": 12.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

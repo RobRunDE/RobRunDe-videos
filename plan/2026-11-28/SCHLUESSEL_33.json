@@ -1,0 +1,100 @@
+{
+ "slug": "SCHLUESSEL_33",
+ "version": 1,
+ "theme": "cyan",
+ "layout": "standard",
+ "music": "m03_geheimnisvoll",
+ "hook": {
+  "lines": [
+   "33 SCHLÜSSEL.",
+   "KEINER ERKLÄRT SIE DIR"
+  ],
+  "accent": [
+   "33"
+  ]
+ },
+ "keywords": {
+  "33": "accent",
+  "GRÜNEN": "green",
+  "LILA": "accent",
+  "GOLDENEN": "gold",
+  "SCHLOSS": "accent",
+  "ID-KARTEN": "red",
+  "TAUSCH": "green"
+ },
+ "cta_title": "DEIN BESTER FUND?",
+ "cta_button": "FOLGEN",
+ "cta_prompt": "SCHREIB'S IN DIE KOMMENTARE",
+ "beats": [
+  {
+   "text": "Das sagt dir in ROB RUN keiner: Es gibt 33 verschiedene Schlüssel.",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p1.mp4",
+     "in": 1.5
+    }
+   ]
+  },
+  {
+   "text": "In grünen Safes findest du lila Schlüssel. Und in lila Lagern die goldenen.",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p2.mp4",
+     "in": 60.0,
+     "zoom": 1.3,
+     "fx": 0.7,
+     "fy": 0.3
+    }
+   ],
+   "header": "DIE KETTE",
+   "chip": {
+    "text": "GRÜN → LILA → GOLD",
+    "kind": "info",
+    "at": 1.0
+   }
+  },
+  {
+   "text": "Jeder Schlüssel passt zu genau einem Schloss. Also nicht wild rumprobieren.",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p1.mp4",
+     "in": 24.0
+    }
+   ],
+   "header": "EIN SCHLOSS",
+   "chip": {
+    "text": "1 SCHLÜSSEL = 1 SCHLOSS",
+    "kind": "good",
+    "at": 1.2
+   }
+  },
+  {
+   "text": "Nur die 2 ID-Karten findest du nie als Loot. Die gibt's per Tausch in Lenny's Motel.",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p3.mp4",
+     "in": 3.0,
+     "zoom": 1.25,
+     "fx": 0.65,
+     "fy": 0.35
+    }
+   ],
+   "header": "AUSNAHME",
+   "stamp": {
+    "text": "NUR PER TAUSCH",
+    "at": 2.6
+   },
+   "pause_after": 0.5
+  },
+  {
+   "text": "Welchen goldenen Schlüssel hast du schon gefunden?",
+   "shots": [
+    {
+     "clip": "raw/m3_fahrt_strand_tausch_p1.mp4",
+     "in": 40.0
+    }
+   ],
+   "cta": true
+  }
+ ]
+}
