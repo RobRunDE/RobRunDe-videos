@@ -8,6 +8,8 @@ Sprache aller Videos, Texte und Berichte: **Deutsch**.
 **Plan seit 28.11.2026 (hat Vorrang vor allem Älteren):** Jeden Tag **3 Videos** um **15:58, 18:04 und 21:07 Uhr** (Europe/Berlin, `pipeline/config.json` → `buffer.post_times`).
 Der tägliche Lauf (9:38) baut die 3 Videos für **morgen** aus dem Gameplay-Archiv in `raw/` und plant sie über Buffer direkt ein – ohne Rückfragen, **ohne Freigabe** (`approval.required: false`). Optimiert auf **Watchtime, Likes, Kommentare, Shares, Follows**.
 
+> **Hinweis (28.11.2026):** Das Claude-Pro-Abo des Betreibers ist gekündigt und endet am **07.12.2026**. Danach laufen alle geplanten Aufgaben beider Kanäle nicht mehr, falls er nicht neu abonniert. Ab ca. 04.12. im Tagesbericht kurz daran erinnern; Buffer-Posts, die schon eingeplant sind, gehen trotzdem raus.
+
 ## Harte Regeln
 1. **Keine Fehlinformationen.** Jede Aussage über ROB RUN muss vorher in `knowledge/robrun_facts.md` mit Quelle (URL) und Prüfdatum stehen.
    Quelle = offiziell (Steam-Seite, Steam-News/Patch-Notes, offizielle Website/Socials/Discord-Ankündigungen) **oder** zwei unabhängige seriöse Quellen.
@@ -20,7 +22,7 @@ Der tägliche Lauf (9:38) baut die 3 Videos für **morgen** aus dem Gameplay-Arc
 7. Buffer ist hochgestuft (bis 5.000 geplante Posts, 2 Kanäle) – kein 10er-Limit mehr. Trotzdem vor jedem Einplanen die Queue prüfen: keine Doppelbelegung eines Slots.
 8. **Nur Kanal robrun_de anfassen:** Kanal-ID `6b055aae8541f09ecb873451` – vor **jedem** Post per `list_channels` bestätigen, nie raten.
    In derselben Organisation läuft **@stimmtdas_de** (ID `6b09e2268541f09ecbc72994`, Repo RobRunDE/alltagsmythen-videos, Slots 07:34/12:33/19:03): diesen Kanal und seine Posts **nie** anfassen, nie bearbeiten, nie löschen. Dessen Telegram-Bot (`MYTHEN_TELEGRAM_BOT_TOKEN`) nie verwenden.
-9. **ElevenLabs-Kontingent (Creator-Tarif seit 28.11.2026, ≈ 138.000 Zeichen/Monat, Reset am 28.) wird mit @stimmtdas_de geteilt:** Skripte knapp (≈ 25–35 s, ~400–550 Zeichen). Richtwert robrun: max. ~1.700 Zeichen/Tag (~50.000/Monat). Meldet ElevenLabs ein erschöpftes Kontingent: auf Piper ausweichen (macht `tts.py` automatisch) und per Telegram melden.
+9. **ElevenLabs-Kontingent (Creator-Tarif seit 28.11.2026, 138.738 Credits/Monat, nächste Auffüllung 28.12.2026) wird mit @stimmtdas_de geteilt:** Skripte knapp (≈ 25–35 s, ~400–550 Zeichen). Richtwert robrun: max. ~1.700 Zeichen/Tag (~50.000/Monat). Meldet ElevenLabs ein erschöpftes Kontingent: auf Piper ausweichen (macht `tts.py` automatisch) und per Telegram melden.
 
 ## Tages-Ablauf (Schritt für Schritt, täglich 9:38 für die 3 Slots von morgen)
 0. **Setup:** `bash pipeline/setup.sh` (installiert Piper-Ersatzstimme, OpenCV usw.). Der ElevenLabs-Schlüssel kommt aus der Umgebungsvariable `ELEVENLABS_API_KEY` (oder `~/.elevenlabs_key`); Wert nie ausgeben. **Den Schlüssel niemals ins Repo, in Commits, Specs oder Berichte schreiben – das Repo ist öffentlich.**
